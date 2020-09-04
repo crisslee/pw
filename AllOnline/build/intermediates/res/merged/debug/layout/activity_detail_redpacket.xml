@@ -1,0 +1,22 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listViewContentAlloc"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white"
+        android:layout_marginTop="45dp"
+        android:cacheColorHint="@color/color_content_main"
+        android:divider="@color/color_seperator"
+        android:dividerHeight="@dimen/collect_seperator_thin"
+        android:listSelector="@color/white" />
+
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+</RelativeLayout>

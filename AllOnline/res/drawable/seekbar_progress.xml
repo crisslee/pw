@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@android:id/background"
+        android:gravity="center_vertical">
+        <shape>
+            <solid android:color="@color/divider"/>
+            <size android:height="@dimen/space_2dp"/>
+        </shape>
+        <!--<nine-patch-->
+        <!--android:dither="true"-->
+        <!--android:src="@drawable/sbar_history_bg" />-->
+    </item>
+    <!--<item android:id="@android:id/progress">-->
+    <!--<clip-->
+    <!--xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:clipOrientation="horizontal" >-->
+    <!--<nine-patch-->
+    <!--android:dither="true"-->
+    <!--android:src="@drawable/sbar_history2" />-->
+    <!--</clip>-->
+    <!--</item>-->
+
+</layer-list>

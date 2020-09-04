@@ -1,0 +1,406 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/text_black">
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/actionbar_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/headerRight1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/headerRight2"
+            android:layout_marginRight="16dp"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:text="@string/fence_circle"
+            android:textColor="@color/textview_selector_background"/>
+
+        <TextView
+            android:id="@+id/headerRight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:text="@string/fence_polygon"
+            android:textColor="@color/textview_selector_background" />
+
+    </RelativeLayout>
+
+    <!-- <LinearLayout -->
+    <!-- android:id="@+id/ll_panel_setting" -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_below="@+id/actionbar" -->
+    <!-- android:clickable="true" -->
+    <!-- android:gravity="center" -->
+    <!-- android:orientation="vertical" > -->
+
+
+    <!-- <TextView -->
+    <!-- android:layout_width="match_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:background="#FF86b720" -->
+    <!-- android:gravity="center" -->
+    <!-- android:padding="3dip" -->
+    <!-- android:text="拖动地图找到安全区域" -->
+    <!-- android:textColor="@android:color/white" /> -->
+
+
+    <!-- <RadioGroup -->
+    <!-- android:id="@+id/group" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:gravity="center" -->
+    <!-- android:minHeight="10dip" -->
+    <!-- android:orientation="horizontal" -->
+    <!-- android:padding="3dip" > -->
+
+
+    <!-- <RadioButton -->
+    <!-- android:id="@+id/radio0" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@null" -->
+    <!-- android:button="@null" -->
+    <!-- android:checked="true" -->
+    <!-- android:drawableTop="@drawable/radiobutton1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="200m" -->
+    <!-- android:textColor="@android:color/black" -->
+    <!-- android:textSize="11sp" /> -->
+
+
+    <!-- <RadioButton -->
+    <!-- android:id="@+id/radio1" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@null" -->
+    <!-- android:button="@null" -->
+    <!-- android:drawableTop="@drawable/radiobutton1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="500m" -->
+    <!-- android:textColor="@android:color/black" -->
+    <!-- android:textSize="11sp" /> -->
+
+
+    <!-- <RadioButton -->
+    <!-- android:id="@+id/radio2" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@null" -->
+    <!-- android:button="@null" -->
+    <!-- android:drawableTop="@drawable/radiobutton1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="1km" -->
+    <!-- android:textColor="@android:color/black" -->
+    <!-- android:textSize="11sp" /> -->
+
+
+    <!-- <RadioButton -->
+    <!-- android:id="@+id/radio3" -->
+    <!-- android:layout_width="wrap_content" -->
+    <!-- android:layout_height="wrap_content" -->
+    <!-- android:layout_weight="1" -->
+    <!-- android:background="@null" -->
+    <!-- android:button="@null" -->
+    <!-- android:drawableTop="@drawable/radiobutton1" -->
+    <!-- android:gravity="center" -->
+    <!-- android:text="2km" -->
+    <!-- android:textColor="@android:color/black" -->
+    <!-- android:textSize="11sp" /> -->
+    <!-- </RadioGroup> -->
+    <!-- </LinearLayout> -->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/myActionbar" >
+
+        <fragment
+            android:id="@id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <ImageView
+            android:id="@+id/img_range"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/pin"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/plus_24"
+            android:contentDescription="@string/app_name" />
+
+        <View
+            android:id="@+id/center_anchor"
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/tv_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/center_anchor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fence_range_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+
+        <!-- <RelativeLayout -->
+        <!-- android:id="@+id/rl_panel" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentTop="true" -->
+        <!-- android:background="@color/bg_light_gray" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:paddingBottom="12dip" -->
+        <!-- android:paddingRight="10dip" -->
+        <!-- android:paddingTop="12dip" > -->
+
+
+        <!-- <TextView -->
+        <!-- android:id="@+id/tv_range" -->
+        <!-- android:layout_width="40dip" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:text="200m" -->
+        <!-- android:textColor="@android:color/white" -->
+        <!-- android:textSize="14.0sp" /> -->
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/seekbar_rl"
+            android:background="@drawable/seekbar_bg" >
+
+            <ImageButton
+                android:id="@+id/reduceBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/reduce" />
+
+            <SeekBar
+                android:layout_toRightOf="@+id/reduceBtn"
+                android:layout_toLeftOf="@+id/increaseBtn"
+                android:id="@+id/sbar_range"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:max="48"
+                android:maxHeight="7dip"
+                android:minHeight="7dip"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/icon_history_sbar_thumb"
+                android:thumbOffset="0dp" />
+            <!-- </RelativeLayout> -->
+
+            <ImageButton
+                android:id="@+id/increaseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/increase" />
+        </RelativeLayout>
+        <!-- </RelativeLayout> -->
+        <!-- <LinearLayout -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentTop="true" -->
+        <!-- android:background="@color/bg_light_gray" -->
+        <!-- android:orientation="horizontal" -->
+        <!-- android:paddingLeft="10dip" -->
+        <!-- android:paddingBottom="12dip" -->
+        <!-- android:paddingTop="12dip" > -->
+
+
+        <!-- <SeekBar -->
+        <!-- android:id="@+id/sbar_range" -->
+        <!-- android:layout_width="fill_parent" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:max="49" -->
+        <!-- android:maxHeight="7dip" -->
+        <!-- android:minHeight="7dip" -->
+        <!-- android:progressDrawable="@drawable/seekbar_progress" -->
+        <!-- android:thumb="@drawable/icon_history_sbar_thumb" -->
+        <!-- android:thumbOffset="0dp" /> -->
+        <!-- <TextView -->
+        <!-- android:id="@+id/tv_range" -->
+        <!-- android:layout_width="40dip" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_gravity="center_vertical" -->
+        <!-- android:textColor="@android:color/white" -->
+        <!-- android:textSize="14.0sp" /> -->
+        <!-- </LinearLayout> -->
+
+
+        <!-- <CheckBox -->
+        <!-- android:id="@+id/cbox_switch" -->
+        <!-- android:layout_width="wrap_content" -->
+        <!-- android:layout_height="wrap_content" -->
+        <!-- android:layout_alignParentRight="true" -->
+        <!-- android:layout_below="@+id/rl_panel" -->
+        <!-- android:layout_marginRight="10dip" -->
+        <!-- android:layout_marginTop="20dip" -->
+        <!-- android:button="@null" -->
+        <!-- android:background="@drawable/cboxc_fence_switch" -->
+        <!-- android:visibility="gone" /> -->
+
+        <ImageButton
+            android:id="@+id/ibtn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rl_panel"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:src="@drawable/icon_wew4"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/rl_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/bg_light_gray"
+            android:orientation="vertical"
+            android:padding="8dip" >
+
+            <TextView
+                android:id="@+id/fence_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/set_fence_mess"
+                android:textColor="@android:color/white"
+                android:textSize="14.0sp" />
+            
+           	<LinearLayout
+           	    android:visibility="gone"
+                android:id="@+id/choose_polygon_fence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/reset_polygon_fence"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button_blue"
+                    android:text="@string/reset_fence"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.0sp" />
+
+                <Button
+                    android:id="@+id/set_polygon_fence"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/button_blue"
+                    android:text="@string/set_fence"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/choose_circle_fence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_set_fence"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/button_blue"
+                    android:text="@string/set_fence"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.0sp" />
+
+<!--                 <Button
+                    android:id="@+id/btn_switch_fence"
+                    android:layout_width="150dp"
+                    android:layout_height="40dp"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/button_blue"
+                    android:text="@string/switch_fence_off"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.0sp" /> -->
+            </RelativeLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/ibtn_mylocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_panel"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="10dip"
+            android:background="@null"
+            android:src="@drawable/nav_location_map" />
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_panel"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            layout="@layout/zoom_control_view_layout" />
+    </RelativeLayout>
+
+</RelativeLayout>

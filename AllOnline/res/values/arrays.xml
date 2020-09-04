@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="entryvalues_list_preference_monitor_interval">
+        <item>0</item>
+        <item>10</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+    </string-array>
+    
+    <string-array name="entryvalues_list_preference_history_interval">
+        <item>180</item>
+        <item>300</item>
+        <item>600</item>
+        <item>900</item>
+        <item>1200</item>
+        <item>1800</item>
+        <item>2700</item>
+        <item>3600</item>
+        <item>21600</item>
+        <item>43200</item>
+        <item>86400</item>
+    </string-array>
+    
+    <string-array name="entries_list_preference_map_no_google">
+        <item>@string/baidu_map</item>
+        <item>@string/gaode_map</item>
+        <item>@string/tengxun_map</item>
+        <item>@string/google_map</item>
+        <!--<item>@string/entries_list_preference_map_4</item>-->
+    </string-array>
+
+    <string-array name="command_type">
+        <item>@string/command_type_1</item>
+        <item>@string/command_type_2</item>
+        <item>@string/command_type_3</item>
+        <item>@string/command_type_4</item>
+    </string-array>
+
+    <string-array name="sos_phone">
+        <item>@string/phone_number_1</item>
+        <item>@string/phone_number_2</item>
+        <item>@string/phone_number_3</item>
+    </string-array>
+
+    <string-array name="phone_number">
+        <item>@string/phone_number_1</item>
+        <item>@string/phone_number_2</item>
+    </string-array>
+
+    <string-array name="gender_list">
+        <item>@string/gender_secret</item>
+        <item>@string/gender_male</item>
+        <item>@string/gender_female</item>
+    </string-array>
+
+    <string-array name="message_notifys">
+        <item>@string/message_text</item>
+        <item>@string/message_image</item>
+        <item>@string/message_voice</item>
+        <item>@string/message_location</item>
+        <item>@string/message_video</item>
+        <item>@string/message_file</item>
+    </string-array>
+
+    <string-array name="statistics_time">
+        <item>@string/yesterday</item>
+        <item>@string/current_week</item>
+        <item>@string/last_week</item>
+        <item>@string/current_month</item>
+        <item>@string/last_month</item>
+    </string-array>
+</resources>

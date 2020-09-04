@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <View
+            android:id="@+id/cll_bmap_center_point"
+            android:layout_width="1.0px"
+            android:layout_height="1.0px"
+            android:layout_centerInParent="true" />
+
+        <RelativeLayout
+            android:id="@+id/locate_current_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginRight="40.0dip"
+            android:background="@drawable/style_lv_apt_selector"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:padding="10.0dip" >
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:src="@drawable/locate_current_icon" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/map_plus_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/map_minus_rl"
+            android:layout_alignParentLeft="true"
+            android:layout_marginLeft="40.0dip"
+            android:background="@drawable/style_lv_apt_selector"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:padding="10.0dip" >
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:src="@drawable/map_plus" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/map_minus_rl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginBottom="20.0dip"
+            android:layout_marginLeft="40.0dip"
+            android:background="@drawable/style_lv_apt_selector"
+            android:clickable="true"
+            android:descendantFocusability="blocksDescendants"
+            android:padding="10.0dip" >
+
+            <ImageView
+                android:layout_width="20.0dip"
+                android:layout_height="20.0dip"
+                android:src="@drawable/map_minus" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

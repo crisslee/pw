@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space"
+        android:paddingTop="@dimen/space"
+        android:text="2018-11-06"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_s"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider"
+        app:layout_constraintTop_toBottomOf="@id/date"
+        />
+
+    <TextView
+        android:id="@+id/distance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_9dp"
+        android:paddingTop="@dimen/space_8dp"
+        android:text="1000"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_m_x"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/overspeed"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        />
+
+    <TextView
+        android:id="@+id/overspeed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_9dp"
+        android:paddingTop="@dimen/space_8dp"
+        android:text="3"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_m_x"
+        app:layout_constraintLeft_toRightOf="@id/distance"
+        app:layout_constraintRight_toLeftOf="@+id/stay"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        />
+
+    <TextView
+        android:id="@+id/stay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_9dp"
+        android:paddingTop="@dimen/space_8dp"
+        android:text="5"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_m_x"
+        app:layout_constraintLeft_toRightOf="@id/overspeed"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider"
+        />
+
+</android.support.constraint.ConstraintLayout>

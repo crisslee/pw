@@ -1,0 +1,53 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bg_gv">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/service_item"
+        android:paddingTop="20dip"
+        android:paddingBottom="20dip"
+        android:paddingLeft="10dip"
+        android:paddingRight="10dip"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:background="@drawable/bottom_action_bar_item_bg_selector">
+        <ImageView
+            android:layout_width="48.0dip"
+            android:layout_height="48.0dip"
+            android:id="@+id/img_item"
+            android:layout_gravity="center"
+            android:scaleType="fitCenter"
+            android:src="@drawable/reply_add_pic"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/text_item"
+            android:gravity="center"
+            android:paddingTop="8dip"
+            android:textSize="12sp"
+            android:textColor="@color/black"
+            android:maxLines="1"
+            android:text="汽车在线" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:padding="2dip"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/img_delete"
+            android:padding="2dip"
+            android:layout_gravity="top|right"
+            android:src="@drawable/servicedelete"
+            android:adjustViewBounds="false"
+            android:visibility="gone"/>
+    </FrameLayout>
+
+</FrameLayout>

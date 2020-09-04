@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./libs/TencentStreetSDK_v.1.2.1_16735.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/libs/TencentStreetSDK_v.1.2.1_16735.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

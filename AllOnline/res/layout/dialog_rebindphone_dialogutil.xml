@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogutil_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/transparent"
+    android:orientation="horizontal" >
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corners_bindphone_dialogbg"
+        android:padding="@dimen/space_2dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/dialogutil_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_1.5x"
+            android:gravity="center"
+            android:text="@string/bindphone_rebind"
+            android:textColor="@color/color_text_h"
+            android:textSize="@dimen/text_xl" />
+
+        <EditText
+            android:id="@+id/dialogutil_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/bindphone_phonenum_hint"
+            android:paddingTop="@dimen/space_3x"
+            android:paddingBottom="@dimen/space_2dp"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="@dimen/space"
+            android:inputType="number"
+            android:textColor="@color/color_text_h"
+            android:textColorHint="@color/color_text_l"
+            android:layout_marginLeft="@dimen/space_3x"
+            android:layout_marginRight="@dimen/space_3x"
+            android:textSize="@dimen/text"
+            android:maxLength="11"
+            android:layout_below="@id/dialogutil_title"
+            android:background="@null" />
+
+        <View
+            android:id="@+id/dialogutil_line"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/seperator_thin"
+            android:background="@color/color_seperator"
+            android:layout_marginLeft="@dimen/space_3x"
+            android:layout_marginRight="@dimen/space_3x"
+            android:layout_below="@id/dialogutil_edit"/>
+        <TextView
+            android:id="@+id/dialogutil_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginTop="@dimen/space"
+            android:padding="@dimen/space"
+            android:text="@string/bindphone_next"
+            android:textColor="@color/community_blue"
+            android:textSize="@dimen/text_m_x"
+            android:layout_below="@id/dialogutil_line"/>
+
+        <ImageView
+            android:id="@+id/dialogutil_closeIv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:padding="@dimen/space_2x"
+            android:src="@drawable/icon_bindphone_close"
+            android:scaleType="center"
+            android:layout_alignParentRight="true"/>
+
+    </RelativeLayout>
+</LinearLayout>

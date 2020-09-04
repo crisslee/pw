@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_show_password.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable-v21\\avd_show_password.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_password_eye.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable-v21\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-v21\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_action_bar_item_background_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-v21\\abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\avd_hide_password.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable-v21\\avd_hide_password.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\notification_action_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable-v21\\notification_action_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable-v21\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-v21\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-v21\\ripple_text_green.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-v21\\ripple_text_green.xml"
+    }
+]

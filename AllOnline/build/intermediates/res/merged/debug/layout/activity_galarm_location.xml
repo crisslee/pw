@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <fragment
+            android:id="@id/map_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment" />
+
+        <ImageButton
+            android:id="@id/nav_map"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="6dip"
+            android:layout_marginTop="6dip"
+            android:background="@drawable/nav_more_map_normal" />
+        
+        <com.coomix.app.all.widget.ZoomControlView
+            android:id="@+id/zoomControl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="35dip"
+            android:layout_marginRight="6dip" />
+    </RelativeLayout>
+
+</LinearLayout>

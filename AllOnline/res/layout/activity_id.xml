@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/id_tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/myActionbar"
+        android:layout_marginTop="@dimen/space_3x"
+        android:background="@color/white"
+        android:padding="@dimen/space_2x"
+        android:textColor="@color/color_text_m"
+        android:textSize="@dimen/text" />
+
+    <TextView
+        android:id="@+id/id_copy_hint"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/id_tv"
+        android:layout_marginLeft="@dimen/space_2x"
+        android:layout_marginTop="@dimen/space"
+        android:text="@string/longclick_copy"
+        android:textColor="@color/color_text_m"
+        android:textSize="@dimen/text_l" />
+
+</RelativeLayout>

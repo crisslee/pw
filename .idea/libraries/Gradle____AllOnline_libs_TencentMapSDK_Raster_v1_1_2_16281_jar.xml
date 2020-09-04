@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./AllOnline/libs/TencentMapSDK_Raster_v1.1.2.16281.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AllOnline/libs/TencentMapSDK_Raster_v1.1.2.16281.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

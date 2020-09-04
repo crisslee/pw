@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/actionBar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        />
+
+    <TextView
+        android:id="@+id/tvDistance"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/statistic_distance"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_l"
+        app:layout_constraintHorizontal_chainStyle="spread"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tvOverspeed"
+        app:layout_constraintTop_toBottomOf="@id/actionBar"
+        />
+
+    <TextView
+        android:id="@+id/tvOverspeed"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/statistic_overspeed"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_l"
+        app:layout_constraintLeft_toRightOf="@id/tvDistance"
+        app:layout_constraintRight_toLeftOf="@+id/tvStay"
+        app:layout_constraintTop_toBottomOf="@id/actionBar"
+        />
+
+    <TextView
+        android:id="@+id/tvStay"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/statistic_stay"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_l"
+        app:layout_constraintLeft_toRightOf="@id/tvOverspeed"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionBar"
+        />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider"
+        app:layout_constraintBottom_toTopOf="@+id/rvList"
+        app:layout_constraintTop_toBottomOf="@id/tvDistance"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rvList"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/divider2"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divider1"
+        />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:background="@color/divider"
+        app:layout_constraintBottom_toTopOf="@+id/tvSummary"
+        app:layout_constraintTop_toBottomOf="@id/rvList"
+        />
+
+    <TextView
+        android:id="@+id/tvSummary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="13dp"
+        android:paddingLeft="@dimen/space_3x"
+        android:paddingTop="13dp"
+        android:text="@string/statistic_summary"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_m_x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        />
+
+</android.support.constraint.ConstraintLayout>

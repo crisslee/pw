@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <com.coomix.app.all.widget.HScrollAndDropDownView
+        android:id="@+id/hscrollAndDropDownLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myActionbar"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/actListListView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:layout_below="@+id/myActionbar"
+        android:layout_marginTop="@dimen/hsdrop_item_height1"
+        android:listSelector="@drawable/listview_selector"
+        android:scrollbarStyle="outsideOverlay"
+        android:smoothScrollbar="true" />
+
+</RelativeLayout>

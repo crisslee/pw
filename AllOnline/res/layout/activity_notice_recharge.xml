@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutRecharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionbar"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewRecharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_platform_recharge"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/mine_pingtai_xufei"
+            android:textColor="@color/text_black"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/div0"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider"
+        android:layout_marginLeft="17dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutRecharge"
+        />
+
+    <LinearLayout
+        android:id="@+id/layoutCardRecharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/div0"
+        >
+
+        <ImageView
+            android:id="@+id/imageViewCardRecharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_card_recharge"
+            />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/card_recharge"
+            android:textColor="@color/text_black"
+            android:textSize="17sp"
+            />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/div1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/layoutCardRecharge"
+        />
+
+</android.support.constraint.ConstraintLayout>

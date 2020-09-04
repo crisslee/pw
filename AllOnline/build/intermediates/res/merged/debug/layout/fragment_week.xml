@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </com.coomix.app.all.widget.MyActionbar>
+
+    <RelativeLayout
+        android:id="@+id/chooseTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_3x"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_4x"
+            android:text="@string/history_choose_time"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_xxl"
+            />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:drawablePadding="@dimen/space_2x"
+            android:drawableRight="@drawable/icon_right_infowindow"
+            android:text="上午 00:00"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_s"
+            />
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/itemMon"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_3x"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_monday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/chooseTime"
+        />
+
+    <View
+        android:id="@+id/divMon"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemMon"
+        />
+
+    <TextView
+        android:id="@+id/itemTue"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_tuesday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divMon"
+        />
+
+    <View
+        android:id="@+id/divTue"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemTue"
+        />
+
+    <TextView
+        android:id="@+id/itemWed"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_wednesday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divTue"
+        />
+
+    <View
+        android:id="@+id/divWed"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemWed"
+        />
+
+    <TextView
+        android:id="@+id/itemThu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_thursday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divWed"
+        />
+
+    <View
+        android:id="@+id/divThu"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemThu"
+        />
+
+    <TextView
+        android:id="@+id/itemFri"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_friday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divThu"
+        />
+
+    <View
+        android:id="@+id/divFri"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemFri"
+        />
+
+    <TextView
+        android:id="@+id/itemSat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_saturday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divFri"
+        />
+
+    <View
+        android:id="@+id/divSat"
+        android:layout_width="match_parent"
+        android:layout_height="1px"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:background="@color/divider"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/itemSat"
+        />
+
+    <TextView
+        android:id="@+id/itemSun"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_3x"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_3x"
+        android:paddingTop="@dimen/space_3x"
+        android:text="@string/every_sunday"
+        android:textColor="@color/text_black"
+        android:textSize="@dimen/text_xxl"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/divSat"
+        />
+
+</android.support.constraint.ConstraintLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    tools:context=".ui.audioRecord.AudioRecordingFragment">
+
+    <TextView
+        android:id="@+id/shortBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/notify_bg"
+        android:drawableRight="@drawable/actionbar_right"
+        android:paddingBottom="@dimen/space_8dp"
+        android:paddingLeft="@dimen/space_2x"
+        android:paddingRight="@dimen/space_2x"
+        android:paddingTop="@dimen/space_8dp"
+        android:textSize="@dimen/text_m"
+        android:textColor="@color/black_bg"
+        android:text="@string/card_already_exp"
+        android:visibility="gone"
+        tools:visibility="visible"
+        />
+
+    <RelativeLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/shortBalance"
+        android:layout_above="@+id/btnStopRecord">
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/btnStopRecord"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/space_4x"
+        android:background="@drawable/login_btn_enable"
+        android:gravity="center"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:paddingBottom="@dimen/space_12dp"
+        android:paddingTop="@dimen/space_12dp"
+        android:text="@string/stop_recording"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+</RelativeLayout>

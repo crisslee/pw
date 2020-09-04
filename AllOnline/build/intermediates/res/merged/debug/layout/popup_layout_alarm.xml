@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/linearlayout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/icons_txtbg_tr"
+    android:orientation="vertical">
+
+	<LinearLayout
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginBottom="6dip"
+		android:layout_marginLeft="10dip"
+		android:layout_marginRight="12dip"
+		android:layout_marginTop="3dip"
+		android:gravity="center_vertical"
+		android:orientation="horizontal">
+
+		<TextView
+			android:id="@+id/device_name"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_weight="1"
+			android:ellipsize="end"
+			android:lines="1"
+			android:maxLines="1"
+			android:singleLine="true"
+			android:text="name"
+			android:textColor="@color/popup_tv"
+			android:textSize="14sp" />
+
+		<TextView
+			android:id="@+id/alarm_type"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="5dip"
+			android:layout_marginTop="2dip"
+			android:gravity="right"
+			android:text="Alarm type"
+			android:textColor="@color/popup_tv"
+			android:textSize="11sp" />
+	</LinearLayout>
+
+    <View  
+        android:id="@+id/line_show1"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dip"
+        android:background="@color/line_show_thf" 
+        android:visibility="visible"/>
+    
+    <!-- 8888888888888888888888888888888888888888 -->          
+      <LinearLayout  android:layout_width="wrap_content"
+        	android:layout_height="wrap_content" 
+        	android:orientation="vertical"
+        	android:layout_marginLeft="9dip">
+                             			            	         	   
+             <!-- 显示时间  start -->
+        	<LinearLayout android:id="@+id/timelayout"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="8dip"
+            	android:orientation="horizontal"
+            	android:gravity="center_vertical" >
+
+            	<ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/popup_time_iv"
+                android:text="@string/label_time_my"
+                android:contentDescription="@string/app_name"/>
+
+           		 <TextView
+                android:id="@+id/alarm_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="4dip"
+                android:textColor="@color/popup_tv"
+                android:textSize="13sp"
+                android:text="time" />
+       		 </LinearLayout>
+        	<!-- 显示时间  end -->
+        		
+        	 <LinearLayout
+            	android:id="@+id/popContentOut"
+            	android:layout_width="wrap_content"
+            	android:layout_height="wrap_content"
+            	android:layout_marginTop="8dip"
+            	android:orientation="horizontal" 
+            	android:layout_marginBottom="8dip">
+           	
+            	<ImageView android:paddingTop="3dip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/popup_address_iv"
+                android:text="@string/address"
+                android:contentDescription="@string/app_name"/>
+
+            	<TextView android:gravity="center_vertical"
+                	android:id="@+id/alarm_address"
+                	android:layout_width="wrap_content"
+                	android:layout_height="wrap_content"
+                	android:layout_marginLeft="4dip"
+                	android:ellipsize="end"
+                	android:maxLines="3"
+                	android:maxWidth="200dip"
+                	android:minWidth="200dip"
+                	android:textColor="@color/popup_tv"
+                	android:textSize="13sp" 
+                	 android:text="@string/reverse"/>          
+        	</LinearLayout>	       	
+        </LinearLayout>                		   
+<!-- 8888888888888888888888888888888888888888 -->
+    	<View  android:id="@+id/line_show2"
+             android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line_show_thf"
+             android:visibility="gone" />
+    
+    <LinearLayout
+        android:id="@+id/alarm_speed_ll"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dip"
+        android:layout_marginBottom="8dip"
+        android:layout_marginTop="8dip"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/speed"
+            android:textColor="@color/popup_tv"
+            android:textSize="11sp" />
+
+        <TextView
+            android:id="@+id/alarm_speed"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="4dip"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:maxWidth="150dip"
+            android:minWidth="120dip"
+            android:text=""
+            android:textColor="@color/popup_tv"
+            android:textSize="11sp" />
+    </LinearLayout>
+  
+</LinearLayout>

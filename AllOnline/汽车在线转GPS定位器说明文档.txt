@@ -1,0 +1,34 @@
+0.修改manifest文件：
+  google，百度，高德，腾讯，umeng对应的key
+  GPNS推送的appid
+
+1.refactor rename：
+  com.coomix.app.all  -》 com.coomix.app.gps
+
+2.search file:
+  com.coomix.app.all  -》 com.coomix.app.gps
+
+3.search file:
+  汽车在线 -》 GPS定位器
+
+4.search file:
+  汽車在線 ->  GPS定位器
+
+5.search file:
+  Car Online -》 GPS Locator
+
+6.search file:
+  car online -》 gps locator
+
+7.search file:
+  CarOnline -》 GPSLocator
+
+8. 修复错误文件名
+
+9.search file:
+  caronline -》 gpslocator
+
+注意：
+1. 二维码下载图片
+ qr_ + 包名的形式（.用_代替）
+2.自动更新配置

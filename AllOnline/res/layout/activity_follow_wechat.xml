@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/actionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
+
+    <ImageView
+        android:id="@+id/ivBell"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/actionbar"
+        android:layout_marginTop="67dp"
+        android:src="@drawable/big_bell"/>
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/ivBell"
+        android:layout_marginTop="16dp"
+        android:text="关注公众号"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/textsize_xxbig"/>
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        android:layout_marginTop="12dp"
+        android:text="@string/follow_wechat_hint"
+        android:gravity="center"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize"/>
+
+    <com.zhy.view.DrawableCenterTextView
+        android:id="@+id/toWx"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/hint"
+        android:layout_marginTop="@dimen/space_6x"
+        android:text="@string/to_wx"
+        android:gravity="center_vertical"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:layout_marginRight="@dimen/space_4x"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/white"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:drawablePadding="@dimen/space_2x"
+        android:background="@drawable/ripple_text_green"
+        android:drawableLeft="@drawable/weixin"/>
+
+    <TextView
+        android:id="@+id/afterFollow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/toWx"
+        android:layout_marginTop="@dimen/space_4x"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:layout_marginRight="@dimen/space_4x"
+        android:text="已关注，不再提醒"
+        android:gravity="center"
+        android:textSize="@dimen/textsize"
+        android:textColor="@color/white"
+        android:paddingTop="11dp"
+        android:paddingBottom="11dp"
+        android:background="@drawable/login_btn_enable"
+        />
+
+</android.support.constraint.ConstraintLayout>

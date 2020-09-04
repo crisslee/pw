@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:background="#ffffff"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/dialog_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/style_lv_apt_selector"
+            android:gravity="center"
+            android:text="@string/no"
+            android:textColor="@color/color_main"
+            android:textSize="@dimen/textsize" />
+
+        <TextView
+            android:id="@+id/settime_title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="center"
+            android:text="@string/history_choose_time"
+            android:textColor="@color/eboard_text_normal"
+            android:textSize="@dimen/textsize"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/dialog_sure"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/style_lv_apt_selector"
+            android:gravity="center"
+            android:text="@string/done"
+            android:textColor="@color/color_main"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="206dp"
+        android:layout_gravity="center_horizontal"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <net.simonvt.numberpicker.NumberPicker
+            android:id="@+id/np_hour"
+            android:layout_width="50dp"
+            android:layout_height="180dp" />
+
+        <net.simonvt.numberpicker.NumberPicker
+            android:id="@+id/np_minute"
+            android:layout_width="50dp"
+            android:layout_height="180dp" />
+    </LinearLayout>
+
+</LinearLayout>

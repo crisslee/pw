@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.unlock.UnLockActivity">
+
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/mineActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:background="#F0F0F0"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshRecyclerView
+            android:id="@+id/recycler_view_wrap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_layout"
+            android:visibility="visible">
+
+
+        </com.handmark.pulltorefresh.library.PullToRefreshRecyclerView>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:visibility="gone">
+
+            <CheckBox
+                android:id="@+id/cbSelectAll"
+                android:layout_width="0dp"
+                android:paddingHorizontal="15dp"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="15dp"
+                android:layout_weight="1"
+                android:button="@drawable/list_item_selector"
+                android:text="@string/select_all"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnUnLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/lock_reject"
+                android:textColor="#597891"
+                android:textSize="16sp" />
+
+            <View
+                android:background="#33000000"
+                android:layout_gravity="center_vertical"
+                android:layout_width="1dp"
+                android:layout_height="15dp"/>
+
+            <Button
+                android:id="@+id/btnLock"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@null"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/lock_approve"
+                android:textColor="#597891"
+                android:textSize="16sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/community_empty_layout" />
+
+</LinearLayout>

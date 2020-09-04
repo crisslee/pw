@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:layout_weight="1"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imageViewRedpacket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rp_red_icon"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:paddingLeft="8dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/redpacketTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_weight="1"
+                android:singleLine="true"
+                android:text="@string/redpacket_default_title"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_m_x"/>
+
+            <TextView
+                android:id="@+id/redpacketHint"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:singleLine="true"
+                android:layout_weight="1"
+                android:text="@string/get_redpacket"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_s"/>
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/redpacketExplain"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/rounded_corners_bottom_redpacket"
+        android:paddingLeft="8dp"
+        android:paddingTop="2dp"
+        android:paddingBottom="2dp"
+        android:singleLine="true"
+        android:text="@string/coomix_redpacket"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/text_xxs"/>
+</LinearLayout>
+

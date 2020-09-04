@@ -1,0 +1,2013 @@
+-- Merging decision tree log ---
+provider#android.support.v4.content.FileProvider
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:196:9-204:20
+	android:grantUriPermissions
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:200:13-47
+	android:authorities
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:198:13-65
+	android:exported
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:199:13-37
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:197:13-67
+manifest
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:2:1-24:12
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f13e666df749874b2ccf77fe56370b24\AndroidManifest.xml:17:1-22:12
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:2:1-24:12
+MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:2:1-16:12
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:2:1-53:12
+MERGED from [:GpnsSdk] D:\privatework-develop\GpnsSdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:17:1-39:12
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\31e1fd30f5d7fb2284ed66fd601d1df0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\fa3ebc099bee6f5f07c54a254e9d7e4f\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\5f6259267471b1b75ca2fd406c851f35\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\70035bc39a53adfcff8dccbc42f90254\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\4bda46021bd3d3c12b933527ce8b990b\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:17:1-32:12
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:17:1-29:12
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\7abb35dfdc63562ff2999cfb0e4e40ec\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3eae4752e66383c2b444335eeecc2200\AndroidManifest.xml:2:1-11:12
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\stickylistheaders-2.7.0.aar\945c1c5eb5497f946b49ca25e0bb859a\AndroidManifest.xml:2:1-11:12
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.10.2.aar\3f2b275ee93b7823b563e62f8646f693\AndroidManifest.xml:2:1-11:12
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\b8aac38701558ab9bb760ccdb078465c\AndroidManifest.xml:2:1-8:12
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\85553b94c96ce7e638b924f656634fdc\AndroidManifest.xml:15:1-21:12
+MERGED from [com.tencent.bugly:crashreport:2.6.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.aar\fd5eb3aea4498244322c52a441af09f0\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\263830d8f5a5aa5241caa41dcecbe41a\AndroidManifest.xml:2:1-9:12
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:2:1-37:12
+MERGED from [com.meituan.android.walle:library:1.1.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.1.6.aar\d22975fe98fda75de7bef277d93f0c95\AndroidManifest.xml:2:1-13:12
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\8456de334d9a465b1c2bbf389d745651\AndroidManifest.xml:2:1-7:12
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.2.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-swipe-1.2.0.aar\44c85466268437502545fdf4a8ed07d9\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:17:1-31:12
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:2:1-161:12
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:17:1-30:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+	package
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:4:5-33
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:6:5-12:40
+	android:largeScreens
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:8:9-36
+	android:smallScreens
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:11:9-36
+	android:normalScreens
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:9:9-37
+	android:xlargeScreens
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:12:9-37
+	android:resizeable
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:10:9-34
+	android:anyDensity
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:7:9-34
+uses-permission#android.permission.INTERNET
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:14:5-67
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:13:5-67
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:13:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:24:5-67
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:14:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:15:5-79
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:11:5-79
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:11:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:23:5-79
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:23:5-79
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:16:5-76
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:12:5-76
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:12:5-76
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:14:5-76
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:14:5-76
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:16:22-73
+uses-permission#android.permission.CHANGE_WIFI_STATE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:17:5-76
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:17:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:18:5-68
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:18:22-65
+uses-permission#android.permission.VIBRATE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:19:5-66
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:19:22-63
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:20:5-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:20:22-78
+uses-permission#android.permission.BROADCAST_STICKY
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:21:22-72
+uses-permission#android.permission.BLUETOOTH
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:22:5-68
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:11:5-68
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:11:5-68
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:22:22-65
+uses-permission#android.permission.BLUETOOTH_ADMIN
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:23:5-74
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:12:5-74
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:12:5-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:23:22-71
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:24:5-78
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:24:22-75
+uses-permission#android.permission.MANAGE_ACCOUNTS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:25:5-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:25:22-71
+uses-permission#android.permission.USE_CREDENTIALS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:26:5-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:26:22-71
+uses-permission#android.permission.AUTHENTICATE_ACCOUNTS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:27:5-80
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:27:22-77
+uses-permission#android.permission.MODIFY_AUDIO_SETTINGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:28:5-80
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:28:22-77
+uses-permission#android.permission.RECEIVE_USER_PRESENT
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:29:5-79
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:29:22-76
+uses-permission#android.permission.REQUEST_INSTALL_PACKAGES
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:30:5-83
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:30:22-80
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:31:5-81
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:15:5-81
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:15:5-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:31:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:32:5-80
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:16:5-80
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:16:5-80
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:32:22-77
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:33:5-81
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:14:5-81
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:14:5-81
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:11:5-81
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:11:5-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:33:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:34:5-79
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:13:5-79
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:13:5-79
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:12:5-79
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:12:5-79
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:34:22-76
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:35:5-75
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:35:22-72
+uses-permission#android.permission.CALL_PHONE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:36:5-69
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:36:22-66
+uses-permission#android.permission.ACCESS_MOCK_LOCATION
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:37:5-39:39
+	tools:ignore
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:39:9-36
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:38:9-63
+uses-permission#android.permission.GET_TASKS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:40:5-68
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:40:22-65
+uses-permission#android.permission.WRITE_SETTINGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:41:5-73
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:41:22-70
+uses-permission#android.permission.READ_LOGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:42:5-68
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:42:22-65
+uses-permission#android.permission.CHANGE_CONFIGURATION
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:43:5-79
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:43:22-76
+uses-permission#com.android.launcher.permission.READ_SETTINGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:44:5-85
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:44:22-82
+uses-permission#com.coomix.app.all.permission.MAPS_RECEIVE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:45:5-82
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:45:22-79
+uses-permission#com.google.android.providers.gsf.permission.READ_GSERVICES
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:46:5-98
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:46:22-95
+uses-permission#com.sec.android.provider.badge.permission.READ
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:48:5-86
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:48:22-83
+uses-permission#com.sec.android.provider.badge.permission.WRITE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:49:5-87
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:49:22-84
+uses-permission#com.htc.launcher.permission.READ_SETTINGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:50:5-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:50:22-78
+uses-permission#com.htc.launcher.permission.UPDATE_SHORTCUT
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:51:5-83
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:51:22-80
+uses-permission#com.sonyericsson.home.permission.BROADCAST_BADGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:52:5-88
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:52:22-85
+uses-permission#com.sonymobile.home.permission.PROVIDER_INSERT_BADGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:53:5-92
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:53:22-89
+uses-permission#com.anddoes.launcher.permission.UPDATE_COUNT
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:54:5-84
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:54:22-81
+uses-permission#com.majeur.launcher.permission.UPDATE_BADGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:55:5-83
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:55:22-80
+uses-permission#com.huawei.android.launcher.permission.CHANGE_BADGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:56:5-91
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:56:22-88
+uses-permission#com.huawei.android.launcher.permission.READ_SETTINGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:57:5-92
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:57:22-89
+uses-permission#com.huawei.android.launcher.permission.WRITE_SETTINGS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:58:5-93
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:58:22-90
+uses-feature#0x00020000
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:60:5-62:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:26:5-28:35
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:26:5-28:35
+	android:glEsVersion
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:61:9-41
+	android:required
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:62:9-32
+application
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:64:5-706:19
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:20:5-22:19
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:20:5-22:19
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:19:5-22:19
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:19:5-22:19
+MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:11:5-14:19
+MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:11:5-14:19
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:16:5-51:19
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:16:5-51:19
+MERGED from [:GpnsSdk] D:\privatework-develop\GpnsSdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [:GpnsSdk] D:\privatework-develop\GpnsSdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:11:5-12:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:22:5-37:19
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\31e1fd30f5d7fb2284ed66fd601d1df0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\31e1fd30f5d7fb2284ed66fd601d1df0\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:26:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\70035bc39a53adfcff8dccbc42f90254\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\70035bc39a53adfcff8dccbc42f90254\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\4bda46021bd3d3c12b933527ce8b990b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\4bda46021bd3d3c12b933527ce8b990b\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:30:5-20
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:22:5-27:19
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\7abb35dfdc63562ff2999cfb0e4e40ec\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\7abb35dfdc63562ff2999cfb0e4e40ec\AndroidManifest.xml:7:5-20
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:22:5-26:19
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3eae4752e66383c2b444335eeecc2200\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3eae4752e66383c2b444335eeecc2200\AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.10.2.aar\3f2b275ee93b7823b563e62f8646f693\AndroidManifest.xml:9:5-20
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.10.2.aar\3f2b275ee93b7823b563e62f8646f693\AndroidManifest.xml:9:5-20
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:9:5-35:19
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:9:5-35:19
+MERGED from [com.meituan.android.walle:library:1.1.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.1.6.aar\d22975fe98fda75de7bef277d93f0c95\AndroidManifest.xml:10:5-11:19
+MERGED from [com.meituan.android.walle:library:1.1.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.1.6.aar\d22975fe98fda75de7bef277d93f0c95\AndroidManifest.xml:10:5-11:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:25:5-29:19
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:9:5-159:19
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:9:5-159:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:24:5-28:19
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:24:5-28:19
+	android:supportsRtl
+		ADDED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:21:9-35
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:69:9-41
+	android:hardwareAccelerated
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:67:9-43
+	android:persistent
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:70:9-34
+	android:icon
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:68:9-45
+	android:allowBackup
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:66:9-35
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:71:9-53
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:65:9-39
+activity#com.coomix.app.all.ui.unlock.UnLockActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:72:9-71
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:72:19-59
+activity#com.coomix.app.all.gpns.FilterActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:75:9-79:60
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:78:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:77:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:79:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:76:13-48
+service#com.goome.gpns.service.GPNSService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:81:9-83:46
+	android:process
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:83:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:82:13-62
+receiver#com.goome.gpns.service.MyBroadcastReceiver
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:85:9-92:20
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:85:19-76
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.SCREEN_ON+action:name:android.intent.action.USER_PRESENT+action:name:android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:86:13-91:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:87:17-79
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:87:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:88:17-77
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:88:25-74
+action#android.intent.action.SCREEN_ON
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:89:17-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:89:25-71
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:90:17-79
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:90:25-76
+receiver#com.coomix.app.all.gpns.GPNSReceiver
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:93:9-95:40
+	android:exported
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:95:13-37
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:94:13-46
+service#com.coomix.app.all.service.GPNSIntentService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:97:9-99:40
+	android:exported
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:99:13-37
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:98:13-54
+provider#com.goome.gpns.contentprovider.GpnsProvider
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:101:9-103:56
+	android:authorities
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:103:13-53
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:102:13-71
+meta-data#com.google.android.gms.version
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:105:9-108:44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:23:9-25:69
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:23:9-25:69
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:108:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:107:13-66
+		REJECTED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:25:13-66
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:106:13-58
+meta-data#com.baidu.lbsapi.API_KEY
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:134:9-137:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:137:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:136:13-61
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:135:13-52
+meta-data#com.google.android.maps.v2.API_KEY
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:138:9-141:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:141:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:140:13-68
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:139:13-62
+meta-data#com.amap.api.v2.apikey
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:144:9-147:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:147:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:146:13-61
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:145:13-50
+meta-data#TencentMapSDK
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:148:9-151:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:151:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:150:13-64
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:149:13-41
+meta-data#UMENG_APPKEY
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:152:9-155:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:155:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:154:13-53
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:153:13-40
+meta-data#GPNS_APP_ID
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:156:9-159:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:159:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:158:13-33
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:157:13-39
+meta-data#INSTRUCTION_URL
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:160:9-163:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:163:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:162:13-72
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:161:13-43
+meta-data#GM_BID
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:164:9-167:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:167:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:166:13-33
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:165:13-34
+meta-data#android.max_aspect
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:171:9-174:44
+	tools:replace
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:174:13-42
+	android:value
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:173:13-32
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:172:13-46
+service#com.baidu.location.f
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:176:9-179:41
+	android:process
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:179:13-38
+	android:enabled
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:178:13-35
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:177:13-48
+service#com.amap.api.location.APSService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:180:9-68
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:180:18-65
+service#com.coomix.app.all.service.AllOnlineAppService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:181:9-64
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:181:18-61
+service#com.coomix.app.all.service.CheckVersionService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:190:9-64
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:190:18-61
+service#com.coomix.app.all.service.DownloadingService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:191:9-63
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:191:18-60
+service#com.coomix.app.all.service.PatchResultService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:192:9-194:72
+	android:permission
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:194:13-69
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:193:13-55
+activity#com.coomix.app.all.ui.update.GoomeUpdateDialogActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:206:9-210:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:209:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:208:13-81
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:210:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:207:13-64
+service#com.coomix.app.all.service.OfflineMapService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:212:9-62
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:212:18-59
+activity#com.coomix.app.all.ui.setting.SettingActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:214:9-220:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:219:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:217:13-45
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:218:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:216:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:220:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:215:13-55
+activity#com.coomix.app.all.ui.setting.IdActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:221:9-224:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:224:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:223:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:222:13-50
+activity#com.coomix.app.all.ui.main.OfflineBMapActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:225:9-230:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:229:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:228:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:227:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:230:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:226:13-56
+activity#com.coomix.app.all.ui.boot.BootActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:231:9-242:20
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:235:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:234:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:233:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:236:13-54
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:232:13-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:237:13-241:29
+action#android.intent.action.MAIN
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:238:17-69
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:238:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:240:17-77
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:240:27-74
+activity#com.coomix.app.all.ui.web.WebAgentActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:243:9-257:20
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:246:13-49
+	android:windowSoftInputMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:248:13-55
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:245:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:247:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:244:13-52
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:goocarapp
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:249:13-256:29
+action#android.intent.action.VIEW
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:250:17-69
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:250:25-66
+category#android.intent.category.DEFAULT
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:252:17-76
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:252:27-73
+category#android.intent.category.BROWSABLE
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:253:17-78
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:253:27-75
+data
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:255:17-52
+	android:scheme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:255:23-49
+activity#com.coomix.app.all.ui.advance.BFenceActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:258:9-262:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:262:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:261:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:260:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:259:13-54
+activity#com.coomix.app.all.ui.advance.TFenceActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:263:9-267:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:267:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:266:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:265:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:264:13-54
+activity#com.coomix.app.all.ui.mine.ModifyPwdActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:268:9-273:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:272:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:271:13-47
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:270:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:273:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:269:13-54
+activity#com.coomix.app.all.ui.alarm.AlarmCategoryListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:274:9-278:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:278:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:277:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:276:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:275:13-63
+activity#com.coomix.app.all.ui.alarm.FollowWechatActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:279:9-282:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:282:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:281:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:280:13-58
+activity#com.coomix.app.all.ui.alarm.AlarmDetailListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:283:9-287:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:287:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:286:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:285:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:284:13-61
+activity#com.coomix.app.all.ui.alarm.AlarmListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:288:9-293:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:293:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:291:13-42
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:292:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:290:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:289:13-55
+activity#com.coomix.app.all.ui.alarm.AlarmTypeListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:294:9-299:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:299:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:297:13-42
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:298:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:296:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:295:13-59
+activity#com.coomix.app.all.ui.advance.CommandListWebActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:300:9-305:67
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:304:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:303:13-42
+	android:windowSoftInputMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:305:13-64
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:302:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:301:13-62
+activity#com.coomix.app.all.ui.alarm.AlarmSettingActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:306:9-310:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:309:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:308:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:310:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:307:13-58
+activity#com.coomix.app.all.ui.alarm.BAlarmLocationActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:311:9-314:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:314:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:313:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:312:13-60
+activity#com.coomix.app.all.ui.alarm.TAlarmLocationActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:315:9-318:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:318:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:317:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:316:13-60
+activity#com.coomix.app.all.ui.alarm.GAlarmLocationActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:319:9-323:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:322:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:321:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:323:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:320:13-60
+activity#com.coomix.app.all.ui.detail.DeviceInfoEditActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:324:9-330:71
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:328:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:327:13-43
+	android:windowSoftInputMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:330:13-68
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:326:13-43
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:329:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:325:13-61
+activity#com.coomix.app.all.ui.alarm.AMapAlarmLocationActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:331:9-336:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:336:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:334:13-45
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:335:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:333:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:332:13-63
+activity#com.coomix.app.all.ui.advance.AMapFenceActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:337:9-341:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:341:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:340:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:339:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:338:13-57
+activity#com.tencent.tauth.AuthActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:342:9-354:20
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:344:13-44
+	android:noHistory
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:345:13-37
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:343:13-58
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:1105747877
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:346:13-353:29
+activity#com.tencent.connect.common.AssistActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:355:9-358:75
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:357:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:358:13-72
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:356:13-69
+activity#com.coomix.app.all.ui.mine.ProviderInfoActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:359:9-364:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:364:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:362:13-45
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:363:13-43
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:361:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:360:13-57
+activity#com.coomix.app.all.weizhang.activity.WeiZhangMainActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:365:9-369:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:369:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:368:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:367:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:366:13-67
+activity#com.coomix.app.all.weizhang.activity.ShortNameList
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:370:9-373:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:373:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:372:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:371:13-60
+activity#com.coomix.app.all.weizhang.activity.ProvinceList
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:374:9-377:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:377:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:376:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:375:13-59
+activity#com.coomix.app.all.weizhang.activity.CityList
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:378:9-381:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:381:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:380:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:379:13-55
+activity#com.coomix.app.all.weizhang.activity.WeizhangResult
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:382:9-385:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:385:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:384:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:383:13-61
+service#com.cheshouye.api.client.WeizhangIntentService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:387:9-82
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:387:18-79
+activity#com.coomix.app.all.ui.advance.AreaSelectActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:389:9-393:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:393:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:392:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:391:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:390:13-58
+activity#com.coomix.app.all.ui.panorama.BPanoramaActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:394:9-398:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:398:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:397:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:396:13-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:395:13-58
+activity#com.coomix.app.all.ui.panorama.TPanoramaActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:399:9-403:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:403:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:402:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:401:13-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:400:13-58
+service#com.coomix.app.all.service.LocationService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:405:9-60
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:405:18-57
+activity#com.coomix.app.all.ui.mine.MineActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:407:9-410:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:410:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:409:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:408:13-49
+activity#com.coomix.app.all.ui.im.GMChatActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:411:9-415:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:415:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:414:13-44
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:413:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:412:13-49
+activity#com.coomix.app.all.ui.im.GmChatSettingsActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:416:9-419:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:419:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:418:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:417:13-57
+activity#com.coomix.app.all.ui.im.GmSelectAtUserActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:420:9-423:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:423:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:422:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:421:13-57
+activity#com.coomix.app.all.ui.mine.AccountInfoActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:424:9-427:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:427:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:426:13-43
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:425:13-56
+activity#com.muzhi.camerasdk.PhotoPickActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:428:9-432:75
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:431:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:430:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:432:13-72
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:429:13-65
+activity#com.muzhi.camerasdk.PreviewActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:433:9-439:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:438:13-49
+	android:process
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:437:13-38
+	android:hardwareAccelerated
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:436:13-48
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:435:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:439:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:434:13-63
+activity#com.muzhi.camerasdk.GridPreviewActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:440:9-446:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:445:13-49
+	android:process
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:444:13-38
+	android:hardwareAccelerated
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:443:13-48
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:442:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:446:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:441:13-67
+activity#com.muzhi.camerasdk.CropperImageActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:447:9-77
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:447:19-74
+activity#com.muzhi.camerasdk.FilterImageActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:448:9-76
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:448:19-73
+activity#com.coomix.app.all.ui.activity.CommActListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:449:9-453:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:452:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:451:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:453:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:450:13-60
+activity#com.coomix.app.all.ui.activity.CommActDetailActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:454:9-457:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:457:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:456:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:455:13-62
+activity#com.coomix.app.all.ui.activity.ActRegisterActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:458:9-461:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:461:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:460:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:459:13-60
+activity#com.coomix.app.all.ui.activity.ActRegisterExtendActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:462:9-465:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:465:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:464:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:463:13-66
+activity#com.coomix.app.all.ui.web.DisclaimerActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:466:9-470:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:469:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:468:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:470:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:467:13-54
+activity#com.coomix.app.all.ui.web.BusAdverActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:471:9-473:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:473:13-49
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:472:13-52
+activity#com.coomix.app.all.wxapi.WXEntryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:475:9-480:75
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:479:13-49
+	android:exported
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:478:13-36
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:477:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:480:13-72
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:476:13-50
+activity#com.coomix.app.all.ui.wallet.BindWechatActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:483:9-487:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:486:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:485:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:487:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:484:13-57
+activity#com.coomix.app.all.ui.activity.MyActivityActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:488:9-492:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:491:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:490:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:492:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:489:13-59
+activity#com.coomix.app.all.ui.activity.MyOrderInfoActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:493:9-497:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:496:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:495:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:497:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:494:13-60
+activity#com.coomix.app.all.wxapi.WXPayEntryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:498:9-503:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:502:13-49
+	android:exported
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:501:13-36
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:500:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:503:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:499:13-53
+activity#com.coomix.app.redpacket.activity.CreateRedPacketActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:504:9-507:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:507:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:506:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:505:13-85
+activity#com.coomix.app.redpacket.activity.DetailRedPacketActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:508:9-511:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:511:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:510:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:509:13-85
+activity#com.coomix.app.redpacket.activity.RedPacketMapActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:512:9-515:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:515:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:514:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:513:13-82
+activity#com.coomix.app.all.ui.activity.ActRegister2Activity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:516:9-520:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:519:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:518:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:520:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:517:13-61
+activity#com.coomix.app.all.ui.history.TMapHistoryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:521:9-525:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:525:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:524:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:523:13-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:522:13-59
+activity#com.coomix.app.all.ui.history.BMapHistoryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:526:9-530:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:530:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:529:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:528:13-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:527:13-59
+activity#com.coomix.app.all.ui.history.AMapHistoryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:531:9-535:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:535:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:534:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:533:13-81
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:532:13-59
+activity#com.coomix.app.all.ui.advance.DeviceSettingActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:536:9-541:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:540:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:539:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:538:13-81
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:541:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:537:13-61
+activity#com.coomix.app.all.ui.detail.DeviceDetailInfoActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:542:9-547:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:546:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:545:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:544:13-81
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:547:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:543:13-63
+activity#com.coomix.app.all.ui.detail.DistanceStatisticsActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:548:9-553:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:552:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:551:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:550:13-81
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:553:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:549:13-65
+activity#com.coomix.app.all.ui.history.GHistoryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:554:9-559:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:558:13-49
+	android:label
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:557:13-45
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:556:13-81
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:559:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:555:13-56
+service#com.coomix.app.all.service.CommonService
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:561:9-564:39
+	android:enabled
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:563:13-35
+	android:exported
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:564:13-36
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:562:13-50
+activity#com.coomix.app.all.ui.platformRecharge.PlatRechargeActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:566:9-570:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:569:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:568:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:570:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:567:13-69
+activity#com.coomix.app.all.ui.cardRecharge.CardRechargeActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:571:9-575:60
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:574:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:573:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:575:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:572:13-65
+activity#com.coomix.app.all.ui.audioRecord.AudioRecordingActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:576:9-579:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:579:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:578:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:577:13-66
+activity#com.coomix.app.all.ui.audioRecord.AudioBuyTrafficActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:580:9-583:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:583:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:582:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:581:13-67
+activity#com.coomix.app.all.ui.main.AMainActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:584:9-598:20
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:588:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:587:13-44
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:586:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:589:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:585:13-50
+intent-filter#action:name:android.intent.action.VIEW+category:name:android.intent.category.BROWSABLE+category:name:android.intent.category.DEFAULT+data:scheme:fromallalarm
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:590:13-597:29
+activity#com.coomix.app.all.ui.main.BMainActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:599:9-613:20
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:603:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:602:13-44
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:601:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:604:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:600:13-50
+activity#com.coomix.app.all.ui.main.TMainActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:614:9-628:20
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:618:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:617:13-44
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:616:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:619:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:615:13-50
+activity#com.coomix.app.all.ui.main.GMainActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:629:9-643:20
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:633:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:632:13-44
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:631:13-74
+	android:theme
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:634:13-57
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:630:13-50
+activity#com.coomix.app.all.ui.history.SelectDateHistoryActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:644:9-647:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:647:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:646:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:645:13-65
+activity#com.coomix.app.all.ui.carlist.AllListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:648:9-652:67
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:651:13-49
+	android:windowSoftInputMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:652:13-64
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:650:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:649:13-55
+activity#com.coomix.app.all.ui.login.LoginActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:653:9-657:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:657:13-49
+	android:launchMode
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:656:13-44
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:655:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:654:13-51
+activity#com.coomix.app.all.ui.login.RegisterActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:658:9-661:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:661:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:660:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:659:13-54
+activity#com.coomix.app.all.ui.login.SetPwdActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:662:9-665:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:665:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:664:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:663:13-52
+activity#com.google.zxing.activity.CaptureActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:666:9-669:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:669:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:668:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:667:13-69
+activity#com.coomix.app.all.ui.login.InputImeiActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:670:9-673:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:673:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:672:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:671:13-55
+activity#com.coomix.app.all.ui.cardRecharge.CardSingleRechargeActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:674:9-677:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:677:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:676:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:675:13-71
+activity#com.coomix.app.all.ui.installer.UploadInfoActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:678:9-681:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:681:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:680:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:679:13-60
+activity#com.coomix.app.all.ui.devTime.DevTimeActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:682:9-685:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:685:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:684:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:683:13-55
+activity#com.coomix.app.all.ui.devTime.ChooseDateActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:686:9-689:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:689:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:688:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:687:13-58
+activity#com.coomix.app.all.ui.devTime.ChooseTimeActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:690:9-693:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:693:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:692:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:691:13-58
+activity#com.coomix.app.all.ui.devTime.CustomAlarmListActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:694:9-697:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:697:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:696:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:695:13-63
+activity#com.coomix.app.all.ui.charge.CardDataInfoActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:698:9-701:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:701:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:700:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:699:13-59
+activity#com.coomix.app.all.ui.cardRecharge.NoticeRechargeActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:702:9-705:52
+	android:screenOrientation
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:705:13-49
+	android:configChanges
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:704:13-74
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:703:13-67
+uses-sdk
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:7:5-9:41
+MERGED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f13e666df749874b2ccf77fe56370b24\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:multidex:1.0.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f13e666df749874b2ccf77fe56370b24\AndroidManifest.xml:20:5-43
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:7:5-9:41
+MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:7:5-9:41
+MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:7:5-9:41
+MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:7:5-9:41
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:7:5-9:41
+MERGED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:7:5-9:41
+MERGED from [:GpnsSdk] D:\privatework-develop\GpnsSdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [:GpnsSdk] D:\privatework-develop\GpnsSdk\build\intermediates\manifests\full\debug\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\31e1fd30f5d7fb2284ed66fd601d1df0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-location:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-location-16.0.0.aar\31e1fd30f5d7fb2284ed66fd601d1df0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\fa3ebc099bee6f5f07c54a254e9d7e4f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-api-phone:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-api-phone-15.0.1.aar\fa3ebc099bee6f5f07c54a254e9d7e4f\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\5f6259267471b1b75ca2fd406c851f35\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-auth-base:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-base-15.0.1.aar\5f6259267471b1b75ca2fd406c851f35\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\70035bc39a53adfcff8dccbc42f90254\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-stats:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-stats-16.0.1.aar\70035bc39a53adfcff8dccbc42f90254\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\4bda46021bd3d3c12b933527ce8b990b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-places-placereport:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-places-placereport-16.0.0.aar\4bda46021bd3d3c12b933527ce8b990b\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-maps-16.0.0.aar\73eb21c75d49b5441616dce059930561\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\7abb35dfdc63562ff2999cfb0e4e40ec\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-tasks-16.0.1.aar\7abb35dfdc63562ff2999cfb0e4e40ec\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.gms:play-services-basement:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-basement-16.0.1.aar\387d8d24d3f804b953003a09004a45de\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3eae4752e66383c2b444335eeecc2200\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\3eae4752e66383c2b444335eeecc2200\AndroidManifest.xml:5:5-7:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\stickylistheaders-2.7.0.aar\945c1c5eb5497f946b49ca25e0bb859a\AndroidManifest.xml:7:5-9:41
+MERGED from [se.emilsjolander:stickylistheaders:2.7.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\stickylistheaders-2.7.0.aar\945c1c5eb5497f946b49ca25e0bb859a\AndroidManifest.xml:7:5-9:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.10.2.aar\3f2b275ee93b7823b563e62f8646f693\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.tbruyelle:rxpermissions:0.10.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxpermissions-0.10.2.aar\3f2b275ee93b7823b563e62f8646f693\AndroidManifest.xml:5:5-7:41
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\b8aac38701558ab9bb760ccdb078465c\AndroidManifest.xml:6:5-44
+MERGED from [com.jakewharton.rxbinding2:rxbinding:2.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxbinding-2.0.0.aar\b8aac38701558ab9bb760ccdb078465c\AndroidManifest.xml:6:5-44
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\85553b94c96ce7e638b924f656634fdc\AndroidManifest.xml:19:5-43
+MERGED from [io.reactivex.rxjava2:rxandroid:2.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\rxandroid-2.0.1.aar\85553b94c96ce7e638b924f656634fdc\AndroidManifest.xml:19:5-43
+MERGED from [com.tencent.bugly:crashreport:2.6.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.aar\fd5eb3aea4498244322c52a441af09f0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:crashreport:2.6.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\crashreport-2.6.6.aar\fd5eb3aea4498244322c52a441af09f0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\263830d8f5a5aa5241caa41dcecbe41a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.bugly:nativecrashreport:3.3.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\nativecrashreport-3.3.1.aar\263830d8f5a5aa5241caa41dcecbe41a\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:5:5-7:41
+MERGED from [com.meituan.android.walle:library:1.1.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.1.6.aar\d22975fe98fda75de7bef277d93f0c95\AndroidManifest.xml:6:5-8:41
+MERGED from [com.meituan.android.walle:library:1.1.6] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.1.6.aar\d22975fe98fda75de7bef277d93f0c95\AndroidManifest.xml:6:5-8:41
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\8456de334d9a465b1c2bbf389d745651\AndroidManifest.xml:5:5-43
+MERGED from [com.jakewharton:butterknife:8.8.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\butterknife-8.8.1.aar\8456de334d9a465b1c2bbf389d745651\AndroidManifest.xml:5:5-43
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.2.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-swipe-1.2.0.aar\44c85466268437502545fdf4a8ed07d9\AndroidManifest.xml:20:5-22:41
+MERGED from [com.yanzhenjie:recyclerview-swipe:1.2.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-swipe-1.2.0.aar\44c85466268437502545fdf4a8ed07d9\AndroidManifest.xml:20:5-22:41
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:21:5-23:58
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:5:5-7:41
+MERGED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:20:5-22:41
+MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
+meta-data#android.support.FILE_PROVIDER_PATHS
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:201:13-203:54
+	android:resource
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:203:17-51
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:202:17-67
+uses-feature#android.hardware.bluetooth_le
+ADDED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:16:5-18:35
+	android:required
+		ADDED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:18:9-32
+	android:name
+		ADDED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:17:9-53
+service#com.inuker.bluetooth.library.BluetoothService
+ADDED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:21:9-81
+	android:name
+		ADDED from [com.inuker.bluetooth:library:1.4.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\library-1.4.0.aar\5820fd0c663d1ca511a0ff22e46cba60\AndroidManifest.xml:21:18-78
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:14:5-84
+	android:name
+		ADDED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:14:22-81
+uses-permission#android.permission.CAMERA
+ADDED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:17:5-65
+	android:name
+		ADDED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:17:22-62
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:13:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-gcm:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-gcm-16.0.0.aar\ce3c4ee89d0a1f0bdc222aa4c83b3018\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:23:5-82
+MERGED from [com.google.android.gms:play-services-iid:16.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-iid-16.0.0.aar\f762105cbd969c1a572b3f543b02217c\AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [:im_sdk-1.3.33:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\im_sdk-1.3.33.aar\dc8dd531c1b828203b87a0f713091512\AndroidManifest.xml:13:22-79
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\ee4d0b6f2dc286ac4cae22276c95cc0b\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\transition-26.1.0.aar\a34fbf0933cd8b80f8f634c7f27c1130\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-v4-26.1.0.aar\af074668ef7d292db69ecd1521386fbe\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.1.0.aar\e15e38287874c810728163d2f42aec98\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:cardview-v7:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\cardview-v7-26.1.0.aar\9f74cfd52110994cdd6e6d3a039c456c\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.1.0.aar\89c8df053de5e8b899f6df8acdb83ca1\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-fragment-26.1.0.aar\f6c02a04ff61197284da490730601bde\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.1.0.aar\f7da6a22eda8ddc67d5267f6c4c15174\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.1.0.aar\1de046d032fca4aeb8749159287e3d93\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\13d5e348a00275f14b79516f6225fa7a\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.1.0.aar\6537f7871c5fd7b92f98364cd6fe0716\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\ea152631173deb9e3346613f9941461d\AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:23:9-27:75
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:25:13-46
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:26:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:27:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:24:13-93
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:33:9-36:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:35:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:36:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:15.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-auth-15.0.1.aar\ca1865fcef96947b98157ae9855b5f63\AndroidManifest.xml:34:13-89
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:23:9-26:75
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:25:13-37
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:26:13-72
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:16.0.1] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\play-services-base-16.0.1.aar\fc96f312788e55ed8552de360657225f\AndroidManifest.xml:24:13-79
+service#com.tencent.tinker.lib.service.TinkerPatchForeService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:10:9-14:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:14:13-37
+	android:enabled
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:12:13-35
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:13:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:11:13-81
+service#com.tencent.tinker.lib.service.TinkerPatchService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:22:9-26:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:26:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:24:13-37
+	android:permission
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:25:13-69
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:23:13-77
+service#com.tencent.tinker.lib.service.TinkerPatchService$InnerService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:27:9-30:40
+	android:process
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:30:13-37
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:28:13-90
+service#com.tencent.tinker.lib.service.DefaultTinkerResultService
+ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:31:9-34:72
+	android:exported
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:33:13-37
+	android:permission
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:34:13-69
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-lib:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-lib-1.9.14.aar\dbf3a54945fb549c8794a4d3bafcb2f5\AndroidManifest.xml:32:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:10:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:10:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:11:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:11:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:12:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:12:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:13:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:13:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:14:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:14:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:15:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:15:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:16:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:16:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:17:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:17:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:18:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:18:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:19:9-95
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:19:19-92
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:20:9-22:64
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:22:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:21:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:23:9-25:64
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:25:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:24:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:26:9-28:64
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:28:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:27:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:29:9-31:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:31:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:30:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:32:9-34:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:34:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:33:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:35:9-37:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:37:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:36:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:38:9-40:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:40:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:39:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:41:9-43:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:43:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:42:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:44:9-46:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:46:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:45:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:47:9-49:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:49:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:48:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:50:9-52:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:52:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:51:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:53:9-55:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:55:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:54:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:56:9-58:46
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:58:13-43
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:57:13-86
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:59:9-62:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:61:13-43
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:62:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:60:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:63:9-66:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:65:13-43
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:66:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:64:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:67:9-70:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:69:13-43
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:70:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:68:13-88
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:71:9-73:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:73:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:72:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:74:9-76:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:76:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:75:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:77:9-79:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:79:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:78:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:80:9-82:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:82:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:81:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:83:9-85:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:85:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:84:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:86:9-88:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:88:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:87:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:89:9-91:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:91:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:90:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:92:9-94:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:94:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:93:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:95:9-97:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:97:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:96:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:98:9-100:47
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:99:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:101:9-104:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:103:13-44
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:104:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:102:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:105:9-108:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:107:13-44
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:108:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:106:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:109:9-112:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:111:13-44
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:112:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:110:13-89
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:113:9-115:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:115:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:114:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:116:9-118:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:118:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:117:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:119:9-121:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:121:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:120:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:122:9-124:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:124:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:123:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:125:9-127:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:126:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:128:9-130:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:130:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:129:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:131:9-133:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:133:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:132:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:134:9-136:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:136:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:135:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:137:9-139:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:139:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:138:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:140:9-142:51
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:142:13-48
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:141:13-85
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:143:9-146:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:145:13-48
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:146:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:144:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:147:9-150:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:149:13-48
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:150:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:148:13-87
+activity#com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:151:9-154:64
+	android:launchMode
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:153:13-48
+	android:theme
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:154:13-61
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:152:13-87
+meta-data#tinker_version
+ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:156:9-158:38
+	android:value
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:158:13-35
+	android:name
+		ADDED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:157:13-42
+meta-data#android.arch.lifecycle.VERSION
+ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:25:9-27:47
+	android:value
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:27:13-44
+	android:name
+		ADDED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:26:13-58

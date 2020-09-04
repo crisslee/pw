@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical">
+
+    <com.muzhi.camerasdk.view.ThumbnailImageView
+        android:id="@+id/item_gridview_addtopic_iv"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:adjustViewBounds="true"
+        android:gravity="center_vertical"
+        android:scaleType="centerCrop"
+        android:src="@drawable/sendmsg_addpic" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_below="@+id/item_gridview_addtopic_iv"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:padding="2dp"
+        android:textColor="#727171"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/item_gridview_addtopic_clear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/item_gridview_addtopic_iv"
+        android:layout_alignTop="@id/item_gridview_addtopic_iv"
+        android:adjustViewBounds="true"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingLeft="@dimen/space_2x"
+        android:scaleType="centerCrop"
+        android:src="@drawable/delete"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@drawable/white_radius_bg">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="35dp"
+        android:background="#E5ECF2"
+        android:gravity="center|left"
+        android:paddingLeft="10dp"
+        android:textColor="@android:color/black"
+        android:text="@string/bind_qq_title" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#F7F7F7"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingBottom="5dp"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp"
+            android:background="#FFF9D9"
+            android:textColor="@android:color/black"
+            android:layout_margin="10dp"
+            android:text="@string/bind_qq_warm" />
+
+        <RelativeLayout
+            android:id="@+id/rl_login_top"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dip"
+            android:layout_marginRight="20dip"
+            android:background="@drawable/bg_login_top"
+            android:padding="12dip" >
+
+            <TextView
+                android:id="@+id/textView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/bind_qq_account"
+                android:textColor="@color/black2"
+                android:textSize="18.0sp" />
+
+            <com.coomix.app.all.widget.ClearEditView
+                android:id="@+id/et_account"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+              	android:layout_centerVertical="true"
+                android:background="@null"
+                android:drawableRight="@drawable/delete"
+                android:ellipsize="end"              
+                android:layout_marginLeft="50dip"
+                android:hint="@string/in_login_acc"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp" 
+                android:ems="10"
+                android:textCursorDrawable="@null"/>
+        </RelativeLayout>
+<!--                 android:focusable="true" -->
+<!--                   -->
+        <RelativeLayout
+            android:id="@+id/rl_login_bottom"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dip"
+            android:background="@drawable/bg_login_bottom"
+            android:layout_marginRight="20dip"
+            android:padding="12dip" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/bind_qq_pwd"
+                android:textColor="@color/black2"
+                android:textSize="18.0sp" />
+
+            <com.coomix.app.all.widget.ClearEditView
+                android:id="@+id/et_pass"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="50dip"
+                android:background="@null"
+                android:drawableRight="@drawable/delete"
+                android:ellipsize="end" 
+                android:hint="@string/in_login_pwd"
+                android:inputType="textPassword"
+                android:singleLine="true"
+                android:textColor="@android:color/black"
+                android:textSize="18.0sp" 
+                android:textCursorDrawable="@null"/>
+        </RelativeLayout>
+
+        <Button
+            android:id="@+id/confirmToBindQQBtn"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:text="@string/dialog_ok" />
+    </LinearLayout>
+
+</LinearLayout>

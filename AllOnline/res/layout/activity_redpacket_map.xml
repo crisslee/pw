@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#ffffff"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+    <View
+        android:id="@+id/top_line"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/collect_seperator_thin"
+        android:layout_below="@id/myActionbar"
+        android:background="@color/collect_seperator_thin" />
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@id/top_line" >
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/bmapView"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:clickable="true" />
+
+        <!--
+             <ImageView 
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:src="@drawable/map_pin"
+	        android:layout_centerInParent="true"
+	        android:layout_marginBottom="@dimen/margin_3x" />
+        -->
+
+    </RelativeLayout>
+
+    <!--
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="@dimen/margin_2x"
+        android:layout_marginBottom="@dimen/margin" >
+        <TextView 
+            android:id="@+id/nearby_map_zoom_in"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/map_zoomin_selector" />
+        <TextView 
+            android:id="@+id/nearby_map_zoom_out"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/map_zoomout_selector" />
+    </LinearLayout>
+    -->
+
+    <TextView
+        android:id="@+id/nearby_map_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/top_line"
+        android:layout_marginRight="@dimen/margin_2x"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/nearby_map_time_5" />
+
+    <TextView
+        android:id="@+id/nearby_map_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/nearby_map_time"
+        android:layout_marginRight="@dimen/margin_2x"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/eboard_map_location" />
+
+    <!--
+         <TextView 
+        android:id="@+id/nearby_map_traffic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/top_line"
+        android:layout_marginRight="@dimen/margin_2x"
+        android:layout_marginTop="@dimen/margin"
+        android:background="@drawable/map_traffic_selector" />
+    -->
+
+    <Gallery
+        android:id="@+id/gallery"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent"
+        android:spacing="-12dp" />
+
+</RelativeLayout>

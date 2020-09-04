@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animation-list  xmlns:android="http://schemas.android.com/apk/res/android"    android:oneshot="false">
+    <item android:drawable="@drawable/rp_open01" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open02" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open03" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open04" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open05" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open06" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open07" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open08" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open09" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open10" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open11" android:duration="40"></item>
+    <item android:drawable="@drawable/rp_open12" android:duration="40"></item>
+</animation-list>

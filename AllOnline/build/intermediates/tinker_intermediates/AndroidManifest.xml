@@ -1,0 +1,289 @@
+<manifest package="com.coomix.app.all" android:versionCode="136" xmlns:android="http://schemas.android.com/apk/res/android" android:versionName="1.4.2">
+  <uses-sdk android:minSdkVersion="16" android:targetSdkVersion="26"/>
+  <supports-screens android:anyDensity="true" android:largeScreens="true" android:normalScreens="true" android:resizeable="true" android:smallScreens="true" android:xlargeScreens="true"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission android:name="android.permission.BROADCAST_STICKY"/>
+  <uses-permission android:name="android.permission.BLUETOOTH"/>
+  <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+  <uses-permission android:name="android.permission.MANAGE_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.USE_CREDENTIALS"/>
+  <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+  <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+  <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT"/>
+  <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.CALL_PHONE"/>
+  <uses-permission android:name="android.permission.ACCESS_MOCK_LOCATION"/>
+  <uses-permission android:name="android.permission.GET_TASKS"/>
+  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+  <uses-permission android:name="android.permission.READ_LOGS"/>
+  <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+  <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="com.coomix.app.all.permission.MAPS_RECEIVE"/>
+  <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES"/>
+  <uses-permission android:name="com.sec.android.provider.badge.permission.READ"/>
+  <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE"/>
+  <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT"/>
+  <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE"/>
+  <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE"/>
+  <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT"/>
+  <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE"/>
+  <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE"/>
+  <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS"/>
+  <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS"/>
+  <uses-feature android:glEsVersion="0x00020000" android:required="true"/>
+  <uses-feature android:name="android.hardware.bluetooth_le" android:required="true"/>
+  <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+  <uses-permission android:name="android.permission.CAMERA"/>
+  <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE"/>
+  <application android:name="com.coomix.app.all.AllApplication" android:allowBackup="true" android:debuggable="true" android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name" android:persistent="true" android:supportsRtl="true" android:testOnly="true" android:theme="@style/AppThemeM.NoActionBar">
+    <activity android:name="com.coomix.app.all.ui.unlock.UnLockActivity"/>
+    <activity android:name="com.coomix.app.all.gpns.FilterActivity" android:configChanges="locale" android:launchMode="singleTop" android:theme="@style/AppThemeM.NoActionBar"/>
+    <service android:name="com.goome.gpns.service.GPNSService" android:process=":GpnsService"/>
+    <receiver android:name="com.goome.gpns.service.MyBroadcastReceiver">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+        <action android:name="android.intent.action.USER_PRESENT"/>
+        <action android:name="android.intent.action.SCREEN_ON"/>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+    <receiver android:name="com.coomix.app.all.gpns.GPNSReceiver" android:exported="false"/>
+    <service android:name="com.coomix.app.all.service.GPNSIntentService" android:exported="false"/>
+    <provider android:name="com.goome.gpns.contentprovider.GpnsProvider" android:authorities="com.coomix.app.all"/>
+    <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+    <meta-data android:name="com.baidu.lbsapi.API_KEY" android:value="HMaiC3yN7xbMwS1GDxutmn38siFAIvMX"/>
+    <meta-data android:name="com.google.android.maps.v2.API_KEY" android:value="AIzaSyDkybPeCE_MNdm2WE03pce49Z8lAWkHZC0"/>
+    <meta-data android:name="com.amap.api.v2.apikey" android:value="dfecdba6696284ebe9bd10712f0ee6f0"/>
+    <meta-data android:name="TencentMapSDK" android:value="JKCBZ-ON5C4-YUMUK-XNCG2-DLLS7-SXB6H"/>
+    <meta-data android:name="UMENG_APPKEY" android:value="5b2a1c49a40fa358df000021"/>
+    <meta-data android:name="GPNS_APP_ID" android:value="2001"/>
+    <meta-data android:name="INSTRUCTION_URL" android:value="http://www.gpsoo.net/help/help_car_app.html"/>
+    <meta-data android:name="GM_BID" android:value="2001"/>
+    <meta-data android:name="android.max_aspect" android:value="2.1"/>
+    <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote"/>
+    <service android:name="com.amap.api.location.APSService"/>
+    <service android:name="com.coomix.app.all.service.AllOnlineAppService"/>
+    <service android:name="com.coomix.app.all.service.CheckVersionService"/>
+    <service android:name="com.coomix.app.all.service.DownloadingService"/>
+    <service android:name="com.coomix.app.all.service.PatchResultService" android:permission="android.permission.BIND_JOB_SERVICE"/>
+    <provider android:name="android.support.v4.content.FileProvider" android:authorities="com.coomix.app.all.file_provider" android:exported="false" android:grantUriPermissions="true">
+      <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_paths"/>
+    </provider>
+    <activity android:name="com.coomix.app.all.ui.update.GoomeUpdateDialogActivity" android:configChanges="orientation|keyboardHidden|navigation|locale" android:screenOrientation="portrait" android:theme="@style/AppThemeM.transparent"/>
+    <service android:name="com.coomix.app.all.service.OfflineMapService"/>
+    <activity android:name="com.coomix.app.all.ui.setting.SettingActivity" android:configChanges="locale" android:label="@string/app_name" android:launchMode="singleTop" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.setting.IdActivity" android:configChanges="orientation|keyboardHidden|navigation" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.main.OfflineBMapActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.boot.BootActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/Theme.AppStartLoad">
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.coomix.app.all.ui.web.WebAgentActivity" android:configChanges="orientation|keyboardHidden|navigation" android:screenOrientation="portrait" android:theme="@style/AppThemeM.transparent" android:windowSoftInputMode="adjustResize">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="goocarapp"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.coomix.app.all.ui.advance.BFenceActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.advance.TFenceActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.mine.ModifyPwdActivity" android:configChanges="locale" android:label="@string/modify_pwd" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.AlarmCategoryListActivity" android:configChanges="locale" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.FollowWechatActivity" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.AlarmDetailListActivity" android:configChanges="locale" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.AlarmListActivity" android:configChanges="locale" android:label="@string/alarm" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.AlarmTypeListActivity" android:configChanges="locale" android:label="@string/alarm" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.advance.CommandListWebActivity" android:configChanges="locale" android:label="@string/alarm" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.AlarmSettingActivity" android:configChanges="locale" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.BAlarmLocationActivity" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.TAlarmLocationActivity" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.GAlarmLocationActivity" android:configChanges="locale" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.detail.DeviceInfoEditActivity" android:configChanges="locale" android:launchMode="singleTop" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar" android:windowSoftInputMode="stateVisible|adjustResize"/>
+    <activity android:name="com.coomix.app.all.ui.alarm.AMapAlarmLocationActivity" android:configChanges="locale" android:label="@string/app_name" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.advance.AMapFenceActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.tencent.tauth.AuthActivity" android:launchMode="singleTask" android:noHistory="true">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="1105747877"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.tencent.connect.common.AssistActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    <activity android:name="com.coomix.app.all.ui.mine.ProviderInfoActivity" android:configChanges="locale" android:label="@string/app_name" android:launchMode="singleTop" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.weizhang.activity.WeiZhangMainActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.weizhang.activity.ShortNameList" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.weizhang.activity.ProvinceList" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.weizhang.activity.CityList" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.weizhang.activity.WeizhangResult" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <service android:name="com.cheshouye.api.client.WeizhangIntentService"/>
+    <activity android:name="com.coomix.app.all.ui.advance.AreaSelectActivity" android:configChanges="locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.panorama.BPanoramaActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.panorama.TPanoramaActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <service android:name="com.coomix.app.all.service.LocationService"/>
+    <activity android:name="com.coomix.app.all.ui.mine.MineActivity" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.im.GMChatActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.im.GmChatSettingsActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.im.GmSelectAtUserActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.mine.AccountInfoActivity" android:configChanges="locale" android:screenOrientation="portrait"/>
+    <activity android:name="com.muzhi.camerasdk.PhotoPickActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    <activity android:name="com.muzhi.camerasdk.PreviewActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:process=":remote" android:screenOrientation="portrait" android:theme="@style/AppThemeM.transparent"/>
+    <activity android:name="com.muzhi.camerasdk.GridPreviewActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:hardwareAccelerated="false" android:process=":remote" android:screenOrientation="portrait" android:theme="@style/AppThemeM.transparent"/>
+    <activity android:name="com.muzhi.camerasdk.CropperImageActivity"/>
+    <activity android:name="com.muzhi.camerasdk.FilterImageActivity"/>
+    <activity android:name="com.coomix.app.all.ui.activity.CommActListActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.activity.CommActDetailActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.activity.ActRegisterActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.activity.ActRegisterExtendActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.web.DisclaimerActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.web.BusAdverActivity" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.wxapi.WXEntryActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:screenOrientation="portrait" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    <activity android:name="com.coomix.app.all.ui.wallet.BindWechatActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.activity.MyActivityActivity" android:configChanges="orientation|keyboardHidden|navigation" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.activity.MyOrderInfoActivity" android:configChanges="orientation|keyboardHidden|navigation" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.wxapi.WXPayEntryActivity" android:configChanges="keyboardHidden|orientation|screenSize" android:exported="true" android:screenOrientation="portrait" android:theme="@style/AppThemeM.transparent"/>
+    <activity android:name="com.coomix.app.redpacket.activity.CreateRedPacketActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.redpacket.activity.DetailRedPacketActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.redpacket.activity.RedPacketMapActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.activity.ActRegister2Activity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.history.TMapHistoryActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.history.BMapHistoryActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.history.AMapHistoryActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.advance.DeviceSettingActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.detail.DeviceDetailInfoActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.detail.DistanceStatisticsActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.history.GHistoryActivity" android:configChanges="orientation|keyboardHidden|screenSize|locale" android:label="@string/app_name" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <service android:name="com.coomix.app.all.service.CommonService" android:enabled="true" android:exported="true"/>
+    <activity android:name="com.coomix.app.all.ui.platformRecharge.PlatRechargeActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.cardRecharge.CardRechargeActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar"/>
+    <activity android:name="com.coomix.app.all.ui.audioRecord.AudioRecordingActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.audioRecord.AudioBuyTrafficActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.main.AMainActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleTask" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="fromallalarm"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.coomix.app.all.ui.main.BMainActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleTask" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="fromallalarm"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.coomix.app.all.ui.main.TMainActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleTask" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="fromallalarm"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.coomix.app.all.ui.main.GMainActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleTask" android:screenOrientation="portrait" android:theme="@style/AppThemeM.NoActionBar">
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="fromallalarm"/>
+      </intent-filter>
+    </activity>
+    <activity android:name="com.coomix.app.all.ui.history.SelectDateHistoryActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.carlist.AllListActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden|adjustPan"/>
+    <activity android:name="com.coomix.app.all.ui.login.LoginActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:launchMode="singleTask" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.login.RegisterActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.login.SetPwdActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.google.zxing.activity.CaptureActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.login.InputImeiActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.cardRecharge.CardSingleRechargeActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.installer.UploadInfoActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.devTime.DevTimeActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.devTime.ChooseDateActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.devTime.ChooseTimeActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.devTime.CustomAlarmListActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.charge.CardDataInfoActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <activity android:name="com.coomix.app.all.ui.cardRecharge.NoticeRechargeActivity" android:configChanges="orientation|keyboardHidden|screenSize" android:screenOrientation="portrait"/>
+    <service android:name="com.inuker.bluetooth.library.BluetoothService"/>
+    <meta-data android:name="android.support.VERSION" android:value="26.1.0"/>
+    <activity android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" android:excludeFromRecents="true" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    <service android:name="com.google.android.gms.auth.api.signin.RevocationBoundService" android:exported="true" android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"/>
+    <activity android:name="com.google.android.gms.common.api.GoogleApiActivity" android:exported="false" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+    <service android:name="com.tencent.tinker.lib.service.TinkerPatchForeService" android:enabled="true" android:exported="false" android:process=":patch"/>
+    <service android:name="com.tencent.tinker.lib.service.TinkerPatchService" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE" android:process=":patch"/>
+    <service android:name="com.tencent.tinker.lib.service.TinkerPatchService$InnerService" android:exported="false" android:process=":patch"/>
+    <service android:name="com.tencent.tinker.lib.service.DefaultTinkerResultService" android:exported="false" android:permission="android.permission.BIND_JOB_SERVICE"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_03"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_04"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_05"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_06"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_07"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_08"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_09"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_00_T" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_01_T" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$STDStub_02_T" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_03" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_04" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_05" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_06" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_07" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_08" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_09" android:launchMode="singleTop"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_00_T" android:launchMode="singleTop" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_01_T" android:launchMode="singleTop" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTStub_02_T" android:launchMode="singleTop" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_03" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_04" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_05" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_06" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_07" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_08" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_09" android:launchMode="singleTask"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_00_T" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_01_T" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SGTKStub_02_T" android:launchMode="singleTask" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_03" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_04" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_05" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_06" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_07" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_08" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_09" android:launchMode="singleInstance"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_00_T" android:launchMode="singleInstance" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_01_T" android:launchMode="singleInstance" android:theme="@android:style/Theme.Translucent"/>
+    <activity android:name="com.tencent.tinker.loader.hotplug.ActivityStubs$SIStub_02_T" android:launchMode="singleInstance" android:theme="@android:style/Theme.Translucent"/>
+    <meta-data android:name="tinker_version" android:value="1.9.14"/>
+    <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    <meta-data android:name="TINKER_ID" android:value="tinker_id_136"/>
+  </application>
+</manifest>

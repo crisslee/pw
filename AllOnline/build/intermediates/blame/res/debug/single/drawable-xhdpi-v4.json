@@ -1,0 +1,958 @@
+[
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_login_bottom.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\bg_login_bottom.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ab_share_pack_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m2.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\m2.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\seekbar_bg.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\seekbar_bg.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_36dp.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent5.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent5.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_005.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_sierra.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_sierra.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent26.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent26.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_star_black_48dp.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_menu_share_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_longpressed_holo.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\csy_arr_drop.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\csy_arr_drop.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_pressed_holo_light.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent12.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent12.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent57.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent57.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable-xhdpi-v4\\design_ic_visibility.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent43.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent43.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_close_icon.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_close_icon.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent88.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent88.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_more_7.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\icon_more_7.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_chat_item_file.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_chat_item_file.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent24.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent24.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent10.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent10.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent72.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent72.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent86.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent86.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_icon_offman_download.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\btn_icon_offman_download.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\csy_ico_help.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\csy_ico_help.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg.jpg",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\bg.jpg"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\plus_24.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\plus_24.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent59.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent59.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_nashville.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_nashville.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent53.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent53.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_blue.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\button_blue.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent28.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent28.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent76.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent76.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent31.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent31.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rbtn_right_pre.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\rbtn_right_pre.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent19.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent19.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog2_bg.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\dialog2_bg.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent7.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent7.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\login_errow.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\login_errow.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_brannan.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_brannan.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_toaster.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_toaster.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent70.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent70.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent1.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent1.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\new_icon.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\new_icon.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent38.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent38.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent60.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent60.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m4.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\m4.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent69.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent69.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_selector_disabled_holo_light.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\list_selector_disabled_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent82.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent82.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_xproii.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_xproii.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_lomofi.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_lomofi.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_default_expression.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_default_expression.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent47.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent47.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent41.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent41.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\image_square_selected.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\image_square_selected.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00001.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent22.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent22.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_cab_background_top_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\googleg_standard_color_18.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\googleg_standard_color_18.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_hefe.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_hefe.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent48.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent48.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_focused_holo.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_16dp.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent81.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent81.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_menu_paste_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\googleg_disabled_color_18.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\googleg_disabled_color_18.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent34.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent34.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rbtn_left_nor.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\rbtn_left_nor.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent51.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent51.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_longpressed_holo.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_btn_radio_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\fence_range_bg.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\fence_range_bg.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_full_open_on_phone.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_rise.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_rise.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_default_avatar.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_default_avatar.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\speed_icon.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\speed_icon.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_in1977.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_in1977.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent32.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent32.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_menu_cut_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_pressed_holo_dark.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent29.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent29.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent80.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent80.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_sutro.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_sutro.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent78.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent78.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent67.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent67.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\reduce.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\reduce.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_inkwell.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_inkwell.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_early_bird.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_early_bird.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent61.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent61.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_popup_background_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_wew4.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\icon_wew4.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent68.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent68.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent23.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent23.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\indicator_arrow.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\indicator_arrow.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_015.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent62.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent62.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\time_icon.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\time_icon.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\crop_img_big.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\crop_img_big.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent49.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent49.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent6.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent6.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\csy_img_xsz.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\csy_img_xsz.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent77.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent77.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent52.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent52.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_amaro.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_amaro.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent71.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent71.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent58.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent58.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent0.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent0.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent33.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent33.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent14.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent14.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_menu_copy_mtrl_am_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\button_gray.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\button_gray.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent56.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent56.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent11.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent11.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog2_line.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\dialog2_line.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent39.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent39.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent42.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent42.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent87.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent87.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog_full_holo_dark.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\dialog_full_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_scrubber_primary_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_scrubber_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\wheel_selected_bg.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\wheel_selected_bg.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent73.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent73.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\design_ic_visibility_off.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable-xhdpi-v4\\design_ic_visibility_off.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m3.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\m3.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable-xhdpi-v4\\notify_panel_notification_icon_bg.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent4.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent4.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\common_google_signin_btn_text_light_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_spinner_mtrl_am_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent13.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent13.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent89.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent89.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\camerasdk_checkbox_checked.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\camerasdk_checkbox_checked.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\statusdetail_comment_top_arrow.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\statusdetail_comment_top_arrow.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\headbg.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\headbg.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent2.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent2.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\list_selector_disabled_holo_dark.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rbtn_right_nor.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\rbtn_right_nor.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent75.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent75.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_menu_hardkey_panel_mtrl_mult.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_btn_check_to_on_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent37.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent37.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\pin.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\pin.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent8.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent8.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\dialog_example.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\dialog_example.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\csy_arr_right.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\csy_arr_right.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\btn_back.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\btn_back.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent15.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent15.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\point_p.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\point_p.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_star_half_black_48dp.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable-xhdpi-v4\\notification_bg_normal_pressed.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent54.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent54.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\camerasdk_checkbox_normal.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\camerasdk_checkbox_normal.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m1.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\m1.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent85.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent85.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_right_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent66.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent66.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent63.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent63.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_selector_disabled_holo_dark.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\map_closebutton.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\map_closebutton.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent44.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent44.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_dot_emojicon_unselected.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_dot_emojicon_unselected.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notice_close.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\notice_close.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_middle_mtrl_dark.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_text_select_handle_left_mtrl_light.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent25.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent25.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\icon_num.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\icon_num.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_switch_track_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_textfield_search_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\crop_img_sma.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\crop_img_sma.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_btn_switch_to_on_mtrl_00012.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent17.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent17.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_scrubber_control_to_pressed_mtrl_000.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ic_notify.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ic_notify.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent50.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent50.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_scrubber_control_off_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_tab_indicator_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent79.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent79.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_divider_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\bg_login_top.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\bg_login_top.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent20.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent20.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent16.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent16.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent65.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent65.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_check_s.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\default_check_s.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_hudson.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_hudson.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent21.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent21.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent35.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent35.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_flip.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\default_ptr_flip.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable-xhdpi-v4\\notification_bg_low_normal.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent18.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent18.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\search_bar_bg1.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\search_bar_bg1.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_normal.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_normal.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_lord_kelvin.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_lord_kelvin.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_normal.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable-xhdpi-v4\\notification_bg_normal.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\rbtn_left_pre.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\rbtn_left_pre.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent64.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent64.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable-xhdpi-v4\\notification_bg_low_pressed.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent83.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent83.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\np_numberpicker_selection_divider.9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\np_numberpicker_selection_divider.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent84.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent84.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent45.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent45.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\interestpoint_empty.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\interestpoint_empty.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_walden.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_walden.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_open_icon.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_open_icon.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable-xhdpi-v4\\common_google_signin_btn_icon_dark_normal_background.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\message_popover_arrow.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\message_popover_arrow.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_list_pressed_holo_light.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\m0.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\m0.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent40.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent40.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent27.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent27.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_commit_search_api_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent46.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent46.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_star_black_16dp.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent74.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent74.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent3.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent3.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_textfield_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable-xhdpi-v4\\abc_ic_menu_selectall_mtrl_alpha.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent55.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent55.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\filter_valencia.png",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable-xhdpi-v4\\filter_valencia.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent36.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent36.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\ease_dot_emojicon_selected.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\ease_dot_emojicon_selected.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent9.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent9.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\increase.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\increase.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\default_ptr_rotate.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\default_ptr_rotate.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable-xhdpi-v4\\emoticon_tencent30.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable-xhdpi\\emoticon_tencent30.png"
+    }
+]

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_bg"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <com.coomix.app.all.widget.ClearEditView
+        android:id="@+id/editTextView"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        android:background="@drawable/device_edit_bg"
+        android:drawableRight="@drawable/search_clear"
+        android:drawablePadding="10dp"
+        android:imeOptions="actionDone"
+        android:paddingLeft="10dp"
+        android:paddingRight="8dp"
+        android:textSize="15sp" />
+
+    <TextView
+        android:id="@+id/textViewExtra"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:background="@drawable/remark_show_bg"
+        android:layout_marginTop="15dp"
+        android:textColor="#3c3c3c"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:padding="8dp"
+        android:textSize="15sp"/>
+
+</LinearLayout>

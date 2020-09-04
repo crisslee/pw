@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="305dp"
+        android:layout_height="400dp"
+        android:layout_centerInParent="true"
+        android:background="@drawable/redpacket_show_bg"
+        android:paddingLeft="@dimen/space_2x"
+        android:paddingRight="@dimen/space_2x">
+
+        <ImageView
+            android:id="@+id/imageViewClose"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:paddingTop="@dimen/space_2x"
+            android:src="@drawable/redpacket_close" />
+
+        <com.coomix.app.all.widget.RoundImageView
+            android:id="@+id/imageViewUserIcon"
+            android:layout_width="51dp"
+            android:layout_height="51dp"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/space_6x"
+            android:src="@drawable/login_icon" />
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageViewUserIcon"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:gravity="center_horizontal"
+            android:singleLine="true"
+            android:textColor="@color/redpacket_gold"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textViewSendARP"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewUserName"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:textColor="@color/redpacket_gold"
+            android:textSize="17dp" />
+
+        <TextView
+            android:id="@+id/textViewRPTitle"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@+id/textViewSendARP"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:maxLines="3"
+            android:textColor="@color/redpacket_gold"
+            android:textSize="20dp" />
+
+
+        <ImageView
+            android:id="@+id/imageViewOpen"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_below="@+id/textViewRPTitle"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:src="@drawable/open_redpacket"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewMyRPDetail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="5dp"
+            android:gravity="center"
+            android:padding="8dp"
+            android:singleLine="true"
+            android:textColor="@color/redpacket_gold"
+            android:textSize="15dp" />
+
+    </RelativeLayout>
+</RelativeLayout>

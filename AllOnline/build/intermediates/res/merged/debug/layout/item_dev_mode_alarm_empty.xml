@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    >
+
+    <TextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:layout_marginRight="@dimen/space_4x"
+        android:background="@drawable/login_btn_enable"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/add_alarm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_l"
+        />
+
+</RelativeLayout>

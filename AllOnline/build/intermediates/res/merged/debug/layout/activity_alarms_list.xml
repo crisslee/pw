@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/alarm_bg"
+    android:orientation="vertical"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        >
+
+        <com.handmark.pulltorefresh.library.PullToRefreshListView
+            android:id="@+id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="0dip"
+            android:layout_weight="1"
+            android:cacheColorHint="@android:color/transparent"
+            android:divider="@drawable/list_item_divider"
+            android:dividerHeight="0.5dip"
+            />
+
+        <LinearLayout
+            android:id="@+id/read_layout"
+            android:layout_width="match_parent"
+            android:layout_height="50dip"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/cancle_read"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ensure_read_type"
+                android:gravity="center"
+                android:text="@string/cancle_read"
+                android:textColor="@color/white_tv"
+                android:textSize="18.0sp"
+                />
+
+            <View
+                android:layout_width="0.5dip"
+                android:layout_height="match_parent"
+                android:background="@color/white"
+                />
+
+            <TextView
+                android:id="@+id/ensure_read"
+                android:layout_width="0dip"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/ensure_read_type"
+                android:gravity="center"
+                android:text="@string/ensure_read"
+                android:textColor="@color/white_tv"
+                android:textSize="18.0sp"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/empty"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="5dip"
+        android:text="@string/no_alarm"
+        android:textSize="18sp"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

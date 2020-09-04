@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white" >   
+   
+    <LinearLayout 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+        
+        <RadioButton
+            android:id="@+id/chooseNotification"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_notification_sound" />       
+            
+        <RadioButton
+            android:id="@+id/chooseRing"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_ring_sound" />
+        
+        <RadioButton
+            android:id="@+id/chooseCustom"
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/choose_custom_sound" />
+
+    </LinearLayout>
+    
+    <View 
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/cmd_line_seperator_height"
+        android:background="@color/cmd_line_seperator"/>
+    
+    <ScrollView 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+    <LinearLayout 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+        
+        <RadioGroup  
+	        android:id="@+id/chooseNotificationGroup"  
+	        android:layout_width="wrap_content"  
+	        android:layout_height="wrap_content"  
+	        android:orientation="vertical">   
+	    </RadioGroup> 
+	    
+        <RadioGroup  
+	        android:id="@+id/chooseRingGroup"  
+	        android:layout_width="wrap_content"  
+	        android:layout_height="wrap_content"  
+	        android:orientation="vertical">   
+	    </RadioGroup> 
+	    
+        <RadioGroup  
+	        android:id="@+id/chooseCustomGroup"  
+	        android:layout_width="wrap_content"  
+	        android:layout_height="wrap_content"  
+	        android:orientation="vertical">   
+	    </RadioGroup> 
+	    
+        <TextView
+            android:id="@+id/chooseCustomTip"  
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dip"
+            android:textSize="@dimen/cmd_text_size"
+            android:text="@string/choose_custom_sound_tip" />
+        
+    </LinearLayout>
+    
+    </ScrollView>
+    
+</LinearLayout>

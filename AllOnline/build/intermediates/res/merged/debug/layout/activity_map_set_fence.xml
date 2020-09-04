@@ -1,0 +1,235 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+   <!-- <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>-->
+    <RelativeLayout
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/text_black">
+
+        <ImageView
+            android:id="@+id/imageViewBack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            android:contentDescription="@null"
+            android:scaleType="centerCrop"
+            android:src="@drawable/actionbar_back" />
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:gravity="center_vertical|center_horizontal"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_marginLeft="50dp"
+            android:layout_marginRight="50dp"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/headerRight1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/headerRight2"
+            android:layout_marginRight="16dp"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:text="@string/fence_circle"
+            android:textColor="@color/textview_selector_background"/>
+
+        <TextView
+            android:id="@+id/headerRight2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="15dp"
+            android:contentDescription="@null"
+            android:padding="5dp"
+            android:textSize="16sp"
+            android:text="@string/fence_polygon"
+            android:textColor="@color/textview_selector_background" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/layoutMapViewSetFence"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/myActionbar" >
+
+        <ImageView
+            android:id="@+id/img_range"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/app_name" />
+
+        <ImageView
+            android:id="@+id/pin"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_centerInParent="true"
+            android:background="@drawable/plus_24"
+            android:contentDescription="@string/app_name" />
+
+        <View
+            android:id="@+id/center_anchor"
+            android:layout_width="2dp"
+            android:layout_height="2dp"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/tv_range"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/center_anchor"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/fence_range_bg"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="16.0sp" />
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="60dp"
+            android:layout_marginRight="60dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/seekbar_rl"
+            android:background="@drawable/seekbar_bg" >
+
+            <ImageButton
+                android:id="@+id/reduceBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/reduce" />
+
+            <SeekBar
+                android:layout_toRightOf="@+id/reduceBtn"
+                android:layout_toLeftOf="@+id/increaseBtn"
+                android:id="@+id/sbar_range"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:max="48"
+                android:maxHeight="7dip"
+                android:minHeight="7dip"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:thumb="@drawable/icon_history_sbar_thumb"
+                android:thumbOffset="0dp" />
+
+            <ImageButton
+                android:id="@+id/increaseBtn"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/increase" />
+        </RelativeLayout>
+        
+
+        <ImageButton
+            android:id="@+id/ibtn_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/rl_panel"
+            android:layout_marginRight="10dip"
+            android:layout_marginTop="20dip"
+            android:background="@null"
+            android:src="@drawable/icon_wew4"
+            android:visibility="gone" />
+
+        <LinearLayout 
+            android:id="@+id/rl_panel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="8dip" >
+
+            <TextView
+                android:id="@+id/fence_tip"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:text="@string/set_fence_mess"
+                android:textColor="@color/black_bg"
+                android:textSize="14.0sp" />
+            
+            <LinearLayout
+                android:visibility="gone"
+                android:id="@+id/choose_polygon_fence"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/reset_polygon_fence"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:background="@drawable/login_btn_enable"
+                    android:text="@string/reset_fence"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.0sp" />
+
+                <Button
+                    android:id="@+id/set_polygon_fence"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_marginLeft="@dimen/space_2x"
+                    android:layout_height="40dp"
+                    android:background="@drawable/login_btn_enable"
+                    android:text="@string/set_fence"
+                    android:textColor="@android:color/white"
+                    android:textSize="15.0sp" />
+            </LinearLayout>
+
+            <RelativeLayout
+                android:id="@+id/choose_circle_fence"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:orientation="horizontal" >
+
+                <Button
+                    android:id="@+id/btn_set_fence"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:layout_alignParentLeft="true"
+                    android:background="@drawable/login_btn_enable"
+                    android:text="@string/set_fence"
+                    android:textColor="@android:color/white"
+                    android:textSize="14.0sp" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+        <include
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/rl_panel"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="20dp"
+            android:layout_marginRight="10dp"
+            layout="@layout/zoom_control_view_layout" />
+    </RelativeLayout>
+
+</RelativeLayout>

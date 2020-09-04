@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/contentView_gone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center" >
+
+    <ProgressBar
+        android:id="@+id/contentView_gone_progress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:indeterminateDrawable="@drawable/progressbar_bg" />
+
+    <TextView
+        android:id="@+id/contentView_gone_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/contentView_gone_progress"
+        android:layout_centerInParent="true"
+        android:layout_margin="@dimen/space_2x"
+        android:drawablePadding="@dimen/space_2x"
+        android:gravity="center"
+        android:textColor="@color/eboard_text_silvery"
+        android:textSize="@dimen/textsize_xsmall" />
+
+</RelativeLayout>

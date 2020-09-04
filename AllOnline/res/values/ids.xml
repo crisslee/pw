@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="ptr_sticky_header" type="id"/>
+    <item name="image_button" type="id"/>
+    <item name="left_button" type="id"/>
+    <item name="right_button" type="id"/>
+    <item name="title_text" type="id"/>
+    <item name="content_layout" type="id"/>
+    <item name="tab_radiogroup" type="id"/>
+    <item name="tab_button_more" type="id"/>
+    <item name="tab_button_multi_track" type="id"/>
+    <item name="tab_button_histroy" type="id"/>
+    <item name="tab_button_track" type="id"/>
+    <item name="list" type="id"/>
+    <item name="text1" type="id"/>
+    <item name="text2" type="id"/>
+    <item name="text3" type="id"/>
+    <item name="map_view" type="id"/>
+    <item name="device_name" type="id"/>    
+    <item name="device_number" type="id"/>     
+    <item name="device_imei" type="id"/>          
+    <item name="gps_time" type="id"/>     
+    <item name="interval" type="id"/>        
+    <item name="dropdown" type="id"/>             
+    <item name="nav_left" type="id"/>        
+    <item name="nav_right" type="id"/>      
+    <item name="pop_name" type="id"/>   
+    <item name="pop_number" type="id"/>   
+    <item name="pop_state" type="id"/>      
+    <item name="pop_address" type="id"/>
+    <item name="pop_info" type="id"/>               
+    <item name="pop_track" type="id"/>
+    <item name="pop_histroy" type="id"/>          
+    <item name="pop_speed" type="id"/>         
+    <item name="version" type="id"/>    
+    <item name="new_version" type="id"/>         
+    <item name="about" type="id"/>
+    <item name="vote" type="id"/>        
+    <item name="date" type="id"/>    
+    <item name="fb_reply_list" type="id"/>       
+    <item name="fb_send" type="id"/>      
+    <item name="fb_reply_content" type="id"/>          
+    <item name="offline" type="id"/>  
+   <item name="nav_map" type="id"/>       
+   <item name="phone" type="id"/>       
+   <item name="device_type" type="id"/>  
+   <item name="open_date" type="id"/>     
+   <item name="expiry_date" type="id"/>  
+   <item name="pop_acc_state" type="id"/>
+
+    <!-- 聊天界面中设置tag的id ******start********  -->
+    <item type="id" name="tag_chat_row_redpacket_send"></item>
+    <item type="id" name="tag_chat_row_txt_send"></item>
+    <item type="id" name="tag_chat_row_big_expression_send"></item>
+    <item type="id" name="tag_chat_row_location_send"></item>
+    <item type="id" name="tag_chat_row_file_send"></item>
+    <item type="id" name="tag_chat_row_image_send"></item>
+    <item type="id" name="tag_chat_row_video_send"></item>
+    <item type="id" name="tag_chat_row_voice_send"></item>
+
+    <item type="id" name="tag_chat_row_redpacket_receive"></item>
+    <item type="id" name="tag_chat_row_txt_receive"></item>
+    <item type="id" name="tag_chat_row_big_expression_receive"></item>
+    <item type="id" name="tag_chat_row_location_receive"></item>
+    <item type="id" name="tag_chat_row_file_receive"></item>
+    <item type="id" name="tag_chat_row_image_receive"></item>
+    <item type="id" name="tag_chat_row_video_receive"></item>
+    <item type="id" name="tag_chat_row_voice_receive"></item>
+    <!-- 聊天界面中设置tag的id ******end********  -->
+
+    <!-- 聊天界面中设置tag的id ******start********  -->
+    <item type="id" name="tag_chat_row_redpacket"></item>
+    <item type="id" name="tag_chat_row_txt"></item>
+    <item type="id" name="tag_chat_row_big_expression"></item>
+    <item type="id" name="tag_chat_row_location"></item>
+    <item type="id" name="tag_chat_row_file"></item>
+    <item type="id" name="tag_chat_row_image"></item>
+    <item type="id" name="tag_chat_row_video"></item>
+    <item type="id" name="tag_chat_row_voice"></item>
+    <!-- 聊天界面中设置tag的id ******end********  -->
+
+    <!-- 解决Glide的bug:You must not call setTag() on a view Glide is targeting-->
+    <item type="id" name="tag_glide" />
+    <item name="floating_header" type="id"/>
+
+    <!-- Messages IDs -->
+    <item type="id" name="auto_focus"/>
+    <item type="id" name="decode"/>
+    <item type="id" name="decode_failed"/>
+    <item type="id" name="decode_succeeded"/>
+    <item type="id" name="encode_failed"/>
+    <item type="id" name="encode_succeeded"/>
+    <item type="id" name="launch_product_query"/>
+    <item type="id" name="quit"/>
+    <item type="id" name="restart_preview"/>
+    <item type="id" name="return_scan_result"/>
+    <item type="id" name="search_book_contents_failed"/>
+    <item type="id" name="search_book_contents_succeeded"/>
+</resources>

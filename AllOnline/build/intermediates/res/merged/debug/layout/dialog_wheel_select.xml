@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="65dp" 
+            android:gravity="center"
+            android:background="#F8F8F8">
+
+            <Button
+                android:id="@+id/btn_cancel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="4dip"
+                android:background="@null"
+                android:minHeight="1dip"
+                android:minWidth="1dip"
+                android:padding="4dip"
+                android:text="取消"
+                android:textColor="@color/black"
+                android:textSize="22.0sp" />
+
+            <Button
+                android:id="@+id/btn_confirm"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_margin="4dip"
+                android:background="@null"
+                android:minHeight="1dip"
+                android:minWidth="1dip"
+                android:padding="4dip"
+                android:text="确认"
+                android:textColor="@color/black"
+                android:textSize="22.0sp" />
+        </RelativeLayout>
+
+        <com.coomix.app.all.widget.wheel.adapters.WheelView
+            android:id="@+id/wv_city"
+            android:layout_width="fill_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/btn_cancel" />
+    </LinearLayout>

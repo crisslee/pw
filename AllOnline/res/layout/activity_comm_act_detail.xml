@@ -1,0 +1,226 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp" />
+
+    <ListView
+        android:id="@+id/listInnerscrollview"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@null"
+        android:listSelector="@drawable/listview_selector"
+        android:scrollbarStyle="outsideOverlay"
+        android:smoothScrollbar="true" />
+
+    <LinearLayout
+        android:id="@+id/layoutBottomNormalSign"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comm_act_bottom_height"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewCostAll"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@color/act_bottom_bg1"
+            android:gravity="center_vertical|left"
+            android:paddingLeft="@dimen/space_3x"
+            android:singleLine="true"
+            android:textColor="@color/act_text_color1"
+            android:textSize="@dimen/text_l" />
+
+        <!--android:background="@drawable/act_blue_bg_selector"-->
+        <TextView
+            android:id="@+id/textViewSign"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:gravity="center"
+            android:paddingBottom="@dimen/space"
+            android:paddingLeft="@dimen/space_3x"
+            android:paddingRight="-15dp"
+            android:paddingTop="@dimen/space"
+            android:singleLine="true"
+            android:text="@string/load_fail"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_l" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutBottomPreSign"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="vertical"
+        android:visibility="gone">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="16"
+                android:background="@drawable/preapply_gradient_bg"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/textViewRMB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="@dimen/space_3x"
+                    android:text="100"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_xxl" />
+
+                <TextView
+                    android:id="@+id/textViewPeopleCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/space_3x"
+                    android:text="已有300人预定"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text" />
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="9"
+                android:background="@drawable/preapply_right_bg">
+
+                <TextView
+                    android:id="@+id/textViewDeadline"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:paddingTop="7dp"
+                    android:text="倒计时"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeDay"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewTimeHourPoint"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_toLeftOf="@+id/textViewTimeDayPoint"
+                    android:background="@drawable/rounded_corners_bg_preapply"
+                    android:text="01"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeDayPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewTimeHourPoint"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_toLeftOf="@+id/textViewTimeHour"
+                    android:text=":"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeHour"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewTimeHourPoint"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_toLeftOf="@+id/textViewTimeHourPoint"
+                    android:background="@drawable/rounded_corners_bg_preapply"
+                    android:text="00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeHourPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginBottom="7dp"
+                    android:text=":"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeMin"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewTimeHourPoint"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_toRightOf="@+id/textViewTimeHourPoint"
+                    android:background="@drawable/rounded_corners_bg_preapply"
+                    android:text="00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeMinPoint"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewTimeHourPoint"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_toRightOf="@+id/textViewTimeMin"
+                    android:text=":"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+                <TextView
+                    android:id="@+id/textViewTimeSec"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/textViewTimeHourPoint"
+                    android:layout_below="@+id/textViewDeadline"
+                    android:layout_toRightOf="@+id/textViewTimeMinPoint"
+                    android:background="@drawable/rounded_corners_bg_preapply"
+                    android:text="00"
+                    android:textColor="@color/white"
+                    android:textSize="@dimen/text_s" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textViewPreOrSign"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/corner_black"
+            android:drawablePadding="@dimen/space_2x"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:paddingBottom="10dp"
+            android:paddingTop="10dp"
+            android:text="@string/pre_sign"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_m_x" />
+
+    </LinearLayout>
+
+</LinearLayout>

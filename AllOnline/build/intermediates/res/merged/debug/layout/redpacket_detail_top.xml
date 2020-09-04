@@ -1,0 +1,152 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content"
+              android:layout_gravity="center_horizontal"
+              android:background="@drawable/rp_detail_top"
+              android:gravity="center_horizontal"
+              android:orientation="vertical">
+
+
+    <com.coomix.app.all.widget.VRoundImageView
+        android:id="@+id/imageViewUserIcon"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_2x"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/color_text_h"
+            android:textSize="@dimen/text_s"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textViewRPType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space"
+            android:background="@drawable/rounded_corners_redpacket_yellow_bg"
+            android:gravity="center"
+            android:paddingLeft="1.5dp"
+            android:paddingRight="1.5dp"
+            android:singleLine="true"
+            android:text="@string/grab"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_s"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewRPTitle"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:maxHeight="35dp"
+        android:layout_marginTop="2dp"
+        android:maxLines="2"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="15dp"
+        android:textColor="@color/color_text_h"
+        android:textSize="14dp"/>
+
+    <TextView
+        android:id="@+id/txt_rp_location"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_8dp"
+        android:drawableLeft="@drawable/redpacket_detail_location"
+        android:drawablePadding="@dimen/space"
+        android:gravity="center"
+        android:textColor="@color/color_text_l"
+        android:textSize="@dimen/text_m" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space"
+        android:gravity="center">
+
+        <TextView
+            android:id="@+id/textViewRPAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:singleLine="true"
+            android:textColor="@color/color_text_h"
+            android:textSize="40sp"
+            android:textStyle="bold"
+            android:inputType="numberDecimal"/>
+
+        <TextView
+            android:id="@+id/textViewYuan"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="@dimen/space"
+            android:gravity="center_horizontal|bottom"
+            android:paddingBottom="@dimen/space"
+            android:paddingLeft="1.5dp"
+            android:paddingRight="1.5dp"
+            android:singleLine="true"
+            android:text="@string/money_yuan"
+            android:textColor="@color/color_text_h"
+            android:textSize="@dimen/text_xxl" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textViewRPToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space"
+        android:singleLine="true"
+        android:textColor="@color/redpacket_blue"
+        android:textSize="@dimen/text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/dark_gray"
+        android:background="@drawable/rp_detail_top_bottom"/>
+
+    <TextView
+        android:id="@+id/textViewRPCount"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:paddingLeft="8dp"
+        android:paddingBottom="5dp"
+        android:paddingTop="5dp"
+        android:layout_weight="1"
+        android:gravity="left|bottom"
+        android:singleLine="true"
+        android:textColor="@color/dark_gray"
+        android:textSize="@dimen/text"
+        android:background="@color/white"/>
+
+    <RelativeLayout
+        android:id="@+id/imageLayout"
+        android:layout_width="match_parent"
+        android:layout_height="120dp" >
+
+        <com.coomix.app.all.widget.CustomViewPager
+            android:id="@+id/viewPagerRedPacket"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+        <com.viewpagerindicator.LoopCirclePageIndicator
+            android:id="@+id/pager_indicator"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:gravity="center_horizontal"
+            android:padding="@dimen/padding" />
+    </RelativeLayout>
+
+</LinearLayout>

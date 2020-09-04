@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/black"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MTouchViewPager
+        android:id="@+id/viewpager"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+    <ImageView
+        android:id="@+id/imageGrid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:padding="@dimen/space_3x"
+        android:visibility="gone"
+        android:src="@drawable/actionbar_to_section"/>
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#333333" >
+
+        <ImageView
+            android:id="@+id/actionbar_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:onClick="true"
+            android:paddingBottom="@dimen/padding"
+            android:paddingLeft="@dimen/padding_2x"
+            android:paddingRight="@dimen/padding_2x"
+            android:paddingTop="@dimen/padding"
+            android:src="@drawable/actionbar_back" />
+
+        <TextView
+            android:id="@+id/actionbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="1/1"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_xbig" />
+
+        <ImageView
+            android:id="@+id/actionbar_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:paddingBottom="@dimen/padding"
+            android:paddingLeft="@dimen/padding_2x"
+            android:paddingRight="@dimen/padding_2x"
+            android:paddingTop="@dimen/padding"
+            android:src="@drawable/actionbar_delete" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/bottom_pages"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/margin"
+        android:alpha="0.7"
+        android:background="@drawable/rounded_corners_bg_black"
+        android:padding="@dimen/padding"
+        android:text="1/1"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize_xbig"
+        android:visibility="gone" />
+
+</RelativeLayout>

@@ -1,0 +1,49 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/transparent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <!--<FrameLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+        <ImageView
+            android:layout_width="295dp"
+            android:layout_height="395dp"
+            android:scaleType="centerCrop"
+            android:id="@+id/pushadv_pic"/>
+        <!--<TextView-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_gravity="bottom|center_horizontal"-->
+            <!--android:layout_marginBottom="10dip"-->
+            <!--android:textSize="18sp"-->
+            <!--android:textColor="@color/black"-->
+            <!--android:paddingTop="10dip"-->
+            <!--android:paddingBottom="10dip"-->
+            <!--android:paddingLeft="20dip"-->
+            <!--android:paddingRight="20dip"-->
+            <!--android:background="@drawable/rounded_corners_pushadv_commit_bg"-->
+            <!--android:text="点击报名"/>-->
+    <!--</FrameLayout>-->
+
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dip"
+        android:gravity="center">
+
+        <ImageView
+            android:id="@+id/textViewCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:textColor="@color/white"
+            android:src="@drawable/pushadv_cancel" />
+
+    </LinearLayout>
+
+</LinearLayout>

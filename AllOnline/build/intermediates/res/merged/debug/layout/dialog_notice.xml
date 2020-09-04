@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/cancel_register_bg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/cancel_register_bg" />
+
+    <LinearLayout
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/rounded_corners_bg_fill_white"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/cancel_reg_notice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_3x"
+            android:layout_marginRight="@dimen/space_3x"
+            android:layout_marginTop="75dp"
+            android:text="@string/cancel_register_notice"
+            android:textColor="@color/color_text_l"
+            android:textSize="@dimen/text_m_x" />
+
+        <TextView
+            android:id="@+id/noti_confirm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/space_3x"
+            android:layout_marginTop="@dimen/space_5x"
+            android:text="@string/notice_confirm"
+            android:textColor="@color/register_blue"
+            android:textSize="@dimen/text_num" />
+    </LinearLayout>
+
+</RelativeLayout>

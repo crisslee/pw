@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/hisLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:id="@+id/map_relative_layout"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_above="@+id/topView"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1" >
+
+        <fragment
+            android:id="@+id/googleMapFragment"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            class="com.google.android.gms.maps.SupportMapFragment"
+            android:visibility="gone"/>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginTop="@dimen/space"
+        android:drawableLeft="@drawable/back_black"
+        android:drawablePadding="@dimen/space"
+        android:padding="@dimen/space"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_l"
+        />
+
+    <LinearLayout
+        android:id="@+id/topView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_alignParentBottom="true"
+        android:background="@color/white">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="15dp"
+            android:paddingRight="15dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textViewDateTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|left"
+                tools:text="2018-08-10   15:32:55"
+                android:layout_weight="1"
+                android:textColor="@color/color_main_text"
+                android:textSize="@dimen/text_xxs"/>
+
+            <TextView
+                android:id="@+id/textViewSpeed"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                tools:text="速度：73km/h"
+                android:layout_weight="1"
+                android:textColor="@color/color_main_text"
+                android:textSize="@dimen/text_xxs"/>
+
+            <TextView
+                android:id="@+id/textViewDistance"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_5dp"
+                tools:text="里程：63KM"
+                android:textColor="@color/color_main_text"
+                android:textSize="@dimen/text_xxs"/>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/line_color"/>
+
+        <LinearLayout
+            android:id="@+id/playBar"
+            android:layout_width="match_parent"
+            android:layout_height="54dp"
+            android:layout_gravity="center_vertical"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="@dimen/space"
+            android:paddingRight="10dp"
+            >
+
+            <ImageView
+                android:id="@+id/iamgeViewPlay"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="@dimen/space_2x"
+                android:scaleType="center"
+                android:src="@drawable/icon_play"
+                />
+
+            <TextView
+                android:id="@+id/textViewPlayTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingLeft="5dp"
+                tools:text="00:00:00"
+                android:textColor="@color/color_main_text"
+                android:textSize="@dimen/text_xxs"
+                />
+            <SeekBar
+                android:id="@+id/sbar_history"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_weight="1"
+                android:max="100"
+                android:maxHeight="@dimen/space_2x"
+                android:minHeight="@dimen/space_2x"
+                android:progress="0"
+                android:progressDrawable="@drawable/seekbar_progress"
+                android:secondaryProgress="0"
+                android:thumb="@drawable/icon_history_sbar_thumb_black"
+                android:thumbOffset="0dp"
+                />
+            <TextView
+                android:id="@+id/txtTotalTime"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:paddingRight="5dp"
+                tools:text="00:00:00"
+                android:textColor="@color/color_main_text"
+                android:textSize="@dimen/text_xxs"
+                />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:descendantFocusability="beforeDescendants"
+    android:focusableInTouchMode="true">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <!-- 搜索列表  start -->
+
+    <RelativeLayout
+        android:id="@+id/rl_city_list"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_below="@+id/myActionbar" >
+
+        <com.coomix.app.all.widget.ClearEditView
+            android:id="@+id/cte_search"
+            style="@style/CEditText_style"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="8dip"
+            android:background="@drawable/search_bar_bg1"
+            android:drawableLeft="@drawable/search"
+            android:drawablePadding="10dip"
+            android:drawableRight="@drawable/delete"
+            android:hint="@string/hint_input_city"
+            android:paddingRight="10dp"
+            android:selectAllOnFocus="true" 
+            android:textCursorDrawable="@null"
+            android:imeOptions="actionSearch" />
+
+        <ExpandableListView
+            android:id="@+id/lvExp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cte_search"
+            android:listSelector="@android:color/transparent" />
+
+        <ListView
+            android:id="@+id/lv_search"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/cte_search"
+            android:listSelector="@android:color/transparent"
+            android:visibility="gone" >
+        </ListView>
+    </RelativeLayout>
+
+    <!-- 搜索列表  end -->
+
+
+    <!-- 下载管理界面 -->
+
+    <ListView
+        android:id="@+id/lv_update"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/titlebar"
+        android:listSelector="@android:color/transparent" >
+    </ListView>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"
+        android:background="#F0F0F0"
+        android:gravity="center" >
+
+        <Button
+            android:id="@+id/update_all_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/update_all"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+</RelativeLayout>

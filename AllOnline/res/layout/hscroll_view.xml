@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/hsdrop_item_height"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <!--<TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/space_2x"
+            android:textColor="@color/color_text_h"
+            android:textSize="@dimen/text"
+            android:visibility="gone"
+            android:text="@string/all"/>-->
+
+        <HorizontalScrollView
+            android:id="@+id/horizontalScrollView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:scrollbars="none"
+            android:layout_weight="1">
+
+            <LinearLayout
+                android:id="@+id/layoutWrapMain"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="@dimen/space_2x"
+                android:gravity="center_vertical"
+                android:orientation="horizontal">
+
+            </LinearLayout>
+
+        </HorizontalScrollView>
+
+        <ImageView
+            android:id="@+id/imageViewFlag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/icon_drop"
+            android:paddingLeft="@dimen/space_2x"
+            android:paddingRight="@dimen/space_2x"
+            android:paddingTop="@dimen/space"
+            android:paddingBottom="@dimen/space"/>
+    </LinearLayout>
+
+
+
+    <GridView
+        android:id="@+id/gridViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:listSelector="#00000000"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_2x"
+        android:visibility="gone"
+        android:paddingRight="@dimen/space_2x"
+        android:numColumns="4"/>
+
+    <ImageView
+        android:id="@+id/imageViewFlag2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/icon_pull"
+        android:layout_marginTop="-28dp"
+        android:layout_gravity="right"
+        android:visibility="invisible"
+        android:paddingLeft="@dimen/space_2x"
+        android:paddingRight="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:paddingBottom="@dimen/space_2x"/>
+
+    <View
+        android:id="@+id/halfBottom"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        android:background="#7F333333"/>
+
+</LinearLayout>

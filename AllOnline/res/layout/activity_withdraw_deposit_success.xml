@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/myActionbar"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="45dp"
+        android:src="@drawable/withdraw_waiting" />
+
+    <TextView
+        android:id="@+id/finished"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="28dp"
+        android:text="@string/wallet_withdraw_balance_requested"
+        android:textColor="@color/color_text_h"
+        android:textSize="@dimen/text_num" />
+
+    <TextView
+        android:id="@+id/tvWarning"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/finished"
+        android:layout_marginTop="5dp"
+        android:gravity="center"
+        android:text="@string/withdraw_deposit_deadline"
+        android:textColor="@color/color_text_l"
+        android:textSize="@dimen/text" />
+
+    <LinearLayout
+        android:id="@+id/summary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvWarning"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="26dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/space_17dp"
+        android:paddingLeft="@dimen/space_4x"
+        android:paddingRight="@dimen/space_4x"
+        android:paddingTop="@dimen/space_17dp">
+
+        <RelativeLayout
+            android:id="@+id/rl_wxid"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/wechat_id_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/withdraw_success_bank"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/text_m_x" />
+
+            <TextView
+                android:id="@+id/wechat_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_text_h"
+                android:textSize="@dimen/text_m_x" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/rl_amount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_4x">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/withdraw_deposit_money"
+                android:textColor="@color/dark_gray"
+                android:textSize="@dimen/text_m_x" />
+
+            <TextView
+                android:id="@+id/withdraw_amount"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/color_text_h"
+                android:textSize="@dimen/text_m_x" />
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="@dimen/space_5x"
+        android:textColor="@color/color_text_l"
+        android:textSize="@dimen/text_m" />
+
+    <TextView
+        android:id="@+id/tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/time"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="12dp"
+        android:text="@string/withdraw_success_tip"
+        android:textColor="@color/color_text_l"
+        android:textSize="@dimen/text_m"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/btnComplete"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_below="@+id/summary"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/login_press"
+        android:text="@string/withdraw_requested"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+</RelativeLayout>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/timestamp"
+        style="@style/chat_text_date_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_top_time"
+        android:layout_gravity="center" />
+
+    <RelativeLayout
+        android:id="@+id/msgRlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_chat_activity" >
+
+        <CheckBox
+            android:id="@+id/checkBox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:button="@null"
+            android:checked="false"
+            android:drawableLeft="@drawable/em_message_checkbox"
+            android:drawablePadding="@dimen/margin_chat_activity"
+            android:paddingBottom="@dimen/margin_chat_activity"
+            android:paddingLeft="@dimen/margin_chat_activity"
+            android:paddingTop="@dimen/margin_chat_activity" />
+
+        <ImageView
+            android:id="@+id/iv_userhead"
+            android:layout_width="@dimen/size_avatar"
+            android:layout_height="@dimen/size_avatar"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_toRightOf="@id/checkBox"
+            android:src="@drawable/login_icon"
+            android:scaleType="centerCrop" />
+
+        <ImageView
+            android:id="@+id/iv_userhead_groupmanager_hint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignRight="@id/iv_userhead"
+            android:layout_alignTop="@id/iv_userhead"
+            android:layout_marginRight="-4dp"
+            android:layout_marginTop="-4dp"
+            android:src="@drawable/ease_default_avatar_groupmanager_hint" />
+
+        <RelativeLayout
+            android:id="@+id/bubble"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_userid"
+            android:layout_marginLeft="@dimen/margin_chat_activity"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:background="@drawable/ease_chatfrom_bg" >
+
+            <TextView
+                android:id="@+id/tv_chatcontent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:linksClickable="true"
+                android:gravity="center|left"
+                android:lineSpacingExtra="2dp"
+                android:maxWidth="225.0dip"
+                android:layout_centerVertical="true"
+                android:textColorLink="#1C84FF"
+                android:paddingLeft="6dp"
+                android:paddingRight="1dp"
+                android:textColor="#333333"
+                android:textSize="15sp" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/tv_userid"
+            style="@style/chat_text_name_style"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/chat_nick_margin_left"
+            android:layout_alignTop="@+id/iv_userhead"
+            android:layout_toRightOf="@id/iv_userhead"
+            android:textSize="@dimen/chat_nick_text_size"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/admin_msg"
+        style="@style/chat_text_admin_msg_style"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space"
+        android:layout_marginLeft="@dimen/size_avatar"
+        android:layout_marginRight="@dimen/size_avatar"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:drawablePadding="3dp"/>
+
+</LinearLayout>

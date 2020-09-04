@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/dialog2_bg"
+    android:orientation="vertical" >
+
+	<LinearLayout
+		android:id="@+id/layoutTop"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:minHeight="@dimen/space_100dp"
+        android:gravity="center" >
+	    <TextView
+	        android:id="@+id/dialog_title"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="@dimen/space_3x"
+	        android:layout_marginRight="@dimen/space_3x"
+	        android:layout_marginBottom="@dimen/space_3x"
+	        android:gravity="center"
+	        android:text="@string/hint"
+	        android:textColor="@color/color_text_h"
+	        android:textSize="@dimen/text_xxl"
+	        android:visibility="gone" />
+	    
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="horizontal"
+        	android:gravity="center_vertical" >
+
+	        <ImageView
+	            android:id="@+id/dialog_log"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/space_3x"
+	            android:layout_marginTop="@dimen/space_3x"
+	            android:layout_marginBottom="@dimen/space_3x"
+	            android:src="@drawable/ic_launcher" />
+	
+	        <TextView
+	            android:id="@+id/dialog_text"
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/space_3x"
+	            android:layout_marginRight="@dimen/space_3x"
+	            android:gravity="center_vertical"
+	            android:text="@string/exit_warning"
+	            android:textColor="@color/color_text_m"
+	            android:textSize="@dimen/text_m_x" />
+	    </LinearLayout>
+    </LinearLayout>
+
+    <View
+		android:id="@+id/lineGrid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collect_seperator_thin"
+		android:layout_below="@+id/layoutTop"
+        android:background="@color/collect_seperator_thin" />
+
+    <LinearLayout
+		android:id="@+id/layoutCenter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_2x"
+        android:layout_marginTop="@dimen/space_2x"
+		android:layout_below="@+id/lineGrid"
+        android:orientation="horizontal" >
+
+        <!-- 取消按钮 -->
+
+        <TextView
+            android:id="@+id/dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_2x"
+            android:layout_weight="1"
+            android:background="@drawable/style_lv_apt_selector2"
+            android:gravity="center"
+            android:paddingBottom="@dimen/padding"
+            android:paddingTop="@dimen/padding"
+            android:text="取    消"
+            android:textColor="@color/color_text_m"
+            android:textSize="@dimen/text_m_x" />
+
+		<!-- 确定按钮 -->
+
+        <TextView
+            android:id="@+id/dialog_sure"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/margin_2x"
+            android:layout_marginRight="@dimen/margin_2x"
+            android:layout_weight="1"
+            android:background="@drawable/style_lv_apt_selector2"
+            android:gravity="center"
+            android:paddingBottom="@dimen/space_2x"
+            android:paddingTop="@dimen/space_2x"
+            android:text="确    定"
+            android:textColor="@color/color_text_m"
+            android:textSize="@dimen/text_m_x" />
+    </LinearLayout>
+
+	<ImageView
+		android:id="@+id/imageRightClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+		android:layout_alignParentTop="true"
+		android:layout_alignParentRight="true"
+		android:padding="@dimen/space"
+		android:src="@drawable/game_close"
+		android:visibility="gone"/>
+
+	<TextView
+		android:id="@+id/textBottom"
+		android:layout_width="match_parent"
+		android:layout_height="@dimen/space_8x"
+		android:layout_below="@+id/layoutCenter"
+		android:background="@color/gray_5"
+		android:gravity="center"
+		android:visibility="gone"
+		android:textColor="@color/dark_gray"
+		android:textSize="@dimen/text_m_x"
+		android:text="@string/not_allow"/>
+
+</RelativeLayout>

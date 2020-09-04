@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#9000"
+    android:id="@+id/update_layout">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/margin_6x"
+        android:layout_marginBottom="@dimen/margin_6x"
+        android:layout_marginLeft="@dimen/margin_6x"
+        android:layout_marginRight="@dimen/margin_6x"
+        android:background="@drawable/goome_update_dialog_bkg"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:padding="@dimen/padding"
+            android:text="@string/goome_update_dialog_title"
+            android:textColor="@color/color_main"
+            android:textSize="@dimen/textsize_big" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:background="@color/color_main" />
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:padding="@dimen/padding">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="@dimen/margin_half"
+                android:layout_marginBottom="@dimen/margin_half">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/goome_update_dialog_version"
+                    android:textSize="@dimen/textsize_xsmall"
+                    android:textColor="@android:color/black"/>
+
+                <TextView
+                    android:id="@+id/version_tv"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:text="V1.8.3"
+                    android:textSize="@dimen/textsize_xsmall"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+            
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/goome_update_dialog_log"
+                android:textSize="@dimen/textsize_xsmall"
+                android:textColor="@android:color/black"
+                android:layout_marginTop="@dimen/margin_half"/>
+            <TextView
+                android:id="@+id/content_tv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/margin_half"
+                android:textSize="@dimen/textsize_xsmall"
+                android:textColor="@android:color/black"
+                android:text=""/>
+            </LinearLayout>
+        </ScrollView>
+
+        <CheckBox
+            android:id="@+id/ignore_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/goome_update_dialog_ignore"
+            android:textSize="@dimen/textsize_xsmall"
+            android:textColor="@android:color/black"
+            android:visibility="gone"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginLeft="@dimen/margin_half"
+            android:layout_marginRight="@dimen/margin_half"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/update_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:background="@color/color_main"
+                android:text="@string/goome_update_dialog_update"
+                android:textSize="@dimen/textsize_xsmall"
+                android:layout_marginRight="@dimen/margin_half"
+                android:textColor="@android:color/white"/>
+
+            <Button
+                android:id="@+id/remind_btn"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:layout_marginLeft="@dimen/margin_half"
+                android:background="@android:color/darker_gray"
+                android:text="@string/goome_update_dialog_ignore"
+                android:textSize="@dimen/textsize_xsmall"
+                android:textColor="@android:color/black"/>
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+</FrameLayout>

@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./AllOnline/libs/commons-lang.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AllOnline/libs/commons-lang.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

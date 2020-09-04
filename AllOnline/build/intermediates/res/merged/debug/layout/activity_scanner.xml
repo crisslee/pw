@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <SurfaceView
+            android:id="@+id/scanner_view"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center" />
+
+        <com.google.zxing.view.ViewfinderView
+            android:id="@+id/viewfinder_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:corner_color="@color/corner_color"
+            app:frame_color="@color/viewfinder_frame"
+            app:label_text="@string/scan_focus"
+            app:label_text_color="@color/white"
+            app:laser_color="@color/laser_color"
+            app:mask_color="@color/viewfinder_mask"
+            app:result_color="@color/result_view"
+            app:result_point_color="@color/result_point_color" />
+    </FrameLayout>
+
+    <include layout="@layout/toolbar_scanner"/>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/black_bg"
+        android:paddingBottom="@dimen/space_4x"
+        android:paddingLeft="@dimen/space_6x"
+        android:paddingRight="@dimen/space_6x"
+        android:paddingTop="@dimen/space_4x"
+        >
+        <LinearLayout
+            android:id="@+id/ll_light"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintHorizontal_chainStyle="spread_inside"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toLeftOf="@+id/ll_manual"
+            >
+            <ImageView
+                android:id="@+id/flash"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scan_btn_bg"
+                android:scaleType="centerCrop"
+                android:src="@drawable/light"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_2x"
+                android:text="@string/light"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/text_s"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_manual"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toRightOf="@id/ll_light"
+            app:layout_constraintRight_toLeftOf="@+id/ll_album"
+            >
+            <ImageView
+                android:id="@+id/input"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scan_btn_bg"
+                android:scaleType="centerCrop"
+                android:src="@drawable/manual_input"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_2x"
+                android:text="@string/manual_input"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/text_s"
+                />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/ll_album"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintLeft_toRightOf="@id/ll_manual"
+            app:layout_constraintRight_toRightOf="parent"
+            >
+            <ImageView
+                android:id="@+id/album"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/scan_btn_bg"
+                android:scaleType="centerCrop"
+                android:src="@drawable/album"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="@dimen/space_2x"
+                android:text="@string/album"
+                android:textColor="@color/divider"
+                android:textSize="@dimen/text_s"
+                />
+        </LinearLayout>
+    </android.support.constraint.ConstraintLayout>
+
+</RelativeLayout>

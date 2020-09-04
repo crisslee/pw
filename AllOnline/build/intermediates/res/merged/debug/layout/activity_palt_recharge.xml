@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical"
+    tools:context=".ui.platformRecharge.PlatRechargeActivity">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/mineActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <RelativeLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshRecyclerView
+            android:id="@+id/recycler_view_wrap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/bottom_layout"
+            android:visibility="visible">
+
+
+        </com.handmark.pulltorefresh.library.PullToRefreshRecyclerView>
+
+        <LinearLayout
+            android:id="@+id/bottom_layout"
+            android:layout_width="match_parent"
+            android:layout_height="44dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:background="@color/white"
+            android:elevation="4dp"
+            android:visibility="gone">
+
+            <CheckBox
+                android:id="@+id/cbSelectAll"
+                android:layout_width="0dp"
+
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_weight="1"
+                android:button="@drawable/list_item_selector"
+                android:text="@string/select_all"
+                android:textColor="#3c3c3c"
+                android:textSize="13sp" />
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="66dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="@string/total"
+                    android:textColor="#3c3c3c"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:id="@+id/tvTotalRMB"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:layout_weight="1"
+                    android:ellipsize="end"
+                    android:lines="1"
+                    android:maxLines="1"
+                    android:text="0.00元"
+                    android:textColor="#4e6bb9"
+                    android:textSize="13sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/btnRecharge"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="@drawable/selector_btn_blue"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:text="@string/btn_renew"
+                android:textColor="#ffffff"
+                android:textSize="15sp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <include layout="@layout/community_empty_layout" />
+</LinearLayout>

@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+    android:background="@drawable/white_radius_bg"
+    android:gravity="center"
+    android:orientation="vertical" >
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateDrawable="@drawable/loading_drawable" />
+
+    <ImageView
+        android:id="@+id/imageViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/textViewInfo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingTop="15dp"
+        android:text="TextView"
+        android:textColor="@color/black"
+        android:textSize="@dimen/textsize" />
+
+    <View
+        android:id="@+id/gridLine"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/comm_act_line_height"
+        android:background="#343434" />
+
+    <LinearLayout
+        android:id="@+id/layoutButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:orientation="horizontal" >
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@drawable/ask_text_selector"
+            android:textSize="@dimen/textsize" />
+
+        <View
+            android:id="@+id/gridLine2"
+            android:layout_width="@dimen/comm_act_line_height"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="#343434" />
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#00000000"
+            android:gravity="center"
+            android:text="@string/give_up"
+            android:textColor="@drawable/ask_text_selector"
+            android:textSize="@dimen/textsize" />
+    </LinearLayout>
+
+</LinearLayout>

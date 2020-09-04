@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/white"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <ImageView
+        android:id="@+id/imageViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="118dp"
+        android:src="@drawable/pay_success"/>
+
+    <TextView
+        android:id="@+id/textViewStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_m_x"
+        android:textColor="@color/black"
+        android:text=""
+        android:layout_marginTop="17dp"/>
+
+    <TextView
+        android:id="@+id/textViewCost"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_m_x"
+        android:textColor="@color/dark_gray"
+        android:layout_marginTop="21dp"/>
+
+    <TextView
+        android:id="@+id/textViewToast"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/text_m_x"
+        android:textColor="@color/dark_gray"
+        android:layout_marginTop="10dp"/>
+
+</LinearLayout>

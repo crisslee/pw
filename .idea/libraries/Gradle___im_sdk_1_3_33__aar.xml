@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: :im_sdk-1.3.33:@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/im_sdk-1.3.33.aar/dc8dd531c1b828203b87a0f713091512/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/im_sdk-1.3.33.aar/dc8dd531c1b828203b87a0f713091512/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-1/files-1.1/im_sdk-1.3.33.aar/dc8dd531c1b828203b87a0f713091512/res" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

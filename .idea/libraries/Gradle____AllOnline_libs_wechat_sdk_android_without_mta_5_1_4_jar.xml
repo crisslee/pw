@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./AllOnline/libs/wechat-sdk-android-without-mta-5.1.4.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AllOnline/libs/wechat-sdk-android-without-mta-5.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

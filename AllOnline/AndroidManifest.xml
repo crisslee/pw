@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.coomix.app.all">
+    <!-- versionCode和versionName以build.gradle中的为准 -->
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.BROADCAST_STICKY" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.USE_CREDENTIALS" />
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+    <uses-permission android:name="android.permission.RECEIVE_USER_PRESENT" />
+    <uses-permission android:name="android.permission.REQUEST_INSTALL_PACKAGES" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission
+        android:name="android.permission.ACCESS_MOCK_LOCATION"
+        tools:ignore="MockLocation" />
+    <uses-permission android:name="android.permission.GET_TASKS" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="android.permission.READ_LOGS" />
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION" />
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.coomix.app.all.permission.MAPS_RECEIVE" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" /> <!-- 角标相关权限 -->
+    <!-- for Samsung -->
+    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <application
+        android:name=".AllApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:persistent="true"
+        android:theme="@style/AppThemeM.NoActionBar">
+        <activity android:name=".ui.unlock.UnLockActivity"></activity>
+        <!-- GPNSV2 -->
+        <!-- GPNS推送    start -->
+        <activity
+            android:name=".gpns.FilterActivity"
+            android:configChanges="locale"
+            android:launchMode="singleTop"
+            android:theme="@style/AppThemeM.NoActionBar" />
+
+        <service
+            android:name="com.goome.gpns.service.GPNSService"
+            android:process=":GpnsService" />
+
+        <receiver android:name="com.goome.gpns.service.MyBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+                <action android:name="android.intent.action.SCREEN_ON" />
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name=".gpns.GPNSReceiver"
+            android:exported="false" />
+
+        <service
+            android:name=".service.GPNSIntentService"
+            android:exported="false" />
+
+        <provider
+            android:name="com.goome.gpns.contentprovider.GpnsProvider"
+            android:authorities="com.coomix.app.all" /> <!-- GPNS推送    end -->
+        <!-- 百度地图测试key    谷歌测试Key    高德地图测试key 腾讯地图测试key umeng测试key -->
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"
+            tools:replace="android:value"/>
+        <!--
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="9CFQTmlmPgF3Mr6l7Xr82QAbgjdxmt1X" />
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDkybPeCE_MNdm2WE03pce49Z8lAWkHZC0" />
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="d08c7d179c8e5e052672ca3078a6edcb" />
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="RGLBZ-2Q33U-K2LVM-B5O57-D63JK-KGB3K" />
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="52b15b2d56240bb43103e229" />
+        <meta-data
+            android:name="GPNS_APP_ID"
+            android:value="1001" />
+        <meta-data
+            android:name="INSTRUCTION_URL"
+            android:value="http://www.gpsoo.net/help/help_car_app.html" />
+        -->
+        <!-- 汽车在线key -->
+        <!-- 百度地图发布正式 key   谷歌发布正式  Key  高德地图正式发布key 腾讯地图正式key umeng正式key -->
+        <meta-data
+            android:name="com.baidu.lbsapi.API_KEY"
+            android:value="HMaiC3yN7xbMwS1GDxutmn38siFAIvMX"
+            tools:replace="android:value"/>
+        <meta-data
+            android:name="com.google.android.maps.v2.API_KEY"
+            android:value="AIzaSyDkybPeCE_MNdm2WE03pce49Z8lAWkHZC0"
+            tools:replace="android:value"/> <!-- AIzaSyAIdbFAsryk72yafdJjDr1Mr_2XpVNV-4o" -->
+        <!-- AIzaSyBWo-BTV2oULwJug2dgOocCLrEFFcsmYd8  国外版本 -->
+        <!-- AIzaSyDkybPeCE_MNdm2WE03pce49Z8lAWkHZC0  国内 -->
+        <meta-data
+            android:name="com.amap.api.v2.apikey"
+            android:value="dfecdba6696284ebe9bd10712f0ee6f0"
+            tools:replace="android:value"/>
+        <meta-data
+            android:name="TencentMapSDK"
+            android:value="JKCBZ-ON5C4-YUMUK-XNCG2-DLLS7-SXB6H"
+            tools:replace="android:value"/>
+        <meta-data
+            android:name="UMENG_APPKEY"
+            android:value="5b2a1c49a40fa358df000021"
+            tools:replace="android:value"/>
+        <meta-data
+            android:name="GPNS_APP_ID"
+            android:value="2001"
+            tools:replace="android:value"/>
+        <meta-data
+            android:name="INSTRUCTION_URL"
+            android:value="http://www.gpsoo.net/help/help_car_app.html"
+            tools:replace="android:value"/> <!-- bid -->
+        <meta-data
+            android:name="GM_BID"
+            android:value="2001"
+            tools:replace="android:value"/> <!-- <meta-data -->
+        <!-- android:name="UMENG_CHANNEL" -->
+        <!-- android:value="coomix" /> -->
+        <!-- 适配全屏手机 -->
+        <meta-data
+            android:name="android.max_aspect"
+            android:value="2.1"
+            tools:replace="android:value"/>
+
+        <service
+            android:name="com.baidu.location.f"
+            android:enabled="true"
+            android:process=":remote" /> <!-- 定位需要的服务 使用2.0的定位需要加上这个 -->
+        <service android:name="com.amap.api.location.APSService" />
+        <service android:name=".service.AllOnlineAppService" />
+        <!--
+        2.4.2友盟sdk的包名的變化
+			由于包名发生变动，修改了JNI的部分函数名，重新打包so文件。
+			将DownloadingService由包com.umeng.common.net移动至com.umeng.update.net中
+			修改了打开调试模式的代码：使用UpdateConfig.setDebug(true);打开调试模式。       
+			 替換新版本的sdk需要將res文件夾全部替換 合併
+			 以及libs包下的jar包
+        -->
+        <service android:name=".service.CheckVersionService" />
+        <service android:name=".service.DownloadingService" /> <!-- tinker service -->
+        <service
+            android:name=".service.PatchResultService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.file_provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+
+        <activity
+            android:name=".ui.update.GoomeUpdateDialogActivity"
+            android:configChanges="orientation|keyboardHidden|navigation|locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.transparent" />
+
+        <service android:name=".service.OfflineMapService" />
+
+        <activity
+            android:name=".ui.setting.SettingActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.setting.IdActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.main.OfflineBMapActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.boot.BootActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppStartLoad">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.web.WebAgentActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.transparent"
+            android:windowSoftInputMode="adjustResize">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="goocarapp" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.advance.BFenceActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.advance.TFenceActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.mine.ModifyPwdActivity"
+            android:configChanges="locale"
+            android:label="@string/modify_pwd"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.alarm.AlarmCategoryListActivity"
+            android:configChanges="locale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" /> <!-- 关注微信公众号页面 -->
+        <activity
+            android:name=".ui.alarm.FollowWechatActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.alarm.AlarmDetailListActivity"
+            android:configChanges="locale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.alarm.AlarmListActivity"
+            android:configChanges="locale"
+            android:label="@string/alarm"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.alarm.AlarmTypeListActivity"
+            android:configChanges="locale"
+            android:label="@string/alarm"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.advance.CommandListWebActivity"
+            android:configChanges="locale"
+            android:label="@string/alarm"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" />
+        <activity
+            android:name=".ui.alarm.AlarmSettingActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.alarm.BAlarmLocationActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.alarm.TAlarmLocationActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.alarm.GAlarmLocationActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.detail.DeviceInfoEditActivity"
+            android:configChanges="locale"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar"
+            android:windowSoftInputMode="stateVisible|adjustResize" />
+        <activity
+            android:name=".ui.alarm.AMapAlarmLocationActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.advance.AMapFenceActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" /> <!-- QQ登录配置 -->
+        <activity
+            android:name="com.tencent.tauth.AuthActivity"
+            android:launchMode="singleTask"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="1105747877" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.tencent.connect.common.AssistActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name=".ui.mine.ProviderInfoActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:launchMode="singleTop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".weizhang.activity.WeiZhangMainActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".weizhang.activity.ShortNameList"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".weizhang.activity.ProvinceList"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".weizhang.activity.CityList"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".weizhang.activity.WeizhangResult"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+
+        <service android:name="com.cheshouye.api.client.WeizhangIntentService" />
+
+        <activity
+            android:name=".ui.advance.AreaSelectActivity"
+            android:configChanges="locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.panorama.BPanoramaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.panorama.TPanoramaActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+
+        <service android:name=".service.LocationService" />
+
+        <activity
+            android:name=".ui.mine.MineActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.im.GMChatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.im.GmChatSettingsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.im.GmSelectAtUserActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.mine.AccountInfoActivity"
+            android:configChanges="locale"
+            android:screenOrientation="portrait" /> <!-- CameraSDK相册选取相关activity -->
+        <activity
+            android:name="com.muzhi.camerasdk.PhotoPickActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <activity
+            android:name="com.muzhi.camerasdk.PreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.transparent" />
+        <activity
+            android:name="com.muzhi.camerasdk.GridPreviewActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:hardwareAccelerated="false"
+            android:process=":remote"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.transparent" />
+        <activity android:name="com.muzhi.camerasdk.CropperImageActivity" />
+        <activity android:name="com.muzhi.camerasdk.FilterImageActivity" /> <!-- 社区活动activity -->
+        <activity
+            android:name=".ui.activity.CommActListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.activity.CommActDetailActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ActRegisterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ActRegisterExtendActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.web.DisclaimerActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.web.BusAdverActivity"
+            android:screenOrientation="portrait" /> <!-- 分享相关 -->
+        <!-- 微信 -->
+        <activity
+            android:name=".wxapi.WXEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" /> <!-- end 微信 -->
+        <!-- QQ -->
+        <!-- end QQ -->
+        <activity
+            android:name=".ui.wallet.BindWechatActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" /> <!-- 活动支付 -->
+        <activity
+            android:name=".ui.activity.MyActivityActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" /> <!-- 活动信息，订单详情页面 -->
+        <activity
+            android:name=".ui.activity.MyOrderInfoActivity"
+            android:configChanges="orientation|keyboardHidden|navigation"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" /> <!-- 微信支付回调 -->
+        <activity
+            android:name=".wxapi.WXPayEntryActivity"
+            android:configChanges="keyboardHidden|orientation|screenSize"
+            android:exported="true"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.transparent" />
+        <activity
+            android:name="com.coomix.app.redpacket.activity.CreateRedPacketActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coomix.app.redpacket.activity.DetailRedPacketActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.coomix.app.redpacket.activity.RedPacketMapActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.activity.ActRegister2Activity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.history.TMapHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.history.BMapHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.history.AMapHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.advance.DeviceSettingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.detail.DeviceDetailInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" /> <!-- 里程统计 -->
+        <activity
+            android:name=".ui.detail.DistanceStatisticsActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.history.GHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize|locale"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+
+        <service
+            android:name=".service.CommonService"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity
+            android:name=".ui.platformRecharge.PlatRechargeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.cardRecharge.CardRechargeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar" />
+        <activity
+            android:name=".ui.audioRecord.AudioRecordingActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.audioRecord.AudioBuyTrafficActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 万物在线 -->
+        <activity
+            android:name=".ui.main.AMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fromallalarm" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.BMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fromallalarm" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.TMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fromallalarm" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.main.GMainActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppThemeM.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="fromallalarm" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".ui.history.SelectDateHistoryActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.carlist.AllListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateHidden|adjustPan" /> <!-- 登录页面 -->
+        <activity
+            android:name=".ui.login.LoginActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait" /> <!-- 注册页面 -->
+        <activity
+            android:name=".ui.login.RegisterActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 设置密码 -->
+        <activity
+            android:name=".ui.login.SetPwdActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 扫码页面 -->
+        <activity
+            android:name="com.google.zxing.activity.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 手动输入imei -->
+        <activity
+            android:name=".ui.login.InputImeiActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.cardRecharge.CardSingleRechargeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ui.installer.UploadInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 设备上传时间 -->
+        <activity
+            android:name=".ui.devTime.DevTimeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 选择日期 -->
+        <activity
+            android:name=".ui.devTime.ChooseDateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 选择时间 -->
+        <activity
+            android:name=".ui.devTime.ChooseTimeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 自定义模式闹钟列表 -->
+        <activity
+            android:name=".ui.devTime.CustomAlarmListActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 卡充值、流量充值 -->
+        <activity
+            android:name=".ui.charge.CardDataInfoActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" /> <!-- 公告充值入口 -->
+        <activity
+            android:name=".ui.cardRecharge.NoticeRechargeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:screenOrientation="portrait" />
+    </application>
+
+</manifest>

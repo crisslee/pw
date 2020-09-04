@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.activity.ActRegister2Activity">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/mineActionbar"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_height="45dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/mineActionbar">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/linearLayoutFoot"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/include"
+                android:background="@color/white_bg"
+                android:paddingLeft="16dp"
+                android:visibility="visible">
+
+            </android.support.v7.widget.RecyclerView>
+
+            <LinearLayout
+                android:id="@+id/linearLayoutFoot"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <!--<ImageView
+                    android:id="@+id/imageViewIcon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:src="@drawable/activity_icon" />-->
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left|center_vertical"
+                    android:layout_marginTop="8dp"
+                    android:gravity="left|center_vertical"
+                    android:orientation="horizontal">
+
+                    <CheckBox
+                        android:id="@+id/cbAgrement"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="16dp"
+                        android:layout_marginRight="8dp"
+                        android:checked="true"
+                        android:text="@string/activity_check_agreen"
+                        android:textColor="@color/color_text_m"
+                        android:textSize="13sp" />
+
+                    <TextView
+                        android:id="@+id/textViewLiability"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginRight="16dp"
+                        android:text="@string/disclaimer_of_liability"
+                        android:textColor="@color/register_blue"
+                        android:textSize="13sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btnCommit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/comm_act_bottom_height"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/btn_blue_style"
+                    android:clickable="true"
+                    android:gravity="center"
+                    android:text="@string/commit"
+                    android:textColor="@color/white"
+                    android:textSize="17sp" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginLeft="16dp"
+                    android:layout_marginRight="16dp"
+                    android:layout_marginTop="8dp"
+                    android:text="@string/activity_register_note"
+                    android:textColor="@color/color_text_l"
+                    android:textSize="@dimen/text_m" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</RelativeLayout>

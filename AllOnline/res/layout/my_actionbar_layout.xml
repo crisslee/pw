@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="45dp">
+
+    <ImageView
+        android:id="@+id/iamgeViewBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="10dp"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop"
+        android:src="@drawable/actionbar_back" />
+
+    <ImageView
+        android:id="@+id/imageViewClose"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_toRightOf="@+id/iamgeViewBack"
+        android:layout_marginLeft="10dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/actionbar_close"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:gravity="center_vertical"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/white"
+        android:layout_toRightOf="@+id/imageViewClose"
+        android:textSize="16sp"
+        android:visibility="gone"/>
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical|center_horizontal"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textViewRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="16dp"
+        android:contentDescription="@null"
+        android:padding="5dp"
+        android:textSize="16sp"
+        android:textColor="@color/white" />
+
+    <ImageView
+        android:id="@+id/imageViewRight"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="15dp"
+        android:contentDescription="@null"
+        android:padding="5dp"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <RadioGroup
+        android:id="@+id/rGroup_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center_vertical"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <RadioButton
+            android:id="@+id/titlebar_rbtn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/titlebar_center_btn_left_bg"
+            android:button="@null"
+            android:checked="true"
+            android:padding="8dip"
+            android:text="@string/download_manage"
+            android:textColor="@android:color/white" />
+
+        <RadioButton
+            android:id="@+id/titlebar_rbtn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@drawable/titlebar_center_btn_right_bg"
+            android:button="@null"
+            android:padding="8dip"
+            android:text="@string/city_list"
+            android:textColor="@android:color/white" />
+    </RadioGroup>
+
+</RelativeLayout>

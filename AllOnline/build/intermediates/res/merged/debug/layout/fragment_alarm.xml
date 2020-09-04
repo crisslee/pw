@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView
+        android:id="@+id/rvList"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        >
+
+    </com.yanzhenjie.recyclerview.swipe.SwipeMenuRecyclerView>
+
+    <com.zhy.view.DrawableCenterTextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:layout_marginRight="@dimen/space_4x"
+        android:background="@drawable/login_btn_enable"
+        android:drawableLeft="@drawable/dev_mode_add_alarm"
+        android:drawablePadding="@dimen/space"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/add_alarm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_l"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        />
+
+</android.support.constraint.ConstraintLayout>

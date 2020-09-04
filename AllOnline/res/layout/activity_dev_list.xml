@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layoutTop"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:paddingLeft="@dimen/space_2x"
+        android:paddingRight="@dimen/space_2x"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@color/text_black"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewToMap"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/actionbar_back"
+            android:gravity="center_vertical"
+            android:drawablePadding="@dimen/space"
+            android:layout_marginRight="15dp"
+            android:text="@string/map"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_l" />
+
+        <com.coomix.app.all.widget.ClearEditView
+            android:id="@+id/editTextSearch"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:background="@drawable/alarm_list_item_bg_normal"
+            android:drawableLeft="@drawable/search"
+            android:drawableRight="@drawable/search_delete"
+            android:drawablePadding="@dimen/space"
+            android:hint="@string/search_key"
+            android:imeOptions="actionSearch"
+            android:paddingLeft="10dp"
+            android:paddingRight="8dp"
+            android:singleLine="true"
+            android:textCursorDrawable="@null"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/textViewSearchCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_3x"
+            android:text="@string/cancel"
+            android:visibility="gone"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_l" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_current_account"
+        android:layout_width="match_parent"
+        android:layout_height="39dp"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:drawableRight="@drawable/down_icon"
+        android:text="User name"
+        android:textColor="@color/text_black"
+        android:background="@color/white"
+        android:paddingLeft="@dimen/space_3x"
+        android:paddingRight="@dimen/space_3x"
+        android:layout_below="@+id/layoutTop"
+        android:layout_marginBottom="15dp"
+        android:textSize="@dimen/text" />
+
+
+    <com.coomix.app.all.widget.observableList.ObservableListView
+        android:id="@+id/deviceList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:layout_below="@+id/tv_current_account"
+        android:layout_above="@+id/layoutBottom"
+        android:choiceMode="singleChoice"
+        android:divider="@null"
+        android:dividerHeight="0dp"
+        android:fastScrollEnabled="false"
+        android:background="@color/color_bg"
+        android:footerDividersEnabled="false"
+        android:groupIndicator="@null"
+        android:headerDividersEnabled="false" />
+
+    <LinearLayout
+        android:id="@+id/layoutBottom"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:paddingLeft="24dp"
+        android:paddingRight="24dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="center_vertical"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:layout_marginTop="1dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textViewOnline"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/list_bottom_text_selector"
+            android:background="@drawable/list_bottom_text_bg_selector"
+            android:textSize="@dimen/text_m" />
+
+        <TextView
+            android:id="@+id/textViewOffline"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="24dp"
+            android:layout_marginRight="24dp"
+            android:textColor="@color/list_bottom_text_selector"
+            android:background="@drawable/list_bottom_text_bg_selector"
+            android:textSize="@dimen/text_m" />
+
+        <TextView
+            android:id="@+id/textViewUnuse"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:layout_height="wrap_content"
+            android:textColor="@color/list_bottom_text_selector"
+            android:background="@drawable/list_bottom_text_bg_selector"
+            android:textSize="@dimen/text_m" />
+
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/listViewHistory"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/layoutTop"
+        android:scrollbars="none"
+        android:fastScrollEnabled="false"
+        android:divider="#00000000"
+        android:dividerHeight="0dp"
+        android:visibility="gone"
+        android:background="@color/color_bg"/>
+
+</RelativeLayout>

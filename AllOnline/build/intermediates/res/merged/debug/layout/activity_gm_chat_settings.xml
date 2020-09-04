@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/search_llayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/em_group_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/transparent"
+        android:gravity="center"
+        android:padding="@dimen/space_2x"
+        android:textColor="@color/color_text_m"
+        android:textSize="@dimen/text_xl" />
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/collect_seperator_thin"
+        android:background="@color/collect_seperator_thin" />
+
+    <LinearLayout
+        android:id="@+id/ll_unnotify"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:paddingRight="@dimen/padding" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="@dimen/space_2x"
+            android:text="@string/group_setting_title"
+            android:textColor="@color/color_text_m"
+            android:textSize="@dimen/text_xl" />
+
+        <ToggleButton
+            android:id="@+id/em_group_member_notify"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:background="@drawable/btn_checkbox"
+            android:checked="true"
+            android:gravity="center"
+            android:textOff=""
+            android:textOn="" />
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/collect_seperator_thin"
+        android:background="@color/collect_seperator_thin" />
+
+    <LinearLayout
+        android:id="@+id/layoutAtAll"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:clickable="true"
+        android:visibility="gone"
+        android:paddingRight="@dimen/padding" >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:gravity="left"
+            android:padding="@dimen/space_2x"
+            android:text="@string/group_at_all"
+            android:textColor="@color/color_text_m"
+            android:textSize="@dimen/text_xl" />
+
+        <ImageView
+            android:id="@+id/toMore"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:checked="true"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/space"
+            android:src="@drawable/arrow_more_gray" />
+    </LinearLayout>
+
+    <View
+        android:id="@+id/layoutAtAllLine"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/collect_seperator_thin"
+        android:visibility="gone"
+        android:background="@color/collect_seperator_thin" />
+
+    <ListView
+        android:id="@+id/em_group_member_list"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="@color/white"
+        android:cacheColorHint="@android:color/transparent"
+        android:divider="@color/color_seperator"
+        android:dividerHeight="@dimen/collect_seperator_thin"
+        android:fastScrollEnabled="true"
+        android:listSelector="@color/white"
+        android:scrollbars="none"
+        android:smoothScrollbar="true" />
+
+    <TextView
+        android:id="@+id/em_clear_and_exit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/color_main"
+        android:gravity="center"
+        android:padding="@dimen/space_2x"
+        android:text="@string/em_clear_and_exit"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_xl" />
+
+</LinearLayout>

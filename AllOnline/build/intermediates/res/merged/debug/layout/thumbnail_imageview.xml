@@ -1,0 +1,43 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <ImageView
+        android:id="@+id/thumb_image"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true"
+        android:contentDescription="@null"
+        android:scaleType="centerCrop" />
+
+    <TextView
+        android:id="@+id/file_type"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:background="@color/camerasdk_gif_bg"
+        android:paddingLeft="2dp"
+        android:paddingRight="2dp"
+        android:text="@string/camerasdk_gif"
+        android:textColor="@color/camerasdk_gif_color"
+        android:textSize="@dimen/camerasdk_gif_size"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/image_count"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:background="@color/image_flag_bg"
+        android:drawableLeft="@drawable/image_flag"
+        android:drawablePadding="2dp"
+        android:gravity="center"
+        android:paddingLeft="2dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/image_flag_text_color"
+        android:textSize="@dimen/image_flag_text_size"
+        android:visibility="gone" />
+
+</RelativeLayout>

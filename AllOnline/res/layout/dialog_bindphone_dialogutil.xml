@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dialogutil_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/transparent"
+    android:padding="@dimen/space_4x"
+    android:orientation="horizontal" >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@drawable/rounded_corners_bindphone_dialogbg"
+        android:padding="@dimen/space_2dp"
+        android:orientation="vertical" >
+        <TextView
+            android:id="@+id/dialogutil_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="@dimen/margin_1.5x"
+            android:gravity="center"
+            android:text="@string/bindphone_dialog_hint"
+            android:textColor="@color/color_text_h"
+            android:textSize="@dimen/text_xl" />
+
+        <TextView
+            android:id="@+id/dialogutil_message"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/bindphone_toast_phone_is_bind"
+            android:layout_margin="@dimen/community_margin"
+            android:textColor="@color/color_text_l"
+            android:textSize="@dimen/text_s" />
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/seperator_thin"
+            android:background="@color/color_seperator"
+            android:layout_marginTop="@dimen/margin_1.5x" />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/dialogutil_btncancel"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/margin"
+                android:text="@string/cancel"
+                android:textColor="@color/community_blue"
+                android:textSize="@dimen/text_m_x"/>
+
+            <View
+                android:layout_width="@dimen/seperator_thin"
+                android:layout_height="match_parent"
+                android:background="@color/color_seperator" />
+            <TextView
+                android:id="@+id/dialogutil_btnok"
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="@dimen/margin"
+                android:text="@string/ok"
+                android:textColor="@color/community_blue"
+                android:textSize="@dimen/text_m_x" />
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

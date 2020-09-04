@@ -1,0 +1,910 @@
+[
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\act_white_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\act_white_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_type_select_btn.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_type_select_btn.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_pressed_shape.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_btn_blue_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_blue.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_blue.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_listitem_citys.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_listitem_citys.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\design_password_eye.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable\\design_password_eye.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_textbox.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_textbox.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\act_radio_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\act_radio_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\style_lv_apt_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\style_lv_apt_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_dark.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_msg_state_failed_resend.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_msg_state_failed_resend.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_normal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_blue_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_cb_circle.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\selector_cb_circle.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_normal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_green_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\square_blue_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\square_blue_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\redpacket_open_ani.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\redpacket_open_ani.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\login_press.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\login_press.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bottom_redpacket.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bottom_redpacket.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\white_radius_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\white_radius_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_timestampe_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_timestampe_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_internal_bg.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_focused.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_light_focused.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\camerasdk_cam_focus.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\camerasdk_cam_focus.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\preapply_gradient_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\preapply_gradient_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_half_corners_left_black.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_half_corners_left_black.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_square.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\selector_square.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_action_car_icon_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\tab_action_car_icon_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_horizontal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\progress_horizontal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\camerasdk_selector_actionbar_bg.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\camerasdk_selector_actionbar_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_voice_search_api_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ensure_read_type.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ensure_read_type.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\alarm_item_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\alarm_item_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_select.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_select.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_r3_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_blue_r3_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_image_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chat_image_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_top.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\indicator_bg_top.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\action_btn.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\action_btn.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light_normal.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_light_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_pressed_shape.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_btn_cancel_pressed_shape.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_action_mine_icon_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\tab_action_mine_icon_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_blue_r3.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\selector_btn_blue_r3.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_center_btn_right_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\titlebar_center_btn_right_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_normal.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_light_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottomleft_bg_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottomleft_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_normal_shape.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_btn_cancel_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_btn_disable.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\scan_btn_disable.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_light.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_voice_btn.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chatting_setmode_voice_btn.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_btn_type.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\checkbox_btn_type.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\confirm_dialog_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\confirm_dialog_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_redpacket_input_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_redpacket_input_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\indicator_bg_bottom.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\indicator_bg_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_press_speak_btn.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chat_press_speak_btn.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_round_border_normal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\textview_round_border_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\textview_round_border_selected.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\textview_round_border_selected.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\redpacket_pay_platform_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\redpacket_pay_platform_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light_focused.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_light_focused.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\list_item_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_style.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_blue_style.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\checkbox_btn_alarm.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\checkbox_btn_alarm.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_redpacket_commit_bg1.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_redpacket_commit_bg1.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_gray2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_gray2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\remark_show_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\remark_show_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\share_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\share_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_hint_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_recording_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_disabled.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_disabled.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottomright_bg_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottomright_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\square_gray_normal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\square_gray_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_clear_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dev_green.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dev_green.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_blue_r6.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\selector_btn_blue_r6.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_blue_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottom_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottom_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\item_background_holo_dark.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_rp_lucky_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_rp_lucky_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\alarm_list_item_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\alarm_list_item_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\bindphone_smscode_btn_selectore.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\bindphone_smscode_btn_selectore.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dev_gray.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dev_gray.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\camerasdk_selector_checkbox.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\camerasdk_selector_checkbox.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_half_corners_right_black.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_half_corners_right_black.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\list_item_divider.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\list_item_divider.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_form.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_form.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_cab_background_top_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\camerasdk_selector_create_button.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\camerasdk_selector_create_button.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\agreement_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\agreement_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_biaoqing_btn.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chatting_setmode_biaoqing_btn.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\item_background_holo_light.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\camerasdk_loading_bg.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\camerasdk_loading_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\loading_drawable.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\drawable\\loading_drawable.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_dark.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\set_press_type.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\set_press_type.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_focused.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_btn_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\scan_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_send_btn_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chat_send_btn_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_indicator_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_ongoing_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_ongoing_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\act_register_top_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\act_register_top_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_white2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_white2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_green.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_green.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\about_evaluate_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\about_evaluate_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_redpacket_commit_bg2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_redpacket_commit_bg2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatfrom_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chatfrom_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\timer_shape2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\timer_shape2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_check_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_btn_check_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_enable.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\login_btn_enable.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\icon_history_sbar_thumb_black.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\icon_history_sbar_thumb_black.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\alarm_list_item_bg_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\alarm_list_item_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_ok_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_ok_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\bindphone_bind_btn_selectore.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\bindphone_bind_btn_selectore.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_borderless_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_redpacket_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chat_redpacket_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_black.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\corner_black.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_light.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_checkbox.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_checkbox.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\design_snackbar_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable\\design_snackbar_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_btn_blue_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_go_search_api_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_form_row.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_form_row.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_text_cursor_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_ab_back_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark_normal.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\alarm_list_item_bg_normal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\alarm_list_item_bg_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\color_cursor.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\color_cursor.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\edittext_bg_line.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\edittext_bg_line.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\em_message_checkbox.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\em_message_checkbox.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\top_round_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\top_round_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\listview_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\listview_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_blue_r3_normal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_blue_r3_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_spinner_textfield_background_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatto_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chatto_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottom_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottom_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottomleft_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottomleft_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_btn_light.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_btn_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_edittext_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chat_edittext_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\list_bottom_text_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\list_bottom_text_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\device_edit_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\device_edit_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\voice_to_icon.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\voice_to_icon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\goome_update_dialog_bkg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\goome_update_dialog_bkg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\voice_from_icon.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\voice_from_icon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\act_register_bottom_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\act_register_bottom_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_dark.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\titlebar_center_btn_left_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\titlebar_center_btn_left_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_cancel_bj.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_btn_cancel_bj.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\navigation_empty_icon.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable\\navigation_empty_icon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\corner_blue_black.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\corner_blue_black.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\act_blue_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\act_blue_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_focused.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_dark_focused.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_thumb_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\line_blank_gray.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\line_blank_gray.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\radio_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\radio_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_light.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\tooltip_frame_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_btn_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_btn_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_hollow_bg_blue.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_hollow_bg_blue.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_edit_text_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_edit_text_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_tab_indicator_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_preapply.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_preapply.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_fill_white.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_fill_white.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable\\notification_icon_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottomright_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottomright_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_common_tab_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_common_tab_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bindphone_dialogbg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bindphone_dialogbg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ask_text_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ask_text_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chat_location_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chat_location_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\btn_green_style.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\btn_green_style.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\smscode_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\smscode_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dialog_bottom_bg_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dialog_bottom_bg_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\nothing.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\nothing.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\dev_blue.png",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\dev_blue.png"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_default_mtrl_shape.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_chatting_setmode_keyboard_btn.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_chatting_setmode_keyboard_btn.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\progressbar_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\progressbar_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_track_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_sidebar_background_pressed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_sidebar_background_pressed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\selector_btn_blue.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\selector_btn_blue.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_dark.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\list_selector_background_transition_holo_light.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\style_lv_apt_selector2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\style_lv_apt_selector2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\design_bottom_navigation_item_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\drawable\\design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_switch_thumb_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_recording_text_hint_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_recording_text_hint_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_progressbar_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_progressbar_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_icon_disabled.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_icon_disabled.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_dark_normal.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_dark_normal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\m_jump.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\m_jump.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_holo_light.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_radio_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_seekbar_tick_mark_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_dialog_material_background.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_textfield_search_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_list_selector_background_transition_holo_light.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_tag_grey.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_tag_grey.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\list_white_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\list_white_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_search_api_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\act_register_gradient_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\act_register_gradient_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ic_menu_overflow_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_vector_test.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_vector_test.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ripple_text_green.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ripple_text_green.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_btn_colored_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\scan_btn_enable.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\scan_btn_enable.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\progress_anim.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\progress_anim.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_redpacket_yellow_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_redpacket_yellow_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\im_chatfromvoice_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\im_chatfromvoice_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\tooltip_frame_dark.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\tooltip_frame_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\popwindow_collect_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\popwindow_collect_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\tab_action_alarm_icon_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\tab_action_alarm_icon_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_black.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_black.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\rounded_corners_bg_gray.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\rounded_corners_bg_gray.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\round_black_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\round_black_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\bg_gv.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\bg_gv.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\ease_btn_blue_normal_shape.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\ease_btn_blue_normal_shape.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_listitem_result.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_listitem_result.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\common_google_signin_btn_text_light.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\play-services-base-16.0.1.aar\\fc96f312788e55ed8552de360657225f\\res\\drawable\\common_google_signin_btn_text_light.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\login_btn_disable.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\login_btn_disable.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\bottom_action_bar_item_bg_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\bottom_action_bar_item_bg_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_item_background_holo_dark.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\seekbar_progress.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\seekbar_progress.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\main_item_bg.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\main_item_bg.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\csy_listitem_shortname.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\drawable\\csy_listitem_shortname.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\drawable\\abc_ratingbar_small_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\drawable\\abc_ratingbar_small_material.xml"
+    }
+]

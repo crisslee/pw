@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_em_select_at_user"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_width="fill_parent"
+        android:layout_height="@dimen/actionbar_height"
+        android:background="@color/color_main"
+        android:gravity="center_vertical">
+
+        <TextView
+            android:id="@+id/actionbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="15dp"
+            android:layout_marginRight="40dp"
+            android:singleLine="true"
+            android:text="@string/select_atlist_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xxl"/>
+
+
+        <TextView
+            android:id="@+id/actionbar_left_text"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:paddingLeft="@dimen/space_2x"
+            android:paddingRight="@dimen/space_2x"
+            android:singleLine="true"
+            android:text="@string/cancel"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_xl"/>
+
+    </RelativeLayout>
+
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <se.emilsjolander.stickylistheaders.StickyListHeadersListView
+            android:id="@+id/listViewUsers"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:cacheColorHint="@color/transparent"
+            android:divider="@color/collect_seperator_thin"
+            android:dividerHeight="@dimen/collect_seperator_thin"
+            android:footerDividersEnabled="true"
+            android:listSelector="@drawable/listview_selector"/>
+
+        <com.coomix.app.all.widget.SideBar
+            android:id="@+id/sidrbarUser"
+            android:layout_width="15.0dip"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_5dp"
+            android:layout_gravity="right|center"/>
+    </FrameLayout>
+
+</LinearLayout>

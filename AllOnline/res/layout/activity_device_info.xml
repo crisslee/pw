@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#efedf4"
+    android:orientation="vertical"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:orientation="vertical" >
+
+            <View
+                android:layout_width="fill_parent"
+                android:background="#efedf4"
+                android:layout_height="14dip"/>
+
+            <LinearLayout
+                android:id="@+id/layoutDevName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewDevNameTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/device_name"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewDevName"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutImei"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewImeiTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/device_imei"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewImei"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutExtra"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewExtraTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/device_extra"
+                    android:maxLines="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewExtra"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:layout_gravity="right"
+                    android:gravity="right"
+                    android:ellipsize="end"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutCardNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewCardNumTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/phone_card_num_tel"
+                    android:maxLines="1"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewCardNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:maxLines="1"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:drawableRight="@drawable/icon_right_infowindow"
+                    android:textColor="@color/black2_90"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutLastConn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewLastConnTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_connection"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewLastConn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:maxLines="1"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:textColor="@color/black2_90"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutLastGPS"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewLastGPSTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/last_gps"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewLastGPS"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:maxLines="1"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:textColor="@color/black2_90"/>
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2"
+                />
+
+            <LinearLayout
+                android:id="@+id/layoutTotalDistance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp"
+                >
+
+                <TextView
+                    android:id="@+id/tvDistanceTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="@string/device_total_distance"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall"
+                    />
+
+                <TextView
+                    android:id="@+id/tvDistance"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="right"
+                    android:drawablePadding="5dp"
+                    android:drawableRight="@drawable/icon_right_infowindow"
+                    android:ellipsize="end"
+                    android:gravity="right"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:background="#efedf4"
+                android:layout_height="14dip"/>
+
+            <LinearLayout
+                android:id="@+id/layoutDevType"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewDevTypeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/device_type"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewDevType"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:maxLines="1"
+                    android:textColor="@color/black2_90" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineAngle"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2"/>
+
+            <LinearLayout
+                android:id="@+id/layoutAngle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewAngleTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/device_angle"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewAngle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:maxLines="1"
+                    android:textColor="@color/black2_90" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutOpenDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewOpenDateTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/open_date"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewOpenDate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingRight="15dp"
+                    android:maxLines="1"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:textColor="@color/black2_90" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/time_divider"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutDueTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewDueToTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/end_date"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewDueTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/dueToDivider"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutCardDueTo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/tvCardDueToTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_end_date"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/tvCardDueTo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:maxLines="1"
+                    android:text="@string/show_end_date"
+                    android:paddingRight="15dp"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall" />
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textViewExpired"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black2_90"
+                android:text="@string/device_expired"
+                android:visibility="gone"
+                android:padding="10dp" />
+
+            <View
+                android:layout_width="fill_parent"
+                android:background="#efedf4"
+                android:layout_height="14dip"/>
+
+            <LinearLayout
+                android:id="@+id/layoutWarning"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewWarningTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/alarm"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewWarning"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="fill_parent"
+                android:background="#efedf4"
+                android:layout_height="14dip"/>
+
+            <LinearLayout
+                android:id="@+id/layoutCardRecharge"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewCardRechargeTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/card_recharge"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewCardRecharge"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:maxLines="1"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lastLine"
+                android:layout_width="fill_parent"
+                android:layout_height="14dip"
+                android:background="#efedf4" />
+
+            <LinearLayout
+                android:id="@+id/layoutDevContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewDevContactTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/device_contact"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewDevContact"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:maxLines="1"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/lineContact"
+                android:layout_width="fill_parent"
+                android:layout_height="0.5dip"
+                android:layout_marginLeft="10dp"
+                android:background="#cdced2" />
+
+            <LinearLayout
+                android:id="@+id/layoutContactNum"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white_bg"
+                android:padding="10dp" >
+
+                <TextView
+                    android:id="@+id/textViewContactNumTitle"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/contact_num"
+                    android:layout_weight="1"
+                    android:textColor="@color/text_black"
+                    android:textSize="@dimen/textsize_xxsmall" />
+
+                <TextView
+                    android:id="@+id/textViewContactNum"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:drawablePadding="5dp"
+                    android:textColor="@color/black2_90"
+                    android:textSize="@dimen/textsize_xxxsmall"
+                    android:maxLines="1"
+                    android:drawableRight="@drawable/icon_right_infowindow" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divPassInfo"
+                android:layout_width="fill_parent"
+                android:layout_height="14dip"
+                android:background="#efedf4"
+                />
+
+            <LinearLayout
+                android:id="@+id/passInfo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                ></LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

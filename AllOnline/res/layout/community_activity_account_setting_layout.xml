@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/mineActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <LinearLayout
+        android:id="@+id/layoutAccount"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:textSize="17sp"
+            android:textColor="@color/text_black"
+            android:text="@string/account_setting_item_account_tip" />
+
+        <TextView
+            android:id="@+id/textViewUserAccount"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="17dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical|right"
+            android:textColor="@color/text_gray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/lineAccount"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/layoutName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:textSize="17sp"
+            android:textColor="@color/text_black"
+            android:text="@string/account_setting_item_name_tip" />
+
+        <TextView
+            android:id="@+id/textViewName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="17dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:gravity="center_vertical|right"
+            android:text="dsdsds"
+            android:textColor="@color/text_gray"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/lineName"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:visibility="gone"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+    <TextView
+        android:id="@+id/textViewChangePWD"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:layout_height="wrap_content"
+        android:paddingLeft="17dp"
+        android:paddingRight="17dp"
+        android:maxLines="1"
+        android:gravity="center_vertical"
+        android:paddingBottom="12dp"
+        android:paddingTop="12dp"
+        android:background="@color/white"
+        android:text="@string/account_setting_item_change_pwd_tip"
+        android:textColor="@color/text_black"
+        android:drawableRight="@drawable/icon_right_infowindow"
+        android:textSize="17sp" />
+
+    <TextView
+        android:id="@+id/textViewLogout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="17dp"
+        android:layout_marginRight="17dp"
+        android:textSize="17sp"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:textColor="@color/white"
+        android:layout_marginTop="17dp"
+        android:gravity="center"
+        android:text="@string/account_settin_logout_btn"
+        android:background="@drawable/corner_black"/>
+</LinearLayout>

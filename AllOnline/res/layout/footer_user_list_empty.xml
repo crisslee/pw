@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <!-- 嵌套解决在listview中作为headview和footerview不能设置gone的问题 -->
+
+    <LinearLayout
+        android:id="@+id/footer_user_list_empty_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingTop="@dimen/space_10x"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/footer_user_list_empty_iv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:adjustViewBounds="true"
+            android:scaleType="center" />
+
+        <TextView
+            android:id="@+id/footer_user_list_empty_tv"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/space_2x"
+            android:layout_marginTop="@dimen/space_2x"
+            android:gravity="center"
+            android:textColor="@color/color_text_m"
+            android:textSize="@dimen/text" />
+    </LinearLayout>
+
+</LinearLayout>

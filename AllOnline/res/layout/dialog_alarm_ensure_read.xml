@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/white_bg"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:id="@+id/message1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="@string/ensure_read_dialog"
+            android:textColor="@color/font_main_tv"
+            android:textSize="16sp"
+            />
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/ensure_read"
+            android:gravity="center"
+            >
+
+            <TextView
+                android:id="@+id/ensureBtn"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="20dip"
+                android:layout_marginTop="20dip"
+                android:gravity="center"
+                android:text="@string/ensure_read"
+                android:textColor="@color/headbg"
+                android:textSize="18sp"
+                />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/cancleBtn"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dip"
+            android:layout_marginTop="20dip"
+            android:gravity="center"
+            android:text="@string/cancle_read"
+            android:textColor="@color/headbg"
+            android:textSize="18sp"
+            />
+
+    </LinearLayout>
+
+</FrameLayout>

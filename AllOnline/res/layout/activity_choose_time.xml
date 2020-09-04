@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </com.coomix.app.all.widget.MyActionbar>
+
+    <NumberPicker
+        android:id="@+id/day"
+        android:layout_width="@dimen/space_9x"
+        android:layout_height="180dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_chainStyle="packed"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/hour"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        app:layout_constraintVertical_bias="0.3"
+        >
+
+    </NumberPicker>
+
+    <NumberPicker
+        android:id="@+id/hour"
+        android:layout_width="@dimen/space_9x"
+        android:layout_height="180dp"
+        android:layout_marginLeft="@dimen/space_4x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/day"
+        app:layout_constraintRight_toLeftOf="@+id/minute"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        app:layout_constraintVertical_bias="0.3"
+        >
+
+    </NumberPicker>
+
+    <NumberPicker
+        android:id="@+id/minute"
+        android:layout_width="@dimen/space_9x"
+        android:layout_height="180dp"
+        android:layout_marginLeft="@dimen/space_4x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toRightOf="@id/hour"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        app:layout_constraintVertical_bias="0.3"
+        >
+
+    </NumberPicker>
+
+    <android.support.constraint.ConstraintLayout
+        android:id="@+id/locMode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        >
+
+
+        <View
+            android:id="@+id/divMode"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="@color/divider"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/modeGps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableRight="@drawable/loc_mode_checked"
+            android:paddingBottom="@dimen/space_3x"
+            android:paddingLeft="@dimen/space_4x"
+            android:paddingRight="@dimen/space_4x"
+            android:paddingTop="@dimen/space_3x"
+            android:text="@string/location_gps_hint"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_xl"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divMode"
+            />
+
+        <View
+            android:id="@+id/divGps"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_4x"
+            android:background="@color/divider"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/modeGps"
+            />
+
+        <TextView
+            android:id="@+id/modeBase"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableRight="@drawable/loc_mode_checked"
+            android:paddingBottom="@dimen/space_3x"
+            android:paddingLeft="@dimen/space_4x"
+            android:paddingRight="@dimen/space_4x"
+            android:paddingTop="@dimen/space_3x"
+            android:text="@string/location_lbs_hint"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_xl"
+            app:layout_constraintTop_toBottomOf="@id/divGps"
+            />
+
+        <View
+            android:id="@+id/divBase"
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:layout_marginLeft="@dimen/space_4x"
+            android:background="@color/divider"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/modeBase"
+            />
+
+        <TextView
+            android:id="@+id/modeWifi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/white"
+            android:drawableRight="@drawable/loc_mode_checked"
+            android:paddingBottom="@dimen/space_3x"
+            android:paddingLeft="@dimen/space_4x"
+            android:paddingRight="@dimen/space_4x"
+            android:paddingTop="@dimen/space_3x"
+            android:text="@string/location_wifi_hint"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_xl"
+            android:visibility="gone"
+            app:layout_constraintTop_toBottomOf="@id/divBase"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+</android.support.constraint.ConstraintLayout>

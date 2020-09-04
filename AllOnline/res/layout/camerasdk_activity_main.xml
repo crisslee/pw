@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <GridView
+            android:id="@+id/gv_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:horizontalSpacing="@dimen/space_size"
+            android:listSelector="@null"
+            android:numColumns="3"
+            android:scrollbars="none"
+            android:verticalSpacing="@dimen/space_size" />
+
+        <RelativeLayout
+            android:id="@+id/camera_footer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:alpha="0.7"
+            android:background="#000000"
+            android:clickable="true" >
+
+            <TextView
+                android:id="@+id/camerasdk_actionbar_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="@dimen/margin"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/padding"
+                android:text="@string/community_preview_camera"
+                android:textColor="@color/white" />
+
+            <TextView
+                android:id="@+id/button_preview"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="@dimen/margin"
+                android:clickable="true"
+                android:gravity="center"
+                android:padding="@dimen/padding"
+                android:text="@string/community_preview"
+                android:textColor="@color/white" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</LinearLayout>

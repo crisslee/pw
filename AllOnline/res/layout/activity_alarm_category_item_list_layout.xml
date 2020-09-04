@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/setting_bg"
+    android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <FrameLayout
+        android:id="@+id/content_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.handmark.pulltorefresh.library.PullToRefreshRecyclerView
+            android:id="@+id/recycler_view_wrap"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:id="@+id/delete_layout"
+            android:layout_width="match_parent"
+            android:layout_height="38dp"
+            android:layout_gravity="bottom"
+            android:orientation="vertical"
+            android:background="#F3F3F6"
+            android:visibility="gone">
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/collect_seperator_thin"
+                android:background="#DDDDDD" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="37.5dp"
+                android:orientation="horizontal"
+                android:layout_gravity="center_vertical">
+                <TextView
+                    android:id="@+id/all_item_selector"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_marginLeft="10dp"
+                    android:text="@string/all_selected"
+                    android:textColor="@color/btn_enable_text_color"
+                    android:clickable="true" />
+
+                <TextView
+                    android:id="@+id/delete_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:background="#F3F3F6"
+                    android:focusable="true"
+                    android:layout_alignParentRight="true"
+                    android:gravity="center"
+                    android:maxLines="1"
+                    android:paddingRight="10dp"
+                    android:text="@string/alarm_delete_btn_text"
+                    android:textColor="#4E6BB9"
+                    android:textSize="16sp" />
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</LinearLayout>

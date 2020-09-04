@@ -1,0 +1,67 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/layout_background"
+    tools:context=".ui.audioRecord.AudioProgressingFragment">
+
+    <Button
+        android:id="@+id/btnRtry"
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|center_horizontal"
+        android:layout_margin="8dp"
+        android:background="@drawable/selector_btn_blue_r6"
+        android:clickable="true"
+        android:foreground="?attr/selectableItemBackground"
+        android:text="@string/reconnect"
+        android:textColor="@color/white"
+        android:textSize="15sp" />
+
+    <ImageView
+        android:id="@+id/img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerInParent="true"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="100dp"
+        android:src="@drawable/audio_sent" />
+
+    <TextView
+        android:id="@+id/tvSending"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:layout_above="@+id/btnRtry"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="@string/audio_sending"
+        android:textColor="#9497a0"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tvResultFailed"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="12dp"
+        android:text="@string/audio_failed"
+        android:textColor="#ec5254"
+        android:textSize="9sp" />
+
+    <TextView
+        android:id="@+id/tvResultSucc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:paddingBottom="12dp"
+        android:textColor="#4e6bb9"
+        android:textSize="9sp" />
+
+</RelativeLayout>

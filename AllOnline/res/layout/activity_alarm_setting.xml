@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/color_bg">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout  android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@color/white_bg"
+                android:layout_marginTop="@dimen/list_item_empty_height"
+                >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/received_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="9dip"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/receive_notice"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/receivedCbx"
+                        android:layout_width="46dip"
+                        android:layout_height="28dip"
+                        android:background="@drawable/btn_checkbox"
+                        android:checked="true"
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/dl"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/list_item_empty_height"
+                android:background="@color/white_bg"
+                >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    />
+
+                <RelativeLayout android:id="@+id/audio_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="9dip"
+                    android:paddingTop="9dip"
+                    android:paddingBottom="9dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/sound"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/audioCbx"
+                        android:layout_width="46dip"
+                        android:layout_height="28dip"
+                        android:background="@drawable/btn_checkbox"
+                        android:checked="true"
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    android:layout_marginLeft="15dip"/>
+
+                <RelativeLayout android:id="@+id/choose_audio_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="11dip"
+                    android:paddingTop="11dip"
+                    android:paddingBottom="11dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:id="@+id/chooseAudioTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_audio_type"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawableRight="@drawable/icon_right_infowindow"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/chooseAudioIv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    android:layout_marginLeft="15dip"
+                    />
+
+                <RelativeLayout android:id="@+id/vibration_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="9dip"
+                    android:paddingTop="9dip"
+                    android:paddingBottom="9dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/vibration"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+                    <ToggleButton
+                        android:id="@+id/vibrationCbx"
+                        android:layout_width="46dip"
+                        android:layout_height="28dip"
+                        android:background="@drawable/btn_checkbox"
+                        android:checked="false"
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/shockLine"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    android:layout_marginLeft="15dip"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/layoutLongShock"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="9dip"
+                    android:paddingTop="9dip"
+                    android:paddingBottom="9dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/long_vibration"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+
+                    <ToggleButton
+                        android:id="@+id/toggleLongShock"
+                        android:layout_width="46dip"
+                        android:layout_height="28dip"
+                        android:background="@drawable/btn_checkbox"
+                        android:checked="false"
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="@dimen/list_item_empty_height"
+                android:background="@color/white_bg" >
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/notice_type_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="11dip"
+                    android:paddingTop="11dp"
+                    android:paddingBottom="11dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:id="@+id/noticeTypeTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_notice_type"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:drawableRight="@drawable/icon_right_infowindow"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    android:layout_marginLeft="15dip"
+                    />
+
+
+                <RelativeLayout
+                    android:id="@+id/notice_period_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="9dip"
+                    android:paddingTop="9dip"
+                    android:paddingBottom="9dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView android:id="@+id/noticePeriodTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/set_notice_time"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_black"
+                        android:layout_alignParentLeft="true"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/notice_period_cbox"
+                        android:layout_width="46dip"
+                        android:layout_height="28dip"
+                        android:background="@drawable/btn_checkbox"
+                        android:checked="false"
+                        android:textOff=""
+                        android:textOn=""
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:id="@+id/noticePeriodIv"
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    android:layout_marginLeft="15dip"
+                    />
+
+
+                <RelativeLayout
+                    android:id="@+id/notice_begin_time_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="11dip"
+                    android:paddingTop="11dip"
+                    android:paddingBottom="11dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:id="@+id/begin_time_hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/start_time"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_gray"
+                        android:layout_centerVertical="true"
+                        />
+                    <TextView
+                        android:id="@+id/begin_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/begin_time_hint"
+                        android:paddingLeft="@dimen/space"
+                        android:text="08:00"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_gray"
+                        android:layout_centerVertical="true"
+                        />
+
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    />
+
+                <RelativeLayout
+                    android:id="@+id/notice_end_time_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dip"
+                    android:paddingRight="11dip"
+                    android:paddingTop="11dip"
+                    android:paddingBottom="11dip"
+                    android:background="@drawable/bottom_action_bar_item_bg_selector"
+                    android:clickable="true"
+                    >
+
+                    <TextView
+                        android:id="@+id/end_time_hint"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/end_time"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_gray"
+                        android:layout_centerVertical="true"
+                        />
+
+                    <TextView
+                        android:id="@+id/end_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_toRightOf="@id/end_time_hint"
+                        android:paddingLeft="@dimen/space"
+                        android:text="22:00"
+                        android:textSize="17sp"
+                        android:textColor="@color/text_gray"
+                        />
+                </RelativeLayout>
+
+                <View
+                    android:layout_width="fill_parent"
+                    android:layout_height="0.5dip"
+                    android:background="@color/line_show_thf"
+                    />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

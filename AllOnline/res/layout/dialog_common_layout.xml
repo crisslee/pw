@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/alarm_list_item_bg_selector"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/dialog_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_3x"
+        android:layout_marginRight="@dimen/space_3x"
+        android:layout_marginTop="@dimen/space_2x"
+        android:gravity="center"
+        android:text="标题"
+        android:textStyle="bold"
+        android:textColor="@color/color_text_h"
+        android:textSize="@dimen/textsize_small"
+        android:visibility="visible"/>
+
+    <TextView
+        android:id="@+id/dialog_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/space_2x"
+        android:layout_marginLeft="@dimen/space_2x"
+        android:layout_marginRight="@dimen/space_2x"
+        android:gravity="center"
+        android:lineSpacingMultiplier="1.2"
+        android:text="目前只开放查询最近时间的轨迹，如需查询更早时间的轨迹，请联系客服。QQ群：118221981、179066794。(3020)"
+        android:textColor="@color/eboard_text_normal"
+        android:textSize="@dimen/textsize_xxxsmall"/>
+
+    <View
+        android:id="@+id/lineGrid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/collect_seperator_thin"
+        android:layout_marginTop="@dimen/space_2x"
+        android:background="#d9d9d9"/>
+
+    <TextView
+        android:id="@+id/dialog_sure"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/dialog_bottom_bg_selector"
+        android:gravity="center"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/baidu_navi_sure"
+        android:textColor="@color/color_main"
+        android:textSize="@dimen/text_xxl"
+        android:visibility="gone"/>
+
+    <LinearLayout
+        android:id="@+id/twoButton"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:orientation="horizontal"
+        android:visibility="gone">
+
+        <!-- 取消按钮 -->
+        <TextView
+            android:id="@+id/dialog_cancel"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/alarm_notice_closed_ignore"
+            android:textColor="@color/btn_blue"
+            android:textSize="@dimen/textsize_small"
+            android:background="@drawable/dialog_bottomleft_bg_selector"/>
+
+        <View
+            android:layout_width="@dimen/collect_seperator_thin"
+            android:layout_height="match_parent"
+            android:background="#d9d9d9" />
+
+        <!-- 确定按钮 -->
+        <TextView
+            android:id="@+id/dialog_ok"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="@string/alarm_notice_closed_gotoset"
+            android:textColor="@color/btn_blue"
+            android:textSize="@dimen/textsize_small"
+            android:textStyle="bold"
+            android:background="@drawable/dialog_bottomright_bg_selector"/>
+    </LinearLayout>
+
+</LinearLayout>

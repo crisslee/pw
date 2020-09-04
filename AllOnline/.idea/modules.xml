@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/AllOnline.iml" filepath="$PROJECT_DIR$/.idea/modules/AllOnline.iml" group="privatework-develop/AllOnline" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-797557656/GpnsSdk.iml" filepath="$PROJECT_DIR$/.idea/modules/-797557656/GpnsSdk.iml" group="privatework-develop/GpnsSdk" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/-2114920085/privatework-develop.iml" filepath="$PROJECT_DIR$/.idea/modules/-2114920085/privatework-develop.iml" group="privatework-develop" />
+    </modules>
+  </component>
+</project>

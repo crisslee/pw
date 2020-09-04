@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/layoutMapView"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <!--fit system-->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fitsSystemWindows="true"
+        >
+
+        <ScrollView
+            android:id="@+id/debug"
+            android:layout_width="match_parent"
+            android:layout_height="250dp"
+            android:visibility="gone"
+            android:background="@color/white"
+            tools:visibility="visible"
+            android:elevation="6dp"
+            >
+            <LinearLayout
+                android:id="@+id/debugLoc"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+            </LinearLayout>
+        </ScrollView>
+
+        <ImageView
+            android:id="@+id/nav_map_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/space_2x"
+            android:layout_marginTop="15dip"
+            android:background="@drawable/main_item_bg"
+            android:paddingBottom="2dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:elevation="@dimen/space"
+            android:src="@drawable/nav_more_map_normal_rcn"
+            />
+
+        <ImageView
+            android:id="@+id/map_street"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/nav_map_change"
+            android:layout_marginRight="@dimen/space_2x"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/main_item_bg"
+            android:paddingBottom="2dp"
+            android:paddingLeft="7dp"
+            android:paddingRight="7dp"
+            android:paddingTop="2dp"
+            android:elevation="@dimen/space"
+            android:src="@drawable/nav_panorama_rcn"
+            />
+
+        <!--左侧三个菜单-->
+        <LinearLayout
+            android:id="@+id/nav_op"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="@dimen/space_2x"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/main_item_bg"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:elevation="@dimen/space"
+            >
+
+            <ImageView
+                android:id="@+id/user_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="@dimen/space_2x"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/mine_icon"
+                />
+
+            <View
+                android:id="@+id/lineView1"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#d9d9d9"
+                />
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/warning_icon"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="7dp"
+                    android:paddingRight="7dp"
+                    android:src="@drawable/alarm_icon"
+                    />
+
+                <TextView
+                    android:id="@+id/textViewWarnCount"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignRight="@+id/warning_icon"
+                    android:layout_marginLeft="-20dp"
+                    android:background="@drawable/count_tip_bg"
+                    android:gravity="center"
+                    android:textColor="@color/white"
+                    android:textSize="10sp"
+                    android:visibility="gone"
+                    />
+            </RelativeLayout>
+
+            <View
+                android:id="@+id/lineView2"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:background="#d9d9d9"
+                />
+
+            <ImageView
+                android:id="@+id/imageViewList"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="@dimen/space_2x"
+                android:paddingLeft="7dp"
+                android:paddingRight="7dp"
+                android:src="@drawable/list_icon_cn"
+                />
+
+        </LinearLayout>
+
+        <!--公告-->
+        <RelativeLayout
+            android:id="@+id/rlNotice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/nav_op"
+            android:layout_toLeftOf="@id/nav_map_change"
+            android:layout_marginTop="@dimen/space_3x"
+            android:layout_marginLeft="@dimen/space_2x"
+            android:layout_marginRight="@dimen/space_2x"
+            android:background="@drawable/main_item_bg"
+            android:visibility="gone"
+            android:elevation="@dimen/space"
+            tools:visibility="visible"
+            >
+
+            <ImageView
+                android:id="@+id/closeNotice"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/notice_close"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_margin="6dp"
+                />
+            <TextView
+                android:id="@+id/notice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:singleLine="true"
+                android:ellipsize="marquee"
+                android:marqueeRepeatLimit="marquee_forever"
+                android:focusable="true"
+                android:focusableInTouchMode="true"
+                android:layout_marginLeft="6dp"
+                android:layout_toLeftOf="@id/closeNotice"
+                android:layout_centerVertical="true"
+                android:textColor="@color/text_mid"
+                android:textSize="@dimen/text_m"
+                />
+        </RelativeLayout>
+
+        <!--外电电量-->
+        <RelativeLayout
+            android:id="@+id/rlBattery"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_below="@id/nav_op"
+            android:layout_marginLeft="@dimen/space_2x"
+            android:layout_marginTop="@dimen/space_2x"
+            android:background="@drawable/main_item_bg"
+            android:elevation="@dimen/space"
+            android:visibility="gone"
+            tools:visibility="visible"
+            >
+
+            <com.coomix.app.all.widget.BatteryState
+                android:id="@+id/batteryLevel"
+                android:layout_width="36dp"
+                android:layout_height="19dp"
+                android:layout_marginLeft="@dimen/space"
+                android:layout_marginRight="3dp"
+                android:layout_marginTop="@dimen/space"
+                />
+
+            <TextView
+                android:id="@+id/batteryPercent"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/batteryLevel"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="3dp"
+                android:textColor="@color/black_bg"
+                android:textSize="@dimen/text_xs"
+                />
+        </RelativeLayout>
+
+        <!--定位器安装角度-->
+        <RelativeLayout
+            android:id="@+id/rlInstall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignRight="@id/nav_op"
+            android:layout_below="@id/rlBattery"
+            android:layout_marginLeft="@dimen/space_2x"
+            android:layout_marginTop="@dimen/space_2x"
+            android:background="@drawable/main_item_bg"
+            android:visibility="gone"
+            android:elevation="@dimen/space"
+            tools:visibility="visible"
+            >
+
+            <ImageView
+                android:id="@+id/imgInstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/space"
+                android:src="@drawable/dev_install_ok"
+                />
+
+            <TextView
+                android:id="@+id/tvInstall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/imgInstall"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/space"
+                android:layout_marginTop="3dp"
+                android:text="@string/dev_install_ok"
+                android:textColor="@color/black_bg"
+                android:textSize="9sp"
+                />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/layoutNoDev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/corner_black"
+            android:gravity="center"
+            android:elevation="@dimen/space"
+            android:visibility="gone"
+            >
+
+            <TextView
+                android:id="@+id/textViewNoDev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:drawableLeft="@drawable/scan_small"
+                android:drawablePadding="@dimen/space_2x"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:paddingBottom="10dp"
+                android:paddingTop="10dp"
+                android:text="@string/scan_qr_code_bind_dev"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_m_x"
+                />
+
+        </LinearLayout>
+
+        <!--上一个，下一个-->
+        <LinearLayout
+            android:id="@+id/layoutNextPre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/space_2x"
+            android:background="@drawable/main_item_bg"
+            android:layout_below="@id/map_street"
+            android:layout_marginTop="@dimen/space_14x"
+            android:elevation="@dimen/space"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/previous_dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_2x"
+                android:paddingRight="@dimen/space_2x"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:src="@drawable/dev_pre"
+                />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cmd_line_seperator_height"
+                android:background="@color/divider"
+                android:layout_marginLeft="@dimen/space"
+                android:layout_marginRight="@dimen/space"
+                />
+
+            <ImageView
+                android:id="@+id/next_dev"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="@dimen/space_2x"
+                android:paddingRight="@dimen/space_2x"
+                android:paddingTop="18dp"
+                android:paddingBottom="18dp"
+                android:src="@drawable/dev_next"
+                />
+
+        </LinearLayout>
+    </RelativeLayout>
+
+    <!-- 底部ui -->
+    <LinearLayout
+        android:id="@+id/layoutBottomCarInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center_horizontal"
+        android:orientation="vertical"
+        android:visibility="visible"
+        >
+
+        <com.coomix.app.all.widget.BottomDrawer
+            android:id="@+id/rlMenu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/space_2x"
+            android:background="@drawable/top_round_bg"
+            >
+
+            <ImageView
+                android:id="@+id/divMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/menu_divider"
+                android:paddingTop="@dimen/space"
+                android:paddingBottom="@dimen/space_2x"
+                />
+
+            <LinearLayout
+                android:id="@+id/llMenu"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divMenu"
+                android:orientation="horizontal"
+                android:paddingTop="1dp"
+                android:layout_marginBottom="@dimen/space_2x"
+                android:weightSum="5"
+                >
+                <RelativeLayout
+                    android:id="@+id/rlShare"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+
+                    <TextView
+                        android:id="@+id/home_share_tv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/monitor_share"
+                        android:drawableTop="@drawable/icon_share"
+                        android:textSize="@dimen/text_s"
+                        android:textColor="@color/black_bg"
+                        android:drawablePadding="@dimen/space"
+                        android:visibility="visible"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_horizontal"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlHistory"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:id="@+id/route_playback_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:drawableTop="@drawable/icon_route_playback"
+                        android:textSize="@dimen/text_s"
+                        android:textColor="@color/black_bg"
+                        android:text="@string/route_playback"
+                        android:drawablePadding="@dimen/space"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_horizontal"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlRecord"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <ImageView
+                        android:id="@+id/ivRecord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/audio_close"
+                        android:layout_centerHorizontal="true"
+                        />
+                    <TextView
+                        android:id="@+id/tvRecord"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_below="@id/ivRecord"
+                        android:text="@string/start_recording"
+                        android:layout_marginTop="@dimen/space"
+                        android:textSize="@dimen/text_s"
+                        android:textColor="@color/black_bg"
+                        />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlPower"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:id="@+id/powerMode"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/dev_power_mode"
+                        android:drawableTop="@drawable/power_mode_off"
+                        android:textSize="@dimen/text_s"
+                        android:textColor="@color/black_bg"
+                        android:drawablePadding="@dimen/space"
+                        android:layout_centerHorizontal="true"
+                        android:gravity="center_horizontal"
+                        />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/rlLock"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    >
+                    <TextView
+                        android:id="@+id/openLock"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="开锁"
+                        android:gravity="center_horizontal"
+                        android:drawableTop="@drawable/open_lock"
+                        android:textSize="@dimen/text_s"
+                        android:textColor="@color/black_bg"
+                        android:drawablePadding="@dimen/space"
+                        android:layout_centerHorizontal="true"
+                        />
+
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divBottom"
+                android:layout_width="match_parent"
+                android:layout_below="@id/llMenu"
+                android:layout_height="0.5dp"
+                android:background="#d9d9d9"
+                />
+        </com.coomix.app.all.widget.BottomDrawer>
+
+        <LinearLayout
+            android:id="@+id/realBottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:elevation="@dimen/space_2x"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:background="@color/white"
+                android:orientation="vertical"
+
+                android:paddingBottom="@dimen/space_12dp"
+                android:paddingTop="@dimen/space_12dp"
+                android:paddingLeft="@dimen/space_3x"
+                android:paddingRight="@dimen/space_3x"
+                >
+
+                <TextView
+                    android:id="@+id/pop_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:gravity="center_vertical|left"
+                    android:maxLines="1"
+                    android:textColor="#3c3c3c"
+                    android:textSize="@dimen/textsize"
+                    android:textStyle="bold"
+                    tools:text="劳斯莱斯-测试"
+                    />
+
+                <LinearLayout
+                    android:id="@+id/layoutStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingBottom="6dp"
+                    android:paddingTop="6dp"
+                    >
+
+                    <TextView
+                        android:id="@+id/pop_state"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center"
+                        android:textColor="@color/redpacket_green"
+                        android:textSize="@dimen/text_s"
+                        tools:text="静止 7小时3分钟"
+                        />
+
+                    <View
+                        android:id="@+id/power_line"
+                        android:layout_width="@dimen/cmd_line_seperator_height"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="@dimen/space_2x"
+                        android:layout_marginRight="@dimen/space_2x"
+                        android:background="@color/divider"
+                        />
+
+                    <TextView
+                        android:id="@+id/pop_acc_state_power"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_s"
+                        tools:text="电量 30%"
+                        />
+
+                    <View
+                        android:id="@+id/signalLine"
+                        android:layout_width="@dimen/cmd_line_seperator_height"
+                        android:layout_height="20dp"
+                        android:layout_marginLeft="@dimen/space_2x"
+                        android:layout_marginRight="@dimen/space_2x"
+                        android:background="@color/divider"
+                        />
+
+                    <TextView
+                        android:id="@+id/gpsLevel"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_vertical"
+                        android:drawablePadding="@dimen/space"
+                        android:drawableRight="@drawable/signal4"
+                        android:gravity="center_vertical"
+                        android:maxLines="1"
+                        android:text="北斗+GPS"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/text_s"
+                        />
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/tvBattery"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/space"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_s"
+                    tools:text="电池预计可用 12小时"
+                    />
+
+                <TextView
+                    android:id="@+id/pop_address"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:ellipsize="end"
+                    android:lineSpacingMultiplier="1.2"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/text_s"
+                    tools:text="地址：广东省深圳市南山区科技园"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/cmd_line_seperator_height"
+                android:background="#d9d9d9"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                >
+
+                <TextView
+                    android:id="@+id/detail_btn"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/detail"
+                    android:textColor="@color/text_blue_new"
+                    android:textSize="@dimen/textsize_small"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="@dimen/space_3x"
+                    android:paddingLeft="@dimen/space_18dp"
+                    android:paddingRight="@dimen/space_18dp"
+                    />
+
+                <TextView
+                    android:id="@+id/divDetail"
+                    android:layout_width="@dimen/cmd_line_seperator_height"
+                    android:layout_height="20dp"
+                    android:layout_toRightOf="@id/detail_btn"
+                    android:background="@color/divider"
+                    android:layout_centerVertical="true"
+                    />
+
+                <TextView
+                    android:id="@+id/senior_setting"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@id/divDetail"
+                    android:gravity="center"
+                    android:singleLine="true"
+                    android:text="@string/senior"
+                    android:textColor="@color/text_blue_new"
+                    android:textSize="@dimen/textsize_small"
+                    android:paddingTop="13dp"
+                    android:paddingBottom="@dimen/space_3x"
+                    android:paddingLeft="@dimen/space_18dp"
+                    android:paddingRight="@dimen/space_18dp"
+                    />
+
+                <Button
+                    android:id="@+id/showDebug"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="显示"
+                    android:layout_toRightOf="@id/senior_setting"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentRight="true"
+                    android:paddingRight="@dimen/space_3x"
+                    >
+
+                    <TextView
+                        android:id="@+id/one_key_set"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:singleLine="true"
+                        android:text="@string/one_key_open"
+                        android:textColor="@color/text_black"
+                        android:textSize="@dimen/textsize_small"
+                        />
+
+                    <ToggleButton
+                        android:id="@+id/toggleButtonSet"
+                        android:layout_width="46dip"
+                        android:layout_height="28dip"
+                        android:layout_marginLeft="@dimen/space_2x"
+                        android:background="@drawable/btn_checkbox"
+                        android:checked="true"
+                        android:textOff=""
+                        android:textOn=""
+                        />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</RelativeLayout>

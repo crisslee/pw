@@ -1,0 +1,1266 @@
+[
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\car.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\car.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\drawable_mark.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\drawable_mark.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_item_effect.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_item_effect.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_row_received_message.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_row_received_message.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_big_media.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_title_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_alert_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_date.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_choose_date.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\download_notification.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\download_notification.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\native_activity_main_list_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\native_activity_main_list_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popwindow_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_select_dialog_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_select_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\v_user_icon_view.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\v_user_icon_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_dropdown_item_icons_2line.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_search_dropdown_item_icons_2line.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\xlist_group.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\xlist_group.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_alert_dialog_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_list_item_camera.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_list_item_camera.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_text.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_layout_tab_text.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_navigation_menu.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_settime_picker.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_settime_picker.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_upload_info.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_upload_info.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_voice.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_sent_voice.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_dev_time.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_dev_time.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_menu_item_action_area.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_menu_item_action_area.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_audio_recording.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_audio_recording.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_unlock_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_unlock_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_vertical.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\pull_to_refresh_header_vertical.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_big_expression.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_big_expression.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popup_view_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popup_view_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popup_layout_alarm.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popup_layout_alarm.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_bigexpression.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_sent_bigexpression.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\layout_content_view_gone.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\layout_content_view_gone.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_emojicon_tab_bar.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_widget_emojicon_tab_bar.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_close_item_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_mode_close_item_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_main_parent.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_main_parent.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\upload_host_history_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\upload_host_history_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_row_sent_message.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_row_sent_message.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_content_include.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_screen_content_include.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_crop_image.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_crop_image.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_layout_emojicon_menu.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_layout_emojicon_menu.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_audio_progressing.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_audio_progressing.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_input_imei.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_input_imei.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_redpacket.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_sent_redpacket.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_singlechoice_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_week.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_week.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_boot.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_boot.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_list_drag.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_list_drag.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\tab_service_activity_item_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\tab_service_activity_item_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_lines_media.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_lines_media.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\recycler_swipe_view_load_more.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\recyclerview-swipe-1.2.0.aar\\44c85466268437502545fdf4a8ed07d9\\res\\layout\\recycler_swipe_view_load_more.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popup_layout_history.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popup_layout_history.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\devicelist_group_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\devicelist_group_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\community_empty_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\community_empty_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\view_car_tree_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\view_car_tree_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_disclaimer.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_disclaimer.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\viewpager_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\viewpager_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_activity_camera.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_activity_camera.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_order_info.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_my_order_info.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dev_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_dev_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_audio_start.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_audio_start.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comm_act_detail.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_comm_act_detail.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\xlist_amap_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\xlist_amap_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_list_item_image.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_list_item_image.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\select_address_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\select_address_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_dev_mode_alarm.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_dev_mode_alarm.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\rp_custom_info_window.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\rp_custom_info_window.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_dialogutil.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_dialogutil.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_search_view.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_search_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_up_container.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_bar_up_container.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_un_lock.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_un_lock.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_auido_buy_traffic.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_auido_buy_traffic.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_voice.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_voice.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_checkbox.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_list_menu_item_checkbox.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_register.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_register.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_layout_chat_primary_menu.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_layout_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_toolbar.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_screen_toolbar.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_row_received_picture.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_row_received_picture.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_popup_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\alarm_popup_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_category_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_category_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_register_item_edittext.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_register_item_edittext.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_login.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarms_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_alarms_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_plat_recharge.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_plat_recharge.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_history_map.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_history_map.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\toolbar_scanner.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\toolbar_scanner.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_choose_audio.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_choose_audio.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_category_list_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_alarm_category_list_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_listitem_result.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_listitem_result.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_adver.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_adver.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_comm_act_main.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_comm_act_main.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_alarm_location.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_map_alarm_location.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_alert_dialog_button_bar_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_alert_dialog_button_bar_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_track.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_track.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_act_register2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_act_register2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\share_adapter_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\share_adapter_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_address_selector.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_address_selector.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_widget_chat_input_menu.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_widget_chat_input_menu.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_palt_recharge.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_palt_recharge.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\bottom_action_bar_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\bottom_action_bar_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_item_new.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\alarm_item_new.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bind_wechat.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_bind_wechat.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_row_sent_picture.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_row_sent_picture.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_item_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_voice_recorder.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_widget_voice_recorder.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_qq_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_qq_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_host_history.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_host_history.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_item_sticker.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_item_sticker.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\pop_item_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\pop_item_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_time.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\layout\\notification_template_part_time.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_register_item_textview.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_register_item_textview.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media_custom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_media_custom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_video.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_video.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\text_bubble.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\text_bubble.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\list_treeview_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\list_treeview_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_notice_recharge.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_notice_recharge.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_list_item_image_view.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_list_item_image_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_alarm_category_item_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_alarm_category_item_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\redpacket_detail_top.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\redpacket_detail_top.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_set_password.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_set_password.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_bindphone_dialogutil.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_bindphone_dialogutil.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_bottom_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popwindow_bottom_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_alert_dialog.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_alert_dialog.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_title_bar.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_widget_title_bar.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_command.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_device_command.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tpanorama.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_tpanorama.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_bottom_share.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popwindow_bottom_share.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_setting.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_setting.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_icon_group.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\layout\\notification_template_icon_group.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_id.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_id.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow_custom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_big_media_narrow_custom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_alarm.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_alarm.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_act_resister2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_act_resister2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_bigexpression.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_bigexpression.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\panorama_device_marker.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\panorama_device_marker.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\layout\\notification_action.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\xlist_amap_serch__item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\xlist_amap_serch__item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_setting.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_alarm_setting.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\layout_popup_menu_alarm.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\layout_popup_menu_alarm.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\tooltip.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\tooltip.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_activity_show_file.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_activity_show_file.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_chat_primary_menu.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_widget_chat_primary_menu.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_multichoice_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\select_dialog_multichoice_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_single_card_recharge.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_single_card_recharge.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_pay_status.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_pay_status.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_card_data_info.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_card_data_info.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\footer_no_more_data.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\footer_no_more_data.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\thumbnail_imageview.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\thumbnail_imageview.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\pushadv_dialog_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\pushadv_dialog_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_em_groupmembers.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_em_groupmembers.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_layout_snackbar.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\zoom_control_view_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\zoom_control_view_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_actionbar.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_actionbar.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_update.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\list_item_update.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_action.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_media_action.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_header_item_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_popup_menu_header_item_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_widget_switch_button.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_widget_switch_button.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_withdraw_deposit_success.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_withdraw_deposit_success.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_notice.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_notice.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\xlist_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\xlist_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_activity_preview.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\camerasdk_activity_preview.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_sheet_dialog.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_bottom_sheet_dialog.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_dev_mode_alarm_add.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_dev_mode_alarm_add.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\share_adpater_location_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\share_adpater_location_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_rebindphone_dialogutil.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_rebindphone_dialogutil.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_custom.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_custom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_audio_pack.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_audio_pack.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_activity_main.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_activity_main.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_normal_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_normal_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_subheader.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_navigation_item_subheader.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_common_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_common_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_location.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_location.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_menu_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_navigation_menu_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\recycler_swipe_view_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\recyclerview-swipe-1.2.0.aar\\44c85466268437502545fdf4a8ed07d9\\res\\layout\\recycler_swipe_view_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_create_redpacket.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_create_redpacket.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\support_simple_spinner_dropdown_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\support_simple_spinner_dropdown_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_detail_redpacket.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_detail_redpacket.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_showvideo_activity.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_showvideo_activity.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_alarm_ensure_read.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_alarm_ensure_read.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_act_pic_resister2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_act_pic_resister2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\rp_location_list_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\rp_location_list_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_redpacket_map.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_redpacket_map.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dot_view.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dot_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_chat_menu_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_chat_menu_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_goome_chat.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_goome_chat.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_area_select.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_area_select.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\date_select_item_dev.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\date_select_item_dev.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_act_register.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_act_register.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_offline.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_offline.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_list_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_version.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\notification_version.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\alarm_type_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\alarm_type_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_show_redpacket.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_show_redpacket.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_select_history_calender.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_select_history_calender.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\search_history_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\search_history_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_galarm_location.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_galarm_location.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\gm_widget_emojicon.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\gm_widget_emojicon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\redpacket_chat_view.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\redpacket_chat_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_tab_icon.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_layout_tab_icon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\history_stay_marker_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\history_stay_marker_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_info_update.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_device_info_update.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\wheelview_item_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\wheelview_item_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_item_viewpage.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_item_viewpage.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_register_item_gridview.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_register_item_gridview.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_plat_recharge_succ.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_plat_recharge_succ.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\footer_user_list_empty.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\footer_user_list_empty.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_choose_time.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_choose_time.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_redpacket.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_redpacket.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_location.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_sent_location.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_default_fence_radius.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_default_fence_radius.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\layout_clickable_toast.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\layout_clickable_toast.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_list_item_preview_image.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_list_item_preview_image.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\redpacket_detail_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\redpacket_detail_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\em_chat_location.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\em_chat_location.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_act_addr_resister2.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_act_addr_resister2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_file.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_screen_simple.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_filter_image.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_filter_image.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_em_select_at_user.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_em_select_at_user.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_register_main.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_register_main.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_gridview_addtopic.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_gridview_addtopic.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\date_select_title_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\date_select_title_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_mode_bar.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\offlinemap_group.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\offlinemap_group.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\pull_to_refresh_header_horizontal.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\pull_to_refresh_header_horizontal.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_narrow.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_big_media_narrow.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_progress.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_progress.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_layout_snackbar_include.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_layout_snackbar_include.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_scanner.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_scanner.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\resize_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\resize_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_my_activity.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_my_activity.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_audio_annul_pack.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_audio_annul_pack.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_expanded_menu_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_expanded_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_text_input_password_icon.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_text_input_password_icon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_dialog_title_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_dialog_title_material.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_map_set_fence.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_map_set_fence.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_popup_folder.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_popup_folder.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_plat_recharge_success.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_plat_recharge_success.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\nothing.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\nothing.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\hscroll_view.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\hscroll_view.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_action_tombstone.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\layout\\notification_action_tombstone.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_loading.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_loading.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_expression_gridview.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_expression_gridview.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_activity_shortname.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_activity_shortname.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\goome_update_dialog_activity.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\goome_update_dialog_activity.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\community_activity_account_setting_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\community_activity_account_setting_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_header.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_navigation_item_header.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_list_item_folder.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_list_item_folder.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_modify_pwd.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_modify_pwd.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_part_chronometer.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-26.1.0.aar\\3382cee14304211323427b14cc374802\\res\\layout\\notification_template_part_chronometer.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_rp_location_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popwindow_rp_location_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_activity_gridpreview.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\camerasdk_activity_gridpreview.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\number_picker_with_selector_wheel.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\number_picker_with_selector_wheel.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_input.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_input.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_distance_statistics.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_distance_statistics.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_card_recharge.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_card_recharge.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_activity_result.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_activity_result.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_follow_wechat.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_follow_wechat.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\devicelist_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\devicelist_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_activity_main.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\camerasdk_activity_main.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\popwindow_bottom.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\popwindow_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\comm_act_detail_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\comm_act_detail_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_video.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_sent_video.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_icon.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_list_menu_item_icon.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\my_actionbar_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\my_actionbar_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_audio_recording.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_audio_recording.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_device_info.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_device_info.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_rebindphone_smscode_dialogutil.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_rebindphone_smscode_dialogutil.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_dev_mode_alarm_empty.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_dev_mode_alarm_empty.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gfence.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_gfence.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_customer.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_customer.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarms_type_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_alarms_type_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_expression.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_expression.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_mine_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_mine_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_menu_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_action_menu_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_act_register_extend.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_act_register_extend.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_gm_chat_settings.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_gm_chat_settings.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_audio_chatroom.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_audio_chatroom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_mobile.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_mobile.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_listitem_citys.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_listitem_citys.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_command_list_web.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_command_list_web.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\list_item_area.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\list_item_area.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\fragment_loop.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\fragment_loop.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\item_statistics.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_statistics.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dev_time.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_dev_time.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\my_activity_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\my_activity_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_media_cancel_action.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_media_cancel_action.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\camerasdk_list_item_image_view2.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\layout\\camerasdk_list_item_image_view2.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\share_adpater_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\share_adpater_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_activity_citys.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_activity_citys.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_register_info.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_register_info.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_scroll_tab_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_scroll_tab_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_custom_alarm_list.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_custom_alarm_list.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_screen_simple_overlay_action_mode.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_wheel_select.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_wheel_select.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\csy_listitem_shortname.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\csy_listitem_shortname.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_sent_file.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_sent_file.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\date_select_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\date_select_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\act_register_item_radiogroup.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\act_register_item_radiogroup.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_alarm_category_item_list_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_alarm_category_item_list_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_bpanorama.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_bpanorama.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_media.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_media.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\user_select_list_header_item.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\user_select_list_header_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_overspeed.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_overspeed.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\notification_template_big_media_custom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\support-media-compat-26.1.0.aar\\89c8df053de5e8b899f6df8acdb83ca1\\res\\layout\\notification_template_big_media_custom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\xlist_header.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\xlist_header.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\dialog_ongoing_layout.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\dialog_ongoing_layout.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_bottom_navigation_item.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_bottom_navigation_item.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\design_navigation_item_separator.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\layout\\design_navigation_item_separator.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\abc_list_menu_item_radio.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\abc_list_menu_item_radio.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\select_dialog_item_material.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\layout\\select_dialog_item_material.xml"
+    }
+]

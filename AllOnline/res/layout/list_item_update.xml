@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/tv_city"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/text_blue"
+            android:textSize="17.0sp" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+        
+        <TextView
+            android:id="@+id/tv_status_temp"
+            android:visibility="gone"
+            android:layout_width="0dip"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+        
+
+        <TextView
+            android:id="@+id/tv_size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="6dip"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+
+        <ImageView
+            android:id="@+id/img_indicator"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/group_indicator_expand" />
+    </LinearLayout>
+
+    <ProgressBar
+        android:id="@+id/progress_horizontal"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:max="100"
+        android:progress="0"
+        android:secondaryProgress="0" />
+
+    <LinearLayout
+        android:id="@+id/ll_expand"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="4dip" >
+
+        <Button
+            android:id="@+id/btn_update"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:padding="6dip"
+            android:text="@string/offline_map_update"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:padding="6dip"
+            android:text="@string/offline_map_start"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+        
+        
+        <Button
+            android:id="@+id/btn_start_temp"
+            android:visibility="gone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="5dip"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:padding="6dip"
+            android:text="@string/offline_map_start"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+        
+        
+
+        <Button
+            android:id="@+id/btn_delete"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:layout_marginRight="10dip"
+            android:layout_weight="1"
+            android:focusable="false"
+            android:padding="6dip"
+            android:text="@string/offline_map_delete"
+            android:textColor="@android:color/black"
+            android:textSize="16.0sp" />
+    </LinearLayout>
+
+</LinearLayout>

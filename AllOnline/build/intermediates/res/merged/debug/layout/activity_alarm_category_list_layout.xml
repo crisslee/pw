@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/color_bg"
+    android:orientation="vertical"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <TextView
+        android:id="@+id/followWechat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/notify_bg"
+        android:drawableRight="@drawable/actionbar_right"
+        android:paddingBottom="@dimen/space_8dp"
+        android:paddingLeft="@dimen/space_2x"
+        android:paddingRight="@dimen/space_2x"
+        android:paddingTop="@dimen/space_8dp"
+        android:textSize="@dimen/text_m"
+        android:textColor="@color/black_bg"
+        android:text="@string/alarm_wechat_hint"
+        android:visibility="visible"
+        tools:visibility="visible"
+        />
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/alarm_item_bg_normal"/>
+
+    <include layout="@layout/community_empty_layout" />
+
+</LinearLayout>

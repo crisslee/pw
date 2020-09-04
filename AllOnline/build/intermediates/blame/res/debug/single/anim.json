@@ -1,0 +1,142 @@
+[
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_bottom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_slide_out_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_bottom.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\slide_out_to_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_exit.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_popup_exit.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\scale_in.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\scale_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\actionsheet_dialog_in.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\actionsheet_dialog_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\fade_in.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\fade_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_top.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_slide_in_top.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\scale_out.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\scale_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\actionsheet_dialog_out.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\actionsheet_dialog_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\slide_out_to_top.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\slide_out_to_top.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_bottom.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\slide_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\slide_in_from_top.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\slide_in_from_top.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_enter.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\zoom_enter.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_exit.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\tooltip_exit.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_in.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\anim\\design_bottom_sheet_slide_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\design_bottom_sheet_slide_out.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\anim\\design_bottom_sheet_slide_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_in.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\push_bottom_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_in.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\push_top_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_out.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\anim\\design_snackbar_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\push_bottom_out.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\push_bottom_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_out.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_fade_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_popup_enter.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_popup_enter.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\design_snackbar_in.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\ea152631173deb9e3346613f9941461d\\res\\anim\\design_snackbar_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\goome_update_fade_out.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\goome_update_fade_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\camerasdk_push_up_out.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\anim\\camerasdk_push_up_out.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_shrink_fade_out_from_bottom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_shrink_fade_out_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\zoom_exit.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\zoom_exit.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\push_left_in.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\push_left_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\tooltip_enter.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\tooltip_enter.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_out_top.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_slide_out_top.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_fade_in.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_fade_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_slide_in_bottom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_slide_in_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\camerasdk_push_up_in.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\camerasdk-2.0.3.aar\\7179896e4eedfd836eb45c7e74d3e4c9\\res\\anim\\camerasdk_push_up_in.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\abc_grow_fade_in_from_bottom.xml",
+        "source": "C:\\Users\\lijin\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\ee4d0b6f2dc286ac4cae22276c95cc0b\\res\\anim\\abc_grow_fade_in_from_bottom.xml"
+    },
+    {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\anim\\push_top_out.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\anim\\push_top_out.xml"
+    }
+]

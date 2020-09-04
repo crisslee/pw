@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:paddingLeft="@dimen/space"
+    android:paddingRight="@dimen/space_4x"
+    >
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space"
+        android:layout_marginTop="@dimen/space_3x"
+        android:padding="@dimen/space"
+        android:drawableLeft="@drawable/actionbar_left"
+        android:drawablePadding="@dimen/space"
+        android:text="@string/login"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/text_l"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_3x"
+        android:layout_marginTop="116dp"
+        android:text="@string/register_new"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/titletext_size"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+    <EditText
+        android:id="@+id/phone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_3x"
+        android:layout_marginTop="@dimen/space_7x"
+        android:hint="@string/register_phone_hint"
+        android:textSize="@dimen/textsize"
+        android:background="@drawable/edittext_bg_line"
+        android:inputType="phone"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title"
+        />
+
+    <EditText
+        android:id="@+id/captcha"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/edittext_bg_line"
+        android:inputType="number"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:layout_marginLeft="@dimen/space_3x"
+        android:layout_marginTop="@dimen/space_5x"
+        android:hint="@string/bindphone_smscode_title"
+        android:textSize="@dimen/textsize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/phone"
+        />
+
+    <TextView
+        android:id="@+id/getCaptcha"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/space"
+        android:text="@string/register_get_captcha"
+        android:textColor="@color/black_bg"
+        android:textSize="@dimen/textsize"
+        app:layout_constraintBaseline_toBaselineOf="@id/captcha"
+        app:layout_constraintRight_toRightOf="parent"
+        />
+
+    <TextView
+        android:id="@+id/next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/space_3x"
+        android:layout_marginTop="@dimen/space_7x"
+        android:background="@drawable/login_btn_disable"
+        android:gravity="center"
+        android:paddingBottom="11dp"
+        android:paddingTop="11dp"
+        android:text="@string/bindphone_next"
+        android:textColor="@color/white"
+        android:textSize="@dimen/textsize"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/captcha"
+        />
+
+</android.support.constraint.ConstraintLayout>

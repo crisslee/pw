@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/color_bg">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <com.handmark.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/listViewChat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/input_menu"
+        android:layout_below="@id/myActionbar"
+        android:cacheColorHint="@color/transparent"
+        android:divider="@color/transparent"
+        android:dividerHeight="@dimen/collect_seperator_thin"
+        android:layout_marginBottom="3dp"
+        android:footerDividersEnabled="true"
+        android:listSelector="@color/transparent"/>
+
+    <ImageView
+        android:id="@+id/to_community_section_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="60dp"
+        android:visibility="gone"/>
+
+    <com.goomeim.widget.GMVoiceRecorderView
+        android:id="@+id/voice_recorder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"/>
+
+    <com.goomeim.widget.GMChatInputMenu
+        android:id="@+id/input_menu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"/>
+
+    <TextView
+        android:id="@+id/share_to_community"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@color/color_main"
+        android:gravity="center"
+        android:padding="@dimen/space_3x"
+        android:text="@string/em_message_share_to_community"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_xxl"
+        android:visibility="gone"/>
+
+</RelativeLayout>

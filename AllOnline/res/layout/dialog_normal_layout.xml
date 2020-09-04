@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:orientation="vertical"  >
+ 
+    <LinearLayout
+        android:background="@drawable/popup_alarm_bg" 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingTop="25dip"
+        android:paddingLeft="25dip"
+        android:paddingRight="25dip"
+        android:paddingBottom="20dip">
+         
+        <TextView
+            android:id="@+id/message" 
+            android:textSize="13sp"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="@string/logining"
+            android:lineSpacingMultiplier="1.5"
+            android:minHeight="50.0dip"
+            android:textColor="@color/font_main_tv"/>
+
+        <View  android:id="@+id/lineView"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line_show_dialog" 
+            android:layout_marginTop="11dip"
+            android:visibility="gone"/>
+        
+         <TextView
+            android:id="@+id/message2" 
+            android:textSize="12sp"
+            android:textColor="@color/font_main_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|left"
+            android:text="@string/forget_passward"
+            android:lineSpacingMultiplier="1.5"
+            android:layout_marginTop="9dip" 
+            android:visibility="gone"/>
+         
+          <View  android:id="@+id/lineView2"
+            android:layout_width="fill_parent"
+            android:layout_height="0.5dip"
+            android:background="@color/line_show_dialog" 
+            android:layout_marginTop="9dip"
+            android:visibility="gone"/>
+          
+          <LinearLayout  android:id="@+id/message3"
+            	android:layout_width="match_parent"
+            	android:layout_height="wrap_content"
+            	android:orientation="horizontal"
+            	android:visibility="gone"
+            	android:layout_marginTop="10dip">
+            	
+               <LinearLayout
+                android:layout_width="0dip"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:orientation="vertical"
+            	android:gravity="center">
+                
+                   <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/message_iv1"
+                       android:gravity="center"/>
+                   
+                   <TextView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/register_message3_t1"
+                       android:textSize="10sp"
+            		  android:textColor="@color/font_main_tv"/>
+               </LinearLayout>
+                             
+               <LinearLayout
+                android:layout_width="0dip"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:orientation="vertical"
+            	android:gravity="center">
+                
+                   <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/message_iv2"
+                       android:gravity="center"/>
+                   
+                   <TextView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/register_message3_t2"
+                       android:textSize="10sp"
+            		  android:textColor="@color/font_main_tv"/>
+               </LinearLayout>
+               
+               <LinearLayout
+                android:layout_width="0dip"
+            	android:layout_height="wrap_content"
+            	android:layout_weight="1"
+            	android:orientation="vertical"
+            	android:gravity="center">
+                
+                   <ImageView android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:src="@drawable/message_iv3"
+                       android:gravity="center"/>
+                   
+                   <TextView android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="@string/register_message3_t3"
+                       android:textSize="10sp"
+            		  android:textColor="@color/font_main_tv"/>
+               </LinearLayout>
+          </LinearLayout>
+<!-- android:background="@drawable/bg_login"
+	android:background="@drawable/dialog_bottom_bg"
+
+ @drawable/dialog_bottom_bg-->
+        <LinearLayout android:id="@+id/loginConfirmPressView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:background="@null"
+            android:gravity="center"
+            android:orientation="horizontal" 
+            android:layout_marginTop="22dip"
+             android:visibility="gone">
+
+            <Button
+                android:id="@+id/positiveButton"
+                android:textSize="15sp"
+                android:textColor="@color/dialog_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@null"
+                android:gravity="center"
+                android:text="@string/login_ok" 
+                android:padding="10dip"/>
+        </LinearLayout>
+        
+       	<RelativeLayout android:id="@+id/ll_loginModifyPassword"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_marginTop="22dip" 
+             android:visibility="gone">
+
+            <Button
+                android:id="@+id/bt_loginModifyPassword"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dialog_ok"
+                android:gravity="center_vertical"
+                android:text="@string/login_pwd_ok" 
+                android:layout_alignParentLeft="true"
+                android:background="@null"/>
+            
+            <Button
+                android:id="@+id/bt_cancelModifyPassword"
+                android:textSize="15sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/dialog_ok"
+                android:gravity="center_vertical"
+                android:text="@string/cancel"
+                android:layout_alignParentRight="true" 
+                android:background="@null"/>                        
+        </RelativeLayout>
+        
+       	<LinearLayout android:id="@+id/ll_newUserIndication"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/dialog_bottom_bg"
+            android:gravity="center"
+            android:orientation="horizontal" 
+             android:visibility="gone">
+
+            <Button
+                android:id="@+id/bt_newUserIndication"
+                android:textSize="12sp"
+                android:textColor="@color/font_main_tv"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:background="@drawable/btn_ok_selector"
+                android:gravity="center"
+                android:layout_marginRight="15dip"
+                android:text="@string/ok" />
+            
+            <Button
+                android:id="@+id/bt_cancelNewUserIndication"
+                android:textSize="12sp"
+                android:textColor="@color/font_main_tv"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:background="@drawable/btn_ok_selector"
+                android:gravity="center"
+                android:layout_marginLeft="15dip"
+                android:text="@string/cancel" />
+                        
+        </LinearLayout>
+        
+       	<LinearLayout android:id="@+id/ll_gpsIndication"
+            android:layout_width="fill_parent"
+            android:layout_height="60.0dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/dialog_bottom_bg"
+            android:gravity="center"
+            android:orientation="horizontal" 
+             android:visibility="gone">
+
+            <Button
+                android:id="@+id/bt_gpsIndication"
+                android:textSize="12sp"
+                android:textColor="@color/font_main_tv"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:background="@drawable/btn_ok_selector"
+                android:gravity="center"
+                android:layout_marginRight="15dip"
+                android:text="@string/ok" />
+            
+            <Button
+                android:id="@+id/bt_cancelGpsIndication"
+                android:textSize="12sp"
+                android:textColor="@color/font_main_tv"
+                android:layout_width="114.0dip"
+                android:layout_height="40.0dip"
+                android:background="@drawable/btn_ok_selector"
+                android:gravity="center"
+                android:layout_marginLeft="15dip"
+                android:text="@string/cancel" />
+                        
+        </LinearLayout>
+        
+    </LinearLayout>
+
+</FrameLayout>

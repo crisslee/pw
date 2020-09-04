@@ -1,0 +1,130 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:id="@+id/imageViewTitle"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:scaleType="centerCrop" />
+
+    <LinearLayout
+        android:id="@+id/layoutContent"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="@dimen/topic_horizon_padding"
+        android:layout_marginRight="@dimen/topic_horizon_padding"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textViewTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginTop="@dimen/comm_act_margin_size"
+            android:gravity="center_vertical|left"
+            android:text=""
+            android:textColor="@color/black"
+            android:textSize="@dimen/text_xxl"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewTime"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginBottom="@dimen/comm_act_margin_size"
+            android:layout_marginTop="@dimen/comm_act_margin_size"
+            android:drawableLeft="@drawable/act_detail_time"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/register_grid_color"
+            android:textSize="@dimen/text_l"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewLocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center|left"
+            android:layout_marginBottom="@dimen/comm_act_margin_size"
+            android:drawableLeft="@drawable/act_detail_location"
+            android:drawablePadding="5dp"
+            android:gravity="center|left"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/register_grid_color"
+            android:textSize="@dimen/text_l"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewLimit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginBottom="@dimen/comm_act_margin_size"
+            android:drawableLeft="@drawable/act_detail_limit"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/register_grid_color"
+            android:textSize="@dimen/text_l"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewCost"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical|left"
+            android:layout_marginBottom="@dimen/comm_act_margin_size"
+            android:drawableLeft="@drawable/cost_icon"
+            android:drawablePadding="5dp"
+            android:gravity="center_vertical|left"
+            android:singleLine="true"
+            android:text=""
+            android:textColor="@color/red"
+            android:textSize="@dimen/text_l"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/layoutScan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <LinearLayout
+                android:id="@+id/layoutScanImage"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|left"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left"
+                android:orientation="horizontal" />
+
+            <TextView
+                android:id="@+id/textViewScanCount"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_gravity="center_vertical|right"
+                android:gravity="center_vertical|right"
+                android:singleLine="true"
+                android:text=""
+                android:textColor="@color/color_text_m"
+                android:textSize="@dimen/text" />
+        </LinearLayout>
+
+        <View
+            android:id="@+id/gridLine"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/comm_act_line_height"
+            android:layout_marginBottom="@dimen/comm_act_margin_size"
+            android:layout_marginTop="@dimen/comm_act_margin_size"
+            android:background="@color/register_grid_color" />
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/topbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toTopOf="parent"
+        >
+
+    </com.coomix.app.all.widget.MyActionbar>
+
+    <android.support.constraint.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:paddingBottom="@dimen/space_10x"
+        android:paddingLeft="@dimen/space_5x"
+        android:paddingRight="@dimen/space_7x"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/topbar"
+        >
+
+        <TextView
+            android:id="@+id/left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_10x"
+            android:text="每隔："
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_xl"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <EditText
+            android:id="@+id/time"
+            android:layout_width="136dp"
+            android:layout_height="wrap_content"
+            android:background="@color/transparent"
+            android:gravity="center"
+            android:inputType="number"
+            android:maxLength="5"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:hint="@string/plz_input"
+            android:textColor="@color/text_black"
+            android:textSize="30sp"
+            app:layout_constraintBaseline_toBaselineOf="@id/left"
+            app:layout_constraintLeft_toRightOf="@id/left"
+            app:layout_constraintRight_toLeftOf="@+id/right"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="分钟"
+            android:textColor="@color/text_black"
+            android:textSize="@dimen/text_xl"
+            app:layout_constraintBaseline_toBaselineOf="@id/left"
+            app:layout_constraintLeft_toRightOf="@id/time"
+            app:layout_constraintRight_toRightOf="parent"
+            />
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="225dp"
+            android:layout_height="1px"
+            android:layout_marginTop="12dp"
+            android:background="@color/divider"
+            app:layout_constraintTop_toBottomOf="@id/left"
+            />
+
+        <TextView
+            android:id="@+id/maxIntervalHint"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/space_2x"
+            android:text="@string/max_interval_hint"
+            android:textColor="@color/text_mid"
+            android:textSize="@dimen/text_s"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/divider"
+            />
+
+    </android.support.constraint.ConstraintLayout>
+
+</android.support.constraint.ConstraintLayout>

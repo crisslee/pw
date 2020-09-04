@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <com.coomix.app.all.widget.SegmentControl
+        xmlns:segmentcontrol="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/sc_area"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:textSize="16sp"
+        segmentcontrol:colors="#5777fc"
+        segmentcontrol:cornerRadius="5dp"
+        segmentcontrol:direction="horizon"
+        segmentcontrol:horizonGap="8dp"
+        segmentcontrol:selectedIndex="0"
+        segmentcontrol:texts="城市|省份"
+        segmentcontrol:verticalGap="8dp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/csy_border" />
+
+    <ListView
+        android:id="@+id/lv_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:divider="@color/csy_border"
+        android:dividerHeight="0.5dp" />
+
+</LinearLayout>

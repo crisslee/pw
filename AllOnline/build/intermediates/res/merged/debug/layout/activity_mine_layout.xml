@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_bg"
+    android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <LinearLayout
+        android:id="@+id/layoutUserInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_item_user_icon" />
+
+        <TextView
+            android:id="@+id/textViewUserName"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewLine1"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/layoutService"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewService"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_item_sp_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/mine_item_title_sp"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewLine2"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/layoutMyActivity"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewActivity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_item_activity_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/mine_item_title_activity"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewLine3"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/layoutRecharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewRecharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_platform_recharge" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/mine_pingtai_xufei"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViewLine4"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+    <LinearLayout
+        android:id="@+id/layoutCardRecharge"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewCardRecharge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_card_recharge" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/card_recharge"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+
+    <ImageView
+        android:id="@+id/imageViewLine5"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/white"
+        android:paddingLeft="17dp"
+        android:src="@color/divider" />
+
+
+    <LinearLayout
+        android:id="@+id/layoutUnLock"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewUnLock"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_card_recharge" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/un_lock"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/layoutScanCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewScanCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_item_scan_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/scan_qr_code_add_dev"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/layoutSetting"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginTop="15dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageViewSetting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="17dp"
+            android:paddingBottom="12dp"
+            android:paddingTop="12dp"
+            android:scaleType="center"
+            android:src="@drawable/mine_item_setting_icon" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_weight="1"
+            android:maxLines="1"
+            android:text="@string/mine_item_title_setting"
+            android:textColor="@color/text_black"
+            android:textSize="17sp" />
+    </LinearLayout>
+
+</LinearLayout>

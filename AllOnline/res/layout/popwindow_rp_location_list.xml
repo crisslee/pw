@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/color_bg"
+              android:orientation="vertical">
+
+    <com.coomix.app.all.widget.MyActionbar
+        android:id="@+id/myActionbar"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"/>
+
+    <ListView
+        android:id="@+id/pop_listview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:divider="@color/white"
+        android:dividerHeight="1dp"
+        android:listSelector="@drawable/list_white_selector"/>
+
+</LinearLayout>

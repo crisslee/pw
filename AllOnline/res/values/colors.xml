@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="primary">#4E6BB9</color>
+    <color name="primaryDark">#364b81</color>
+    <color name="accent">#4E6BB9</color>
+
+    <color name="layout_background">#f0f0f0</color>
+    <color name="card_selected">#f0f0f0</color>
+    <color name="color_main_text">#3c3c3c</color>
+    <color name="headbg">#4E6BB9</color>
+    <color name="popup_tv">#030303</color>
+    <color name="line_show_thf">#DDDDDD</color>
+    <!-- <color name="line_show">#DDDDDD</color> -->
+    <color name="line_show_dialog">#B4B4B4</color>
+    <color name="login_bg">#EDEDF2</color>
+    <color name="register_btn">#8C8C8C</color>
+    <color name="login_input_tv">#CDCED2</color>
+    <color name="lv_account_tv">#030303</color>
+    <color name="alarm_bg">#EDEDF2</color>
+    <color name="setting_bg">#F0F0F0</color>
+    <color name="white_bg">#FFFFFF</color>
+    <color name="font_main_tv">#22262D</color>
+    <color name="alarm_list_tv">#8C8C8C</color>
+    <color name="white_tv">#ffffff</color>
+    <color name="gray_bg">#C8C8C8</color>
+    <color name="dialog_ok">#0076FF</color>
+    <color name="ensure_read">#EAEAEA</color>
+    <color name="black">#ff000000</color>
+    <color name="black2">#88000000</color>
+    <color name="black2_90">#909090</color>
+    <color name="bg_light_gray">#EA363634</color>
+    <color name="light_blue">#FF94cde9</color>
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <color name="blue">#1893d1</color>
+    <color name="set_press">#FF94cde9</color>
+    <color name="set_normal_send">#FFFFFF</color>
+    <color name="set_normal">#F8F8F8</color>
+    <color name="grey">#ebebeb</color>
+    <color name="red">#FF0000</color>
+    <color name="csy_bg_body">#ffe9e9e9</color>
+    <color name="csy_row_on">#fff0f0f0</color>
+    <color name="csy_border">#ffd0d0d0</color>
+    <color name="csy_label">#ff969696</color>
+    <color name="csy_text">#ff555555</color>
+    <color name="csy_hint">#ffc6c6c6</color>
+
+    <!-- 指令界面 -->
+    <color name="cmd_text">#4197ED</color>
+    <color name="cmd_line_seperator">#000000</color>
+    <color name="fence_white">#FFFFFF</color>
+    <color name="fence_black">#000000</color>
+
+    <!-- android ui规范 -->
+    <!-- 标准色 -->
+    <!-- 主色调 -->
+    <color name="color_main">#4e6bb9</color>
+    <color name="eboard_text_normal">#4a5361</color>
+    <color name="collect_seperator_thin">#cbccd0</color>
+    <color name="style_lv_apt_1_default">#ffffff</color>
+    <color name="style_lv_apt_1_pressed">#fff2f2f2</color>
+
+    <!--按钮颜色-->
+    <color name="btn_blue">#4E6BB9</color>
+    <color name="btn_wx_green">#09BB07</color>
+    <color name="btn_white">#FFFFFF</color>
+
+    <!-- 社区 -->
+    <color name="bottom_action_item_title_color_normal">#8C8C8C</color>
+    <color name="bottom_action_item_title_color_selected">#4E6BB9</color>
+    <color name="bottom_action_item_tip_color">@android:color/white</color>
+
+    <!-- 背景色 -->
+    <color name="color_bg">#F0F0F0</color>
+    <!-- 分割线颜色 -->
+    <color name="color_seperator">#d7d7d7</color>
+    <!-- 重要文字颜色 -->
+    <color name="color_text_h">#030303</color>
+    <!-- 次要文字颜色 -->
+    <color name="color_text_m">#666666</color>
+    <!-- 辅助文字颜色 -->
+    <color name="color_text_l">#8c8c8c</color>
+    <color name="transparent">#00000000</color>
+    <color name="translucence">#7f000000</color>
+
+    <color name="community_blue">#4e6bb9</color>
+    <color name="community_blue_translucence">#664e6bb9</color>
+    <!-- 新帖子列表相关颜色 -->
+    <color name="topic_top_text">#8c8c8c</color>
+
+
+    <!-- 社区活动相关颜色 -->
+    <color name="register_hint_text">#CBCBCB</color>
+    <color name="register_grid_color">#343434</color>
+    <color name="register_blue">#4E6BB9</color>
+    <color name="register_gray">#BDBDBD</color>
+    <color name="act_register_flag_color1">#FF4081</color>
+    <color name="act_register_flag_color2">#ff5722</color>
+    <color name="act_register_flag_color3">#FFC107</color>
+    <color name="act_register_flag_color4">#4CAF50</color>
+    <color name="act_register_flag_color5">#70DBDB</color>
+    <color name="act_register_flag_color6">#10ABFE</color>
+    <color name="act_register_flag_color7">#871f78</color>
+    <color name="act_register_flag_color_gray">#959595</color>
+    <color name="act_singn_input_color">#444444</color>
+
+    <color name="save_text_color">#FFDC00</color>
+
+    <!-- 可点击与不可点击的文字颜色-->
+    <color name="item_clickable_text_color">#030303</color>
+    <color name="item_non_clickable_text_color">#8c8c8c</color>
+    <!-- 辅助文字颜色 -->
+    <color name="community_main_tab_bottom">#cccccc</color>
+
+    <drawable name="transparent">#00000000</drawable>
+    <drawable name="tab_selected_bg">#d9d9d9</drawable>
+    <drawable name="white">#ffffff</drawable>
+    <drawable name="alarm_item_bg_normal">#ededf2</drawable>
+    <drawable name="alarm_item_bg_pressed">#e9e9e9</drawable>
+
+    <color name="seperator_thin">#cbccd0</color>
+
+    <color name="btn_disable_text_color">#8c8c8c</color>
+    <color name="btn_enable_text_color">#4E6BB9</color>
+
+    <color name="line">#ffd3dde6</color>
+
+    <color name="gray_6">#d3d3d3</color>
+    <color name="gray_5">#ebe8e8</color>
+    <color name="gray_1">#C0C0C0</color>
+    <color name="dark_gray">#999999</color>
+
+    <color name="eboard_report_item_selected">#333333</color>
+
+    <color name="redpacket_red">#EA5E3A</color>
+
+    <color name="redpacket_yellow">#FFBB29</color>
+    <color name="redpacket_gold">#FFE2B1</color>
+    <color name="redpacket_blue">#586B95</color>
+    <color name="redpacket_green">#68C270</color>
+    <color name="redpacket_best">#FBA626</color>
+    <color name="redpacket_worst">#47D5ED</color>
+
+    <color name="tr_divider">#C8C7CC</color>
+    <color name="color_content_main">#ffffff</color>
+    <color name="rp_little_red">#E49884</color>
+    <color name="eboard_text_silvery">#7b808a</color>
+    <color name="clock_checkin_number_color">#DEDEDE</color>
+    <color name="main_text_blue">#10abfe</color>
+
+
+    <!--我的活动-->
+    <color name="orange_pay_status">#ff6000</color>
+    <color name="span_view">#eeeeee</color>
+    <color name="color_text_x">#C7C8CC</color>
+    <color name="act_text_color1">#FF7A00</color>
+    <color name="act_bottom_bg1">#F3F3F6</color>
+    <color name="act_blue2">#0184de</color>
+    <color name="act_blue1">#00C2FF</color>
+    <color name="redpacket_map_blue">#007AFF</color>
+    <color name="text_color_black">#111111</color>
+    <color name="text_color_gray">#4c4c4c</color>
+    <color name="text_color_green">#5dc87e</color>
+
+    <color name="recharge_red">#ff1111</color>
+    <color name="recharge_yellow">#eab000</color>
+    <color name="common_bg">#fcfcfc</color>
+    <color name="gray_normal">#666667</color>
+    <color name="btn_gray_normal">#c0c0c0</color>
+    <color name="btn_blue_normal">#1e90ff</color>
+    <color name="btn_blue_pressed">#0066FF</color>
+    <color name="btn_gray_pressed_status">#b5b5b6</color>
+    <color name="emojicon_tab_selected">#D9D9D9</color>
+    <color name="emojicon_tab_nomal">#ffffff</color>
+    <color name="text_blue_new">#2575AC</color>
+    <color name="text_date_future">#D8D8D8</color>
+    <color name="text_date_now">#0E68D4</color>
+    <color name="line_color">#DFDFDF</color>
+
+    <!--万物在线新规范-->
+    <!--背景颜色-->
+    <color name="black_bg">#22262D</color>
+    <color name="main_gray">#F0F0F0</color>
+    <color name="white">#FFFFFF</color>
+    <color name="disable_btn">#697489</color>
+    <color name="notify_bg">#FFBC3A</color>
+    <!--辅助线-->
+    <color name="divider">#D8D8D8</color>
+    <!--状态颜色-->
+    <color name="moving">#00BB32</color>
+    <color name="fast">#EF7F0F</color>
+    <color name="over_speed">#E50D32</color>
+    <color name="still">#008CFF</color>
+    <color name="off_line">#6B6B6B</color>
+    <color name="out_date">#D43FB5</color>
+    <!--文字颜色-->
+    <color name="text_black">#22262D</color>
+    <color name="text_mid">#666666</color>
+    <color name="text_gray">#A7A7A7</color>
+    <color name="text_light">#D8D8D8</color>
+    <color name="text_blue">#2575AC</color>
+
+    <!-- QRCode scanner color begin -->
+    <color name="viewfinder_mask">#7D000000</color>
+    <color name="result_view">#B0000000</color>
+    <color name="viewfinder_frame">#FF2575AC</color>
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <color name="dev_install_error">#FF002F</color>
+    <color name="dev_install_warning">#FF7200</color>
+    <color name="dev_install_ok">#44DB5E</color>
+    <!-- QRCode scanner color end -->
+</resources>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_gray"
+    >
+
+    <com.zhy.view.DrawableCenterTextView
+        android:id="@+id/add"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/space_3x"
+        android:layout_marginLeft="@dimen/space_4x"
+        android:layout_marginRight="@dimen/space_4x"
+        android:layout_marginTop="@dimen/space_3x"
+        android:background="@drawable/login_btn_enable"
+        android:drawableLeft="@drawable/dev_mode_add_alarm"
+        android:drawablePadding="@dimen/space"
+        android:gravity="center_vertical"
+        android:paddingBottom="@dimen/space_2x"
+        android:paddingTop="@dimen/space_2x"
+        android:text="@string/add_alarm"
+        android:textColor="@color/white"
+        android:textSize="@dimen/text_l"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        />
+
+</RelativeLayout>

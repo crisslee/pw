@@ -1,0 +1,18 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:singleLine="true"
+        android:layout_gravity="center"
+        android:background="@drawable/rp_map_info_bg"
+        android:layout_marginBottom="2dp"
+        android:textColor="@color/act_category_text_selector"
+        android:textSize="@dimen/text"/>
+
+</LinearLayout>

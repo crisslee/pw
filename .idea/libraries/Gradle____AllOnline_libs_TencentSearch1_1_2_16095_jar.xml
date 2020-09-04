@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./AllOnline/libs/TencentSearch1.1.2.16095.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AllOnline/libs/TencentSearch1.1.2.16095.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,184 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="text_size_small">14sp</dimen>
+    <dimen name="actionbar_height">45dip</dimen>
+    <dimen name="navibar_margin_right">25dp</dimen>
+    <dimen name="navibar_margin_left">25dp</dimen>
+    <dimen name="navisetting_subtext_size">20sp</dimen>
+    <dimen name="titletext_size">30sp</dimen>
+    <dimen name="margin_right">5dp</dimen>
+    <dimen name="margin_left">5dp</dimen>
+    <dimen name="setting_margin_top">10dp</dimen>
+    <dimen name="setting_margin_bottom">10dp</dimen>
+    <dimen name="csy_pd">10.0dp</dimen>
+    <dimen name="csy_mg">15.0dp</dimen>
+    <dimen name="csy_label_w">70.0dp</dimen>
+    <dimen name="csy_icon_w">40.0dp</dimen>
+    <dimen name="csy_row_h">64.0dp</dimen>
+    <dimen name="csy_item_h">52.0dp</dimen>
+    <dimen name="csy_tip_h">30.0dp</dimen>
+    <dimen name="csy_btn_h">46.0dp</dimen>
+    <dimen name="csy_tip_ts">14.0sp</dimen>
+    <dimen name="csy_text_ts">16.0sp</dimen>
+    <dimen name="csy_title_ts">18.0sp</dimen>
+
+    <!-- 指令界面 -->
+    <dimen name="cmd_text_size">18.0sp</dimen>
+    <dimen name="cmd_line_seperator_height">0.5dp</dimen>
+    <dimen name="cmd_text_margin_left">20dp</dimen>
+    <dimen name="cmd_view_margin_left">5dp</dimen>
+
+    <dimen name="textsize_xxxxsmall">11sp</dimen>
+    <dimen name="textsize_xxxsmall">12sp</dimen>
+    <dimen name="textsize_xxsmall">13sp</dimen>
+    <dimen name="textsize_xsmall">14sp</dimen>
+    <dimen name="textsize_small">15sp</dimen>
+    <dimen name="textsize">16sp</dimen>
+    <dimen name="textsize_big">18sp</dimen>
+    <dimen name="textsize_xbig">19sp</dimen>
+    <dimen name="textsize_xxbig">20sp</dimen>
+    <dimen name="padding_half">4dip</dimen>
+    <dimen name="padding">8dip</dimen>
+    <dimen name="padding_1.5x">12dip</dimen>
+    <dimen name="padding_2x">16dip</dimen>
+    <dimen name="padding_3x">24dip</dimen>
+    <dimen name="margin_half">4dip</dimen>
+    <dimen name="margin">8dip</dimen>
+    <dimen name="margin_1.5x">12dip</dimen>
+    <dimen name="margin_2x">16dip</dimen>
+    <dimen name="margin_6x">48dip</dimen>
+    <!-- 分隔线 -->
+    <dimen name="seperator_thin">0.5dp</dimen>
+
+    <!-- 社区 -->
+    <dimen name="bottom_action_item_title_size">10sp</dimen>
+    <dimen name="bottom_action_item_tip_size">11sp</dimen>
+    <dimen name="bottom_action_item_tip_h_margin">5dp</dimen>
+    <dimen name="bottom_action_item_v_span">1dp</dimen>
+    <dimen name="list_item_height">44dp</dimen>
+    <dimen name="list_item_empty_height">20dp</dimen>
+    <dimen name="mine_item_short_length">50dp</dimen>
+    <dimen name="alarm_category_short_length">24dp</dimen>
+    <dimen name="alarm_category_recyclerview_bottom_margin">1.5dp</dimen>
+    <dimen name="gender_item_sort_length">16dp</dimen>
+    <dimen name="account_setting_item_short_length">16dp</dimen>
+    <dimen name="account_avatar_icon_right_margin">2dp</dimen>
+    <dimen name="account_avatar_icon_non_clickable_right_margin">12dp</dimen>
+    
+    <!-- 分隔线 -->
+    <dimen name="collect_seperator_thin">0.5dip</dimen>
+    <dimen name="alarm_option_popupwindow_y">16dp</dimen>
+    <dimen name="alarm_option_popupwindow_x">135dp</dimen>
+    <dimen name="topic_horizon_padding">12dp</dimen>
+
+    <!-- android ui规范-文字 -->
+    <!-- 用于少数重要标题（导航.分类名称等） -->
+    <dimen name="text_xxl">18sp</dimen>
+    <!-- 用于重要文字或操作按钮（如 “我的”界面等） -->
+    <dimen name="text_xl">17sp</dimen>
+    <!-- 用于较为重要的文字（如小标题） -->
+    <dimen name="text_l">16sp</dimen>
+    <!-- 非常用字体大小，介于text与text_l之间 -->
+    <dimen name="text_m_x">15sp</dimen>
+    <!-- 用于大多数文字（特别适合于较多文字的区域） -->
+    <dimen name="text">14sp</dimen>
+    <!-- 非常用字体大小，介于text与text_s之间 -->
+    <dimen name="text_m">13sp</dimen>
+    <!-- 用于辅助性文字（如次要副标题） -->
+    <dimen name="text_s">12sp</dimen>
+    <!-- 用于辅助性文字（如次要备注信息） -->
+    <dimen name="text_xs">11sp</dimen>
+    <!-- 用于辅助性文字（如次要解释信息，正文下方的点赞数/消息数） -->
+    <dimen name="text_xxs">10sp</dimen>
+
+    <!-- android ui规范-间距 -->
+    <!-- 参考间距（其它间隔都是其倍数） -->
+    <dimen name="space_2dp">2dp</dimen>
+    <dimen name="space">5dp</dimen>
+    <dimen name="space_2x">10dp</dimen>
+    <dimen name="space_3x">15dp</dimen>
+    <dimen name="space_4x">20dp</dimen>
+    <dimen name="space_5x">25dp</dimen>
+    <dimen name="space_6x">30dp</dimen>
+    <dimen name="space_7x">35dp</dimen>
+    <dimen name="space_8x">40dp</dimen>
+    <dimen name="space_9x">45dp</dimen>
+    <dimen name="space_10x">50dp</dimen>
+    <dimen name="space_11x">55dp</dimen>
+    <dimen name="space_12x">60dp</dimen>
+    <dimen name="space_13x">65dp</dimen>
+    <dimen name="space_14x">70dp</dimen>
+    <dimen name="space_15x">75dp</dimen>
+    <dimen name="space_16x">80dp</dimen>
+    <dimen name="space_17x">85dp</dimen>
+    <dimen name="space_18x">90dp</dimen>
+    <dimen name="space_20x">100dp</dimen>
+    <dimen name="space_24x">120dp</dimen>
+    <dimen name="edit_max_height">150dp</dimen>
+
+    <dimen name="space_4dp">4dp</dimen>
+    <dimen name="space_7dp">7dp</dimen>
+    <dimen name="space_8dp">8dp</dimen>
+    <dimen name="space_9dp">9dp</dimen>
+    <dimen name="space_12dp">12dp</dimen>
+    <dimen name="space_16dp">16dp</dimen>
+    <dimen name="space_17dp">17dp</dimen>
+    <dimen name="space_18dp">18dp</dimen>
+    <dimen name="space_21dp">21dp</dimen>
+    <dimen name="space_100dp">100dp</dimen>
+    <dimen name="space_112dp">112dp</dimen>
+
+    <!-- 新ui参数 -->
+    <dimen name="comm_act_bottom_height">48dp</dimen>
+    <dimen name="comm_act_detail_image_height">215dp</dimen>
+    <dimen name="comm_act_detail_title_height">200dp</dimen>
+    <dimen name="comm_act_margin_size">6dp</dimen>
+    <dimen name="comm_act_line_height">0.3dp</dimen>
+
+    <!-- 社区 -->
+    <dimen name="line_height1">1dp</dimen>
+    <dimen name="line_height10">10dp</dimen>
+    <dimen name="dimen_200dp">200dp</dimen>
+
+    <dimen name="ongoing_dlg_width">120dp</dimen>
+    <dimen name="ongoing_dlg_height">86dp</dimen>
+
+    <dimen name="community_margin">6dp</dimen>
+
+    <dimen name="topiclist_content_min">168dp</dimen>
+
+    <dimen name="crop_photo_size">80dp</dimen>
+
+    <dimen name="pop_height">330dp</dimen>
+    <dimen name="v_big_size">23dp</dimen>
+    <dimen name="setting_item_height">43dp</dimen>
+    <dimen name="v_small_size">14dp</dimen>
+
+    <dimen name="redpacket_flag_width">18dp</dimen>
+    <dimen name="redpacket_flag_height">12dp</dimen>
+    <dimen name="text_num">20sp</dimen>
+
+    <dimen name="redpacket_chat_width">225dp</dimen>
+
+    <dimen name="margin_5dp">5dp</dimen>
+    <dimen name="text_num_l">23sp</dimen>
+    <dimen name="hsdrop_item_height">50dp</dimen>
+    <dimen name="act_category_width1">25dp</dimen>
+    <dimen name="act_category_height1">28dp</dimen>
+    <dimen name="act_category_width2">36dp</dimen>
+    <dimen name="act_category_height2">36dp</dimen>
+    <dimen name="hsdrop_item_height1">40dp</dimen>
+
+    <dimen name="chat_voice_length_base">60dp</dimen>
+    <dimen name="margin_top_time">10dp</dimen>
+    <dimen name="cluster_grid_size">70dp</dimen>
+
+    <dimen name="height_top_bar">46dp</dimen>
+    <dimen name="size_avatar">36dp</dimen>
+    <dimen name="margin_chat_activity">5dp</dimen>
+    <dimen name="chat_nick_margin_left">12dp</dimen>
+    <dimen name="chat_nick_text_size">13sp</dimen>
+    <dimen name="map_infowindow_y_margin">-15dp</dimen>
+    <dimen name="upload_info_margin">15dp</dimen>
+</resources>

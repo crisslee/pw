@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+     Copyright (C) 2011 Johan Nilsson <http://markupartist.com>
+
+     Licensed under the Apache License, Version 2.0 (the "License");
+     you may not use this file except in compliance with the License.
+     You may obtain a copy of the License at
+  
+          http://www.apache.org/licenses/LICENSE-2.0
+  
+     Unless required by applicable law or agreed to in writing, software
+     distributed under the License is distributed on an "AS IS" BASIS,
+     WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+     See the License for the specific language governing permissions and
+     limitations under the License.
+-->
+
+<resources>
+
+    <declare-styleable name="ActionBar">
+        <attr name="title" format="string" localization="suggested"/>
+    </declare-styleable>
+
+    <attr name="rightPaddingOk" format="dimension"/>
+
+    <declare-styleable name="SlidingMenu">
+        <attr name="rightPaddingOk"/>
+    </declare-styleable>
+    <declare-styleable name="SegmentControl">
+        <attr name="cornerRadius" format="dimension|reference"/>
+        <attr name="colors" format="color|reference"/>
+        <attr name="texts" format="string|reference"/>
+        <attr name="android:textSize"/>
+        <attr name="direction" format="enum">
+            <enum name="horizon" value="0"/>
+            <enum name="vertical" value="1"/>
+        </attr>
+        <attr name="gaps" format="dimension|reference"/>
+        <attr name="horizonGap" format="dimension|reference"/>
+        <attr name="verticalGap" format="dimension|reference"/>
+        <attr name="selectedIndex" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="DotView">
+        <attr name="shapeColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="roundedimageview">
+        <attr name="border_thickness" format="dimension"/>
+        <attr name="border_inside_color" format="color"/>
+        <attr name="border_outside_color" format="color"></attr>
+    </declare-styleable>
+    <declare-styleable name="community_bottom_item_bar">
+        <attr name="itemIcon" format="reference"/>
+        <attr name="itemTitle" format="string"/>
+    </declare-styleable>
+    <declare-styleable name="bottom_action_item">
+        <attr name="actionTitle" format="string"></attr>
+        <attr name="actionIcon" format="reference"></attr>
+        <attr name="actionTitleColor" format="reference"></attr>
+    </declare-styleable>
+    <declare-styleable name="EaseChatExtendMenu">
+        <attr name="numColumns" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="EaseSwitchButton">
+        <attr name="switchOpenImage" format="reference"/>
+        <attr name="switchCloseImage" format="reference"/>
+        <attr name="switchStatus">
+            <enum name="open" value="0"/>
+            <enum name="close" value="1"/>
+        </attr>
+    </declare-styleable>
+    <declare-styleable name="EaseTitleBar">
+        <attr name="titleBarTitle" format="string"/>
+        <attr name="titleBarLeftImage" format="reference"/>
+        <attr name="titleBarRightImage" format="reference"/>
+        <attr name="titleBarBackground" format="reference|color"/>
+    </declare-styleable>
+    <declare-styleable name="EaseEmojiconMenu">
+        <attr name="bigEmojiconRows" format="integer"/>
+        <attr name="emojiconColumns" format="integer"/>
+    </declare-styleable>
+    <declare-styleable name="EaseImageView">
+        <attr name="ease_border_color" format="color" />
+        <attr name="ease_border_width" format="dimension" />
+        <attr name="ease_press_alpha" format="integer" />
+        <attr name="ease_press_color" format="color" />
+        <attr name="ease_radius" format="dimension" />
+        <attr name="ease_shape_type" format="enum">
+            <enum name="none" value="0" />
+            <enum name="round" value="1" />
+            <enum name="rectangle" value="2" />
+        </attr>
+    </declare-styleable>
+
+    <!--corner_color 边角颜色，
+        scanner_color 扫描线颜色
+        possible_result_color 扫描点颜色
+        frame_color 扫描框边线颜色
+        mask_color 模糊区域颜色
+        label_text  框上方提示
+    -->
+    <declare-styleable name="ViewfinderView">
+        <attr name="corner_color" format="color"/>
+        <attr name="laser_color" format="color"/>
+        <attr name="frame_color" format="color" />
+        <attr name="mask_color" format="color" />
+        <attr name="result_point_color" format="color"/>
+        <attr name="result_color" format="color" />
+        <attr name="label_text_color" format="color"/>
+        <attr name="label_text" format="string"/>
+        <attr name="label_text_size" format="float"/>
+    </declare-styleable>
+</resources>

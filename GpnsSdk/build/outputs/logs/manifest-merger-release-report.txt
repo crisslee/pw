@@ -1,0 +1,41 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:1-10:12
+	package
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:3:5-32
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+	android:versionName
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:5:5-30
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:4:5-28
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+application
+ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:7:5-8:19
+	android:persistent
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml:7:18-43
+uses-sdk
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		ADDED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml
+		INJECTED from D:\privatework-develop\GpnsSdk\AndroidManifest.xml

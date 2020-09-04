@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="44dp"
+    android:background="#F3F3F6"
+    android:gravity="center_vertical"
+    android:minHeight="44dp"
+    android:orientation="horizontal">
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <com.coomix.app.all.widget.BottomActionItemView
+            android:id="@+id/tab_map"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3F3F6"
+            app:actionIcon="@drawable/tab_action_car_icon_selector"
+            app:actionTitle="@string/bottom_action_item_title_cars"
+            app:actionTitleColor="@color/bottom_action_item_title_color_selector" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <com.coomix.app.all.widget.BottomActionItemView
+            android:id="@+id/tab_alarm"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3F3F6"
+            app:actionIcon="@drawable/tab_action_alarm_icon_selector"
+            app:actionTitle="@string/bottom_action_item_title_alarm"
+            app:actionTitleColor="@color/bottom_action_item_title_color_selector" />
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/unread_msg_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/count_tip_bg"
+                android:gravity="center"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="99"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:gravity="center_vertical">
+
+        <com.coomix.app.all.widget.BottomActionItemView
+            android:id="@+id/tab_mine"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#F3F3F6"
+            app:actionIcon="@drawable/tab_action_mine_icon_selector"
+            app:actionTitle="@string/bottom_action_item_title_mine"
+            app:actionTitleColor="@color/bottom_action_item_title_color_selector" />
+
+        <LinearLayout
+            android:layout_width="50dp"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:gravity="right">
+
+            <TextView
+                android:id="@+id/unread_im_msg_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="1dp"
+                android:background="@drawable/count_tip_bg"
+                android:gravity="center"
+                android:paddingLeft="3dp"
+                android:paddingRight="3dp"
+                android:text="99"
+                android:textColor="@android:color/white"
+                android:textSize="10sp"
+                android:visibility="invisible" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

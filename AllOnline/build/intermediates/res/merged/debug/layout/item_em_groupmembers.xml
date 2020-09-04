@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/bottom_action_bar_item_bg_selector"
+    android:paddingBottom="@dimen/space"
+    android:paddingLeft="@dimen/space_2x"
+    android:paddingRight="@dimen/space_2x"
+    android:paddingTop="@dimen/space" >
+
+    <!-- android:background="@drawable/style_listview_selector" -->
+
+    <ImageView
+        android:id="@+id/item_em_groupmember_icon"
+        android:layout_width="@dimen/space_7x"
+        android:layout_height="@dimen/space_7x"
+        android:layout_marginBottom="3dp"
+        android:layout_marginTop="3dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/login_icon" />
+
+    <ImageView
+        android:id="@+id/item_em_groupmember_manager_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/item_em_groupmember_icon"
+        android:layout_alignTop="@id/item_em_groupmember_icon"
+        android:layout_marginRight="-4dp"
+        android:layout_marginTop="-4dp"
+        android:src="@drawable/ease_default_avatar_groupmanager_hint" />
+
+    <TextView
+        android:id="@+id/item_em_groupmember_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginLeft="@dimen/space_2x"
+        android:layout_toRightOf="@id/item_em_groupmember_icon"
+        android:gravity="center_vertical"
+        android:singleLine="true"
+        android:text="酷米客"
+        android:textColor="@color/color_text_m"
+        android:textSize="@dimen/text" />
+
+</RelativeLayout>
