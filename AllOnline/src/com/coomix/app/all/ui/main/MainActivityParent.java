@@ -128,6 +128,7 @@ import com.inuker.bluetooth.library.beacon.Beacon;
 import com.inuker.bluetooth.library.connect.listener.BleConnectStatusListener;
 import com.inuker.bluetooth.library.connect.options.BleConnectOptions;
 import com.inuker.bluetooth.library.connect.response.BleConnectResponse;
+import com.inuker.bluetooth.library.connect.response.BleNotifyResponse;
 import com.inuker.bluetooth.library.model.BleGattProfile;
 import com.inuker.bluetooth.library.search.SearchRequest;
 import com.inuker.bluetooth.library.search.response.SearchResponse;
@@ -147,6 +148,7 @@ import java.util.Calendar;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 import java.util.concurrent.locks.ReadWriteLock;
 import java.util.concurrent.locks.ReentrantReadWriteLock;
 import net.goome.im.GMError;
@@ -157,6 +159,7 @@ import net.goome.im.chat.GMClient;
 import okhttp3.MediaType;
 import okhttp3.RequestBody;
 
+import static com.inuker.bluetooth.library.Code.REQUEST_SUCCESS;
 import static com.inuker.bluetooth.library.Constants.STATUS_CONNECTED;
 import static com.inuker.bluetooth.library.Constants.STATUS_DEVICE_CONNECTED;
 
@@ -256,6 +259,7 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
     // debug
     private ScrollView sv;
     private LinearLayout llDebug;
+    private static final char[] hexArray = "0123456789ABCDEF".toCharArray();
     private final BleConnectStatusListener mBleConnectStatusListener = new BleConnectStatusListener() {
         @Override
         public void onConnectStatusChanged(String mac, int status) {
@@ -339,7 +343,8 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
             @Override
             public void onDeviceFounded(com.inuker.bluetooth.library.search.SearchResult device) {
                 Beacon beacon = new Beacon(device.scanRecord);
-                onBlueToothConnected(mBlueToothClient);
+                String data = bytesToHex(device.scanRecord);
+                onBlueToothConnected(mBlueToothClient,data);
                 BluetoothLog.v(String.format("beacon for %s\n%s", device.getAddress(), beacon.toString()));
             }
 
@@ -355,19 +360,43 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         });
     }
 
-    public void onBlueToothConnected(BluetoothClient mClient){
+
+    private static String bytesToHex(byte[] bytes) {
+        char[] hexChars = new char[bytes.length * 2];
+        for (int j = 0; j < bytes.length; j++) {
+            int v = bytes[j] & 0xFF;
+            hexChars[j * 2] = hexArray[v >>> 4];
+            hexChars[j * 2 + 1] = hexArray[v & 0x0F];
+        }
+        return new String(hexChars);
+    }
+
+    public void onBlueToothConnected(BluetoothClient mClient,String data){
         BleConnectOptions options = new BleConnectOptions.Builder()
                 .setConnectRetry(3)
                 .setConnectTimeout(30)
                 .setServiceDiscoverRetry(3)
                 .setServiceDiscoverTimeout(20000)
                 .build();
+        //解析data，獲得uuid等數據
         //MAC獲取
         //建立鏈接
-//        mClient.connect(MAC, options, new BleConnectResponse() {
+//        mClient.connect(MAC, options, new BleConnectResponse(){
 //            @Override
 //            public void onResponse(int code, BleGattProfile data) {
+//                if (code == REQUEST_SUCCESS) {
+//                    mClient.notify(MAC, serviceID, characterUUID, new BleNotifyResponse() {
+//                        @Override
+//                        public void onNotify(UUID service, UUID character, byte[] value) {
 //
+//                        }
+//
+//                        @Override
+//                        public void onResponse(int code) {
+//
+//                        }
+//                    });
+//                }
 //            }
 //        });
 
