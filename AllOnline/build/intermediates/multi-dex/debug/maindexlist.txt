@@ -137,7 +137,6 @@ com/tencent/bugly/proguard/y$a.class
 butterknife/OnClick.class
 android/support/v7/view/menu/MenuPresenter$Callback.class
 android/support/v4/text/util/LinkifyCompat.class
-com/google/android/gms/common/util/CrashUtils.class
 android/support/design/widget/BaseTransientBottomBar$BaseCallback$DismissEvent.class
 com/umeng/commonsdk/debug/E.class
 android/support/v4/media/VolumeProviderCompatApi21$Delegate.class
@@ -241,7 +240,6 @@ kotlin/jvm/Synchronized.class
 com/google/gson/internal/bind/JsonAdapterAnnotationTypeAdapterFactory.class
 com/google/gson/JsonSerializer.class
 com/baidu/mapapi/map/Projection.class
-com/google/android/gms/common/util/ProcessUtils.class
 com/tencent/bugly/proguard/a.class
 com/google/gson/internal/UnsafeAllocator$1.class
 com/coomix/app/framework/util/Base64$Decoder.class
@@ -448,7 +446,6 @@ com/google/gson/FieldAttributes.class
 android/support/transition/ViewUtils.class
 com/tencent/bugly/crashreport/biz/a.class
 com/google/gson/LongSerializationPolicy$2.class
-com/google/android/gms/common/wrappers/PackageManagerWrapper.class
 com/google/gson/internal/bind/ReflectiveTypeAdapterFactory$1.class
 android/support/v7/graphics/drawable/DrawableWrapper.class
 com/coomix/app/all/model/bean/Account.class
@@ -463,6 +460,7 @@ com/umeng/analytics/MobclickAgent.class
 com/coomix/app/all/model/bean/ThemeLocIcon.class
 kotlin/jvm/JvmDefault.class
 com/umeng/commonsdk/UMConfigureImpl.class
+com/google/android/gms/location/zzc.class
 com/bumptech/glide/load/engine/Resource.class
 com/google/gson/internal/ConstructorConstructor$5.class
 android/support/annotation/RestrictTo.class
@@ -477,7 +475,6 @@ com/bumptech/glide/load/model/MediaStoreFileLoader.class
 com/bumptech/glide/load/engine/Engine$EngineJobFactory.class
 com/loc/w.class
 android/arch/lifecycle/LifecycleOwner.class
-com/google/android/gms/common/util/Strings.class
 com/bumptech/glide/load/resource/bytes/ByteBufferRewinder.class
 com/google/gson/internal/ConstructorConstructor$4.class
 android/support/v4/graphics/drawable/DrawableCompat$DrawableCompatApi17Impl.class
@@ -485,6 +482,7 @@ com/umeng/commonsdk/statistics/proto/e$e.class
 com/baidu/mapsdkplatform/comapi/util/g.class
 com/bumptech/GlideOptions.class
 android/support/v7/widget/GridLayoutManager.class
+com/google/android/gms/common/internal/HideFirstParty.class
 com/google/gson/Gson$5.class
 android/support/v4/view/ViewPager$2.class
 com/coomix/app/all/service/AllOnlineApiClient$1.class
@@ -524,6 +522,7 @@ com/tencent/bugly/crashreport/common/strategy/StrategyBean$1.class
 android/support/multidex/MultiDex$V14.class
 com/google/gson/TypeAdapter$1.class
 android/support/v4/app/FrameMetricsAggregator$FrameMetricsBaseImpl.class
+com/google/android/gms/location/ActivityTransition.class
 com/tencent/tinker/loader/shareutil/ShareResPatchInfo$LargeModeInfo.class
 com/google/gson/LongSerializationPolicy$1.class
 retrofit2/http/Streaming.class
@@ -1202,7 +1201,6 @@ retrofit2/http/PATCH.class
 com/bumptech/glide/load/data/DataRewinderRegistry$1.class
 com/google/gson/internal/UnsafeAllocator$2.class
 kotlin/jvm/Transient.class
-com/google/android/gms/common/wrappers/Wrappers.class
 com/umeng/commonsdk/statistics/proto/c.class
 com/j256/ormlite/field/types/DateLongType.class
 com/bumptech/glide/request/SingleRequest$Status.class
@@ -1278,6 +1276,7 @@ com/umeng/commonsdk/stateless/a.class
 com/coomix/app/all/performReport/NetPerformanceDB.class
 android/support/v4/view/PointerIconCompat.class
 android/arch/core/internal/SafeIterableMap$AscendingIterator.class
+com/coomix/app/all/ui/main/GMainActivity.class
 com/bumptech/glide/load/engine/LoadPath.class
 com/google/gson/internal/bind/util/ISO8601Utils.class
 com/bumptech/glide/load/engine/prefill/PreFillType.class
@@ -1301,6 +1300,7 @@ android/support/v4/view/TintableBackgroundView.class
 android/support/multidex/MultiDexExtractor$ExtractedDex.class
 com/amap/api/maps/AMapOptions.class
 org/intellij/lang/annotations/JdkConstants$BoxLayoutAxis.class
+com/google/android/gms/maps/GoogleMap$OnMapLongClickListener.class
 android/support/v7/app/ActionBar$OnNavigationListener.class
 com/amap/api/maps/AMap$OnCameraChangeListener.class
 com/google/android/gms/dynamic/RemoteCreator.class
@@ -1755,7 +1755,6 @@ com/umeng/commonsdk/config/d$c.class
 com/baidu/mapapi/VersionInfo.class
 com/tencent/bugly/crashreport/biz/a$b.class
 android/support/v7/appcompat/R$style.class
-com/google/android/gms/common/util/CrashUtils$ErrorDialogData.class
 com/coomix/app/framework/app/BaseApiClient$apiHtmlException.class
 android/support/v4/media/MediaBrowserCompatApi21$MediaItem.class
 android/support/v4/view/ViewConfigurationCompat.class
@@ -1839,6 +1838,7 @@ com/tencent/tinker/loader/hotplug/ActivityStubs$SGTStub_09.class
 android/support/transition/Transition$1.class
 com/bumptech/GlideRequest.class
 com/google/gson/annotations/Expose.class
+com/google/android/gms/maps/GoogleMap$OnMarkerClickListener.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi24.class
 butterknife/BindFloat.class
 android/support/v4/media/MediaBrowserCompat$MediaBrowserImplApi23.class
@@ -1879,12 +1879,12 @@ android/support/v4/app/FrameMetricsAggregator$MetricType.class
 android/arch/lifecycle/ReportFragment.class
 android/support/v7/view/menu/CascadingMenuPopup$3.class
 com/j256/ormlite/field/types/DoubleType.class
+com/google/android/gms/maps/GoogleMap$OnMapClickListener.class
 android/support/v4/view/ViewCompat$ScrollAxis.class
 android/support/design/R$layout.class
 com/tencent/tinker/loader/hotplug/ActivityStubs$STDStub_02_T.class
 com/baidu/lbsapi/auth/m.class
 kotlin/coroutines/RestrictsSuspension.class
-com/google/android/gms/auth/api/signin/GoogleSignInOptionsExtension$TypeId.class
 android/support/v4/util/DebugUtils.class
 com/tencent/tinker/loader/shareutil/SharePatchInfo.class
 android/support/v4/view/ViewPager$4.class
@@ -2079,7 +2079,6 @@ android/support/graphics/drawable/AnimationUtilsCompat.class
 com/bumptech/glide/util/Synthetic.class
 com/tencent/tinker/loader/app/TinkerApplication.class
 com/baidu/lbsapi/auth/d.class
-com/google/android/gms/auth/api/signin/GoogleSignInOptionsExtension.class
 com/amap/api/maps/AMap$InfoWindowAdapter.class
 com/meituan/android/walle/SignatureNotFoundException.class
 com/google/gson/FieldNamingPolicy$1.class
@@ -2107,6 +2106,7 @@ com/app/gmstatisticslib/util/IStaSecurityInterface.class
 com/tencent/bugly/crashreport/crash/anr/b$2.class
 com/coomix/app/all/AllApplication.class
 org/apache/http/annotation/Contract.class
+com/google/android/gms/location/ActivityTransition$Builder.class
 android/support/v4/widget/DrawerLayout$DrawerListener.class
 org/jetbrains/annotations/NotNull.class
 org/apache/http/ProtocolVersion.class
@@ -2189,6 +2189,7 @@ com/bumptech/glide/load/engine/executor/GlideExecutor$DefaultThreadFactory$1.cla
 kotlin/internal/OnlyInputTypes.class
 android/support/transition/Transition$MatchOrder.class
 android/support/v4/view/ViewPager$PagerObserver.class
+com/google/android/gms/common/internal/Objects.class
 android/support/design/widget/AppBarLayout.class
 android/support/v4/content/res/FontResourcesParserCompat$FontFamilyFilesResourceEntry.class
 android/support/v4/app/FragmentManagerImpl$AnimationListenerWrapper.class
@@ -2257,6 +2258,7 @@ com/bumptech/glide/load/ImageHeaderParserUtils.class
 com/google/android/gms/common/annotation/KeepForSdkWithFieldsAndMethods.class
 com/umeng/commonsdk/debug/UMRTLog.class
 org/apache/http/entity/mime/content/StringBody.class
+com/google/android/gms/location/ActivityTransition$SupportedActivityTransition.class
 android/support/v4/util/SimpleArrayMap.class
 com/bumptech/glide/load/data/mediastore/MediaStoreUtil.class
 android/support/v7/widget/LinearLayoutCompat$LayoutParams.class
@@ -2304,6 +2306,7 @@ com/j256/ormlite/field/types/ShortObjectType.class
 com/tencent/tinker/loader/hotplug/handler/AMSInterceptHandler.class
 android/support/v4/view/ViewCompat$FocusRelativeDirection.class
 android/support/design/widget/TabLayout$TabView.class
+com/google/android/gms/maps/OnMapReadyCallback.class
 com/baidu/mapapi/model/LatLng.class
 com/tencent/mapsdk/a/f/f.class
 com/coomix/app/redpacket/util/CreateRedPacketInfo.class
@@ -2340,6 +2343,7 @@ com/tencent/bugly/crashreport/crash/jni/NativeCrashHandler.class
 com/umeng/commonsdk/service/UMGlobalContext$b.class
 org/jetbrains/annotations/Nullable.class
 com/coomix/app/all/tinker/TinkerUncaughtExceptionHandler.class
+com/google/android/gms/stats/CodePackage.class
 com/bumptech/glide/load/model/DataUrlLoader$StreamFactory$1.class
 com/coomix/app/all/model/bean/TrackPoints.class
 io/reactivex/annotations/BackpressureKind.class

@@ -117,9 +117,7 @@ dependencies {
     implementation rootProject.ext.googlePlayServicesMaps
     implementation rootProject.ext.bugly_sdk
     implementation rootProject.ext.bugly_ndk
-    api('com.inuker.bluetooth:library:1.4.0'){
-        exclude group: 'com.android.support'
-    }
+    implementation 'com.inuker.bluetooth:library:1.4.0'
     implementation 'com.google.android.gms:play-services-auth:15.0.1'
     implementation 'com.google.android.gms:play-services-gcm:16.0.0'
     implementation 'com.google.android.gms:play-services-location:16.0.0'

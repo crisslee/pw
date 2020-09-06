@@ -129,7 +129,10 @@ import com.inuker.bluetooth.library.connect.listener.BleConnectStatusListener;
 import com.inuker.bluetooth.library.connect.options.BleConnectOptions;
 import com.inuker.bluetooth.library.connect.response.BleConnectResponse;
 import com.inuker.bluetooth.library.connect.response.BleNotifyResponse;
+import com.inuker.bluetooth.library.connect.response.BleWriteResponse;
+import com.inuker.bluetooth.library.model.BleGattCharacter;
 import com.inuker.bluetooth.library.model.BleGattProfile;
+import com.inuker.bluetooth.library.model.BleGattService;
 import com.inuker.bluetooth.library.search.SearchRequest;
 import com.inuker.bluetooth.library.search.response.SearchResponse;
 import com.inuker.bluetooth.library.utils.BluetoothLog;
@@ -253,6 +256,10 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
     private int divMenuHeight;
     private static final int DURATION = 200;
     private boolean setFromBack = false;
+    private String MAC;
+    private UUID targetuuid;
+    private UUID notifyuuid;
+    private UUID writeuuid;
     int paramCount;
     // imei --> PowerMode
     private HashMap<String, DevPowerMode> oldMode = new HashMap<>();
@@ -331,20 +338,22 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         }
         SearchRequest searchRequest = new SearchRequest.Builder()
                 .searchBluetoothLeDevice(10000,10)
-                .searchBluetoothClassicDevice(1000)
-                .searchBluetoothLeDevice(2000)
+                .searchBluetoothClassicDevice(1000,10)
                 .build();
         mBlueToothClient.search(searchRequest, new SearchResponse() {
             @Override
             public void onSearchStarted() {
-
+                BluetoothLog.v("Bluetooths search start");
             }
 
             @Override
             public void onDeviceFounded(com.inuker.bluetooth.library.search.SearchResult device) {
                 Beacon beacon = new Beacon(device.scanRecord);
                 String data = bytesToHex(device.scanRecord);
-                onBlueToothConnected(mBlueToothClient,data);
+                String targetMacAddress = "02:00:42:4B:34:31";
+                if (targetMacAddress.equalsIgnoreCase(device.getAddress())) {
+                    onBlueToothConnected(mBlueToothClient, data, beacon, device);
+                }
                 BluetoothLog.v(String.format("beacon for %s\n%s", device.getAddress(), beacon.toString()));
             }
 
@@ -371,7 +380,100 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         return new String(hexChars);
     }
 
-    public void onBlueToothConnected(BluetoothClient mClient,String data){
+
+
+    public static byte[] hexStringToByte(String hexString){
+        if (hexString == null || hexString.equals("")) {
+            return null;
+        }
+        hexString = hexString.toUpperCase();
+        int length = hexString.length() / 2;
+        char[] hexChars = hexString.toCharArray();
+        byte[] d = new byte[length];
+        for (int i = 0; i < length; i++) {
+            int pos = i * 2;
+            d[i] = (byte) (charToByte(hexChars[pos]) << 4 | charToByte(hexChars[pos + 1]));
+        }
+        return d;
+    }
+
+    private static byte charToByte(char c) {
+        return (byte) "0123456789ABCDEF".indexOf(c);
+    }
+
+    private void checkprotocol(String message){
+        String header = message.substring(0,4);
+        String imei = message.substring(4,20);
+        String protocol = message.substring(20,22);
+        String length = message.substring(22,26);
+        String syn = message.substring(26,30);
+        String data = message.substring(30);
+        String writeChar = "0000ffb1-0000-1000-8000-00805f9b34fb";
+
+        switch(protocol){
+            case "01":
+                responseLoginData(header,imei,protocol,length,syn,data);
+            case "02":
+                responseGPSData(data);
+            case "04":
+                responseAlertData(data);
+            case "07":
+                responseExpendBeatData(header,imei,protocol,length,syn,data);
+            case "08":
+                responseTimeData(header,imei,protocol,length,syn,data);
+        }
+    }
+
+    private void responseLoginData(String header,String imei,String protocol,String length,String syn,String data){
+        if(writeuuid!=null&&writeuuid.toString()!=""&&targetuuid!=null&&targetuuid.toString()!="") {
+            byte[] writeData = hexStringToByte(header+imei+protocol+"0002"+syn);
+
+            mBlueToothClient.write(MAC, targetuuid, writeuuid, writeData, new BleWriteResponse() {
+                @Override
+                public void onResponse(int code) {
+
+                }
+            });
+        }
+    }
+
+    private void responseGPSData(String data){
+
+    }
+
+    private void responseAlertData(String data){
+
+    }
+
+    private void responseExpendBeatData(String header,String imei,String protocol,String length,String syn,String data) {
+        if (writeuuid != null && writeuuid.toString() != "" && targetuuid != null && targetuuid.toString() != "") {
+            byte[] writeData = hexStringToByte(header + imei + protocol + "0002" + syn);
+
+            mBlueToothClient.write(MAC, targetuuid, writeuuid, writeData, new BleWriteResponse() {
+                @Override
+                public void onResponse(int code) {
+
+                }
+            });
+        }
+    }
+
+    private void responseTimeData(String header,String imei,String protocol,String length,String syn,String data){
+        if (writeuuid != null && writeuuid.toString() != "" && targetuuid != null && targetuuid.toString() != "") {
+            byte[] writeData = hexStringToByte(header + imei + protocol + "0002" + syn);//UTC時間
+
+            mBlueToothClient.write(MAC, targetuuid, writeuuid, writeData, new BleWriteResponse() {
+                @Override
+                public void onResponse(int code) {
+
+                }
+            });
+        }
+    }
+
+    public void onBlueToothConnected(BluetoothClient mClient,String data, Beacon beacon, com.inuker.bluetooth.library.search.SearchResult device){
+        System.out.println("data + " + data);
+        BluetoothLog.v(String.format("data + beacon for %s\n%s", device.getAddress(), beacon.toString()));
         BleConnectOptions options = new BleConnectOptions.Builder()
                 .setConnectRetry(3)
                 .setConnectTimeout(30)
@@ -380,26 +482,63 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
                 .build();
         //解析data，獲得uuid等數據
         //MAC獲取
-        //建立鏈接
-//        mClient.connect(MAC, options, new BleConnectResponse(){
-//            @Override
-//            public void onResponse(int code, BleGattProfile data) {
-//                if (code == REQUEST_SUCCESS) {
-//                    mClient.notify(MAC, serviceID, characterUUID, new BleNotifyResponse() {
-//                        @Override
-//                        public void onNotify(UUID service, UUID character, byte[] value) {
-//
-//                        }
-//
-//                        @Override
-//                        public void onResponse(int code) {
-//
-//                        }
-//                    });
-//                }
-//            }
-//        });
+        String deviceAddress = device.getAddress();
+        MAC = device.getAddress();
+        String targetService = "0000ffb0-0000-1000-8000-00805f9b34fb";
+        String notifyChar = "0000ffb2-0000-1000-8000-00805f9b34fb";
+        String writeChar = "0000ffb1-0000-1000-8000-00805f9b34fb";
 
+        System.out.println("ddebug Connect to that device " + deviceAddress);
+        mClient.connect(device.getAddress(), options, new BleConnectResponse() {
+            @Override
+            public void onResponse(int code, BleGattProfile data) {
+                List<BleGattService> services = data.getServices();
+                for (int i = 0; i < services.size(); i++) {
+                    BleGattService service = services.get(i);
+                    List<BleGattCharacter> characters = service.getCharacters();
+                    if (service.getUUID().toString().equalsIgnoreCase(targetService)) {
+                        targetuuid = service.getUUID();
+                        for (int j = 0; j < characters.size(); j++) {
+                            BleGattCharacter character =  characters.get(j);
+                            if (character.getUuid().toString().equalsIgnoreCase(writeChar)){
+                                writeuuid=character.getUuid();
+                            }
+                            if (character.getUuid().toString().equalsIgnoreCase(notifyChar)) {
+                                notifyuuid = character.getUuid();
+
+                                System.out.println("ddebug find service:" + targetuuid.toString() + " character+" + notifyuuid.toString());
+                                if (code == REQUEST_SUCCESS) {
+                                    //mClient.requestMtu(device.getAddress(),40, new BleMtuResponse(){})
+                                    mClient.notify(device.getAddress(), targetuuid, notifyuuid, new BleNotifyResponse() {
+                                        @Override
+                                        public void onNotify(UUID service, UUID character, byte[] value) {
+                                            String notfiyMessage = bytesToHex(value);
+                                            System.out.println("ddebug notify:" + notfiyMessage);
+                                            checkprotocol(notfiyMessage);
+//                                            6767086820012121320601000B00200868200121;
+//                                            mClient.writeNoRsp(device.getAddress(), serviceUUID, characterUUID, bytes, new BleWriteResponse() {
+//                                                @Override
+//                                                public void onResponse(int code) {
+//                                                    if (code == REQUEST_SUCCESS) {
+//
+//                                                    }
+//                                                }
+//                                            });
+                                        }
+                                        @Override
+                                        public void onResponse(int code) {
+                                        }
+                                    });
+
+
+                                }
+                            }
+                        }
+                    }
+                }
+
+            }
+        });
 
         //監聽連接狀態
         //mClient.registerConnectStatusListener(MAC,mBleConnectStatusListener);
