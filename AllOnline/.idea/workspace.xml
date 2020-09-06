@@ -15,6 +15,7 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="R5CN30A5XTR" />
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
@@ -35,6 +36,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="layoutResourceFile" />
         <option value="Class" />
       </list>
     </option>
@@ -51,11 +53,20 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="D:/library" />
     <property name="project.structure.last.edited" value="Dependencies" />
     <property name="project.structure.proportion" value="0.17" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="PsdUISettings">
+    <option name="MODULE_TAB" value="Properties" />
+    <option name="LAST_EDITED_SIGNING_CONFIG" value="debug" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\privatework-develop\AllOnline\libs" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
@@ -131,10 +142,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1437" y="435" key="#PSD" timestamp="1599105808205">
+    <state x="976" y="576" key="#PSD" timestamp="1599366567241">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1437" y="435" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1599105808205" />
+    <state x="976" y="576" key="#PSD/0.0.2560.1400@0.0.2560.1400" timestamp="1599366567241" />
     <state x="142" y="134" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598374185419">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -144,14 +155,18 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="948" y="502" key="#com.intellij.fileTypes.FileTypeChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1598282734581" />
-    <state x="1626" y="412" key="#com.intellij.ide.util.MemberChooser" timestamp="1599135901195">
+    <state x="1626" y="412" key="#com.intellij.ide.util.MemberChooser" timestamp="1599383700107">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="1626" y="412" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599135901195" />
+    <state x="1626" y="412" key="#com.intellij.ide.util.MemberChooser/0.0.2560.1400@0.0.2560.1400" timestamp="1599383700107" />
     <state x="1524" y="618" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1599004123875">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1524" y="618" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599004123875" />
+    <state x="1687" y="454" key="FileChooserDialogImpl" timestamp="1599367356315">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1687" y="454" key="FileChooserDialogImpl/0.0.2560.1400@0.0.2560.1400" timestamp="1599367356315" />
     <state width="1234" height="491" key="GridCell.Tab.0.bottom" timestamp="1599328633825">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
@@ -196,27 +211,27 @@
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="781" y="341" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1598281576284" />
-    <state x="1673" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1598768766028">
+    <state x="1673" y="523" key="com.intellij.ide.util.TipDialog" timestamp="1599374352801">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="898" y="308" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1598374731061" />
-    <state x="1673" y="523" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1598768766028" />
-    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1" timestamp="1599328914004">
+    <state x="1673" y="523" key="com.intellij.ide.util.TipDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599374352801" />
+    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1" timestamp="1599390763948">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1599328914004" />
-    <state x="956" y="346" width="1014" height="754" key="find.popup" timestamp="1598372509431">
+    <state x="-7" y="0" width="1294" height="1407" key="dock-window-1/0.0.2560.1400@0.0.2560.1400" timestamp="1599390763948" />
+    <state x="1321" y="478" width="1014" height="754" key="find.popup" timestamp="1599372914089">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="956" y="346" width="1014" height="754" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1598372509431" />
+    <state x="1321" y="478" width="1014" height="754" key="find.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599372914089" />
     <state x="1662" y="320" key="refactoring.ChangeSignatureDialog" timestamp="1599242708397">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
     <state x="1662" y="320" key="refactoring.ChangeSignatureDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1599242708397" />
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599323383003">
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup" timestamp="1599371833570">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599323383003" />
+    <state x="943" y="315" width="672" height="678" key="search.everywhere.popup/0.0.2560.1400@0.0.2560.1400" timestamp="1599371833570" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -225,11 +240,6 @@
           <url>file://$PROJECT_DIR$/src/com/coomix/app/all/ui/setting/SettingActivity.java</url>
           <line>363</line>
           <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
-          <url>file://$PROJECT_DIR$/../build.gradle</url>
-          <line>32</line>
-          <option name="timeStamp" value="6" />
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
           <url>file://$PROJECT_DIR$/src/com/coomix/app/all/ui/main/GMainActivity.java</url>

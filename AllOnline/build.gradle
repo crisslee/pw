@@ -125,6 +125,7 @@ dependencies {
 
     implementation rootProject.ext.tinker_lib
     implementation 'com.android.support.constraint:constraint-layout:1.1.3'
+    implementation files('libs\\bluetoothkit.jar')
     compileOnly rootProject.ext.tinker_anno
     annotationProcessor rootProject.ext.tinker_anno
     implementation rootProject.ext.walle

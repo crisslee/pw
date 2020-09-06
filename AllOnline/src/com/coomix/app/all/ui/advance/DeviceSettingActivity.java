@@ -115,6 +115,15 @@ public class DeviceSettingActivity extends BaseActivity {
             startActivity(intent);
         });
 
+        findViewById(R.id.textViewBleCommand).setOnClickListener(view->{
+            if(device==null){
+                return;
+            }
+            Intent intent = new Intent(this,CommandListBleActivity.class);
+            intent.putExtra(Constant.KEY_DEVICE,device);
+            startActivity(intent);
+        });
+
         if (fenceBtn.isChecked()) {
             fenceSettingView.setVisibility(View.VISIBLE);
             lineFence.setVisibility(View.VISIBLE);

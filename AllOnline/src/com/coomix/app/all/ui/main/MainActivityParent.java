@@ -54,7 +54,6 @@ import com.coomix.app.all.Constant;
 import com.coomix.app.all.GlobalParam;
 import com.coomix.app.all.R;
 import com.coomix.app.all.data.BaseSubscriber;
-import com.coomix.app.all.data.BluetoothUtils;
 import com.coomix.app.all.data.DataEngine;
 import com.coomix.app.all.data.ExceptionHandle;
 import com.coomix.app.all.data.RxUtils;
@@ -256,10 +255,12 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
     private int divMenuHeight;
     private static final int DURATION = 200;
     private boolean setFromBack = false;
-    private String MAC;
-    private UUID targetuuid;
-    private UUID notifyuuid;
-    private UUID writeuuid;
+    public String MAC;
+    public String imei;
+    public UUID targetuuid=null;
+    public UUID notifyuuid=null;
+    public UUID writeuuid=null;
+    public static MainActivityParent instance = null;
     int paramCount;
     // imei --> PowerMode
     private HashMap<String, DevPowerMode> oldMode = new HashMap<>();
@@ -298,7 +299,7 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         rootView = LayoutInflater.from(this).inflate(R.layout.activity_main_parent, null);
         setContentView(rootView);
         getWindow().addFlags(WindowManager.LayoutParams.FLAG_KEEP_SCREEN_ON);
-
+        instance = this;
         mGridSize = getResources().getDimensionPixelSize(R.dimen.cluster_grid_size);
         setManager = SettingDataManager.getInstance(this);
         mHandler = new HandlerEx(this);
@@ -403,7 +404,7 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
 
     private void checkprotocol(String message){
         String header = message.substring(0,4);
-        String imei = message.substring(4,20);
+        imei = message.substring(4,20);
         String protocol = message.substring(20,22);
         String length = message.substring(22,26);
         String syn = message.substring(26,30);
