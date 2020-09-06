@@ -872,6 +872,10 @@
         "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\item_act_addr_resister2.xml"
     },
     {
+        "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\activity_command_list_bluetooth.xml",
+        "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\activity_command_list_bluetooth.xml"
+    },
+    {
         "merged": "D:\\privatework-develop\\AllOnline\\build\\intermediates\\res\\merged\\debug\\layout\\ease_row_received_file.xml",
         "source": "D:\\privatework-develop\\AllOnline\\res\\layout\\ease_row_received_file.xml"
     },

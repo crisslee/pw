@@ -11,10 +11,10 @@ INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:196:9-204:20
 	android:name
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:197:13-67
 manifest
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
-INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
-INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
-INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
 MERGED from [com.android.support:multidex:1.0.2] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\multidex-1.0.2.aar\f13e666df749874b2ccf77fe56370b24\AndroidManifest.xml:17:1-22:12
 MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:2:1-24:12
 MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:2:1-16:12
@@ -59,22 +59,22 @@ MERGED from [com.android.support:support-vector-drawable:26.1.0] C:\Users\lijin\
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\3382cee14304211323427b14cc374802\AndroidManifest.xml:17:1-31:12
 MERGED from [com.tencent.tinker:tinker-android-loader:1.9.14] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\tinker-android-loader-1.9.14.aar\6e671c775c6438cd59ea393750a19369\AndroidManifest.xml:2:1-161:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\e817ff7b7bf9c6ae701aeae9697f191c\AndroidManifest.xml:17:1-30:12
-INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
-INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
-INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
+INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
 	package
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:4:5-33
 		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
 		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
 		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-708:12
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:1-709:12
 		INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:2:11-69
@@ -303,7 +303,7 @@ MERGED from [com.google.android.gms:play-services-maps:16.0.0] C:\Users\lijin\.g
 	android:required
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:62:9-32
 application
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:64:5-706:19
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:64:5-707:19
 MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:19:5-22:19
 MERGED from [:camerasdk-2.0.3:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\camerasdk-2.0.3.aar\7179896e4eedfd836eb45c7e74d3e4c9\AndroidManifest.xml:19:5-22:19
 MERGED from [:gmstatistics-1.3.0:] C:\Users\lijin\.gradle\caches\transforms-1\files-1.1\gmstatistics-1.3.0.aar\cf3e6e28abcfe956af4151adbe8fc7a4\AndroidManifest.xml:11:5-14:19
@@ -1325,142 +1325,146 @@ ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:614:9-628:20
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:619:13-57
 	android:name
 		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:615:13-50
+activity#com.coomix.app.all.ui.advance.CommandListBleActivity
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:629:9-70
+	android:name
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:629:19-68
 activity#com.coomix.app.all.ui.main.GMainActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:629:9-643:20
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:630:9-644:20
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:633:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:634:13-49
 	android:launchMode
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:632:13-44
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:633:13-44
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:631:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:632:13-74
 	android:theme
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:634:13-57
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:635:13-57
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:630:13-50
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:631:13-50
 activity#com.coomix.app.all.ui.history.SelectDateHistoryActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:644:9-647:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:645:9-648:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:647:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:648:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:646:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:647:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:645:13-65
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:646:13-65
 activity#com.coomix.app.all.ui.carlist.AllListActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:648:9-652:67
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:649:9-653:67
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:651:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:652:13-49
 	android:windowSoftInputMode
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:652:13-64
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:653:13-64
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:650:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:651:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:649:13-55
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:650:13-55
 activity#com.coomix.app.all.ui.login.LoginActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:653:9-657:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:654:9-658:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:657:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:658:13-49
 	android:launchMode
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:656:13-44
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:657:13-44
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:655:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:656:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:654:13-51
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:655:13-51
 activity#com.coomix.app.all.ui.login.RegisterActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:658:9-661:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:659:9-662:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:661:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:662:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:660:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:661:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:659:13-54
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:660:13-54
 activity#com.coomix.app.all.ui.login.SetPwdActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:662:9-665:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:663:9-666:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:665:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:666:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:664:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:665:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:663:13-52
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:664:13-52
 activity#com.google.zxing.activity.CaptureActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:666:9-669:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:667:9-670:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:669:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:670:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:668:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:669:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:667:13-69
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:668:13-69
 activity#com.coomix.app.all.ui.login.InputImeiActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:670:9-673:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:671:9-674:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:673:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:674:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:672:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:673:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:671:13-55
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:672:13-55
 activity#com.coomix.app.all.ui.cardRecharge.CardSingleRechargeActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:674:9-677:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:675:9-678:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:677:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:678:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:676:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:677:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:675:13-71
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:676:13-71
 activity#com.coomix.app.all.ui.installer.UploadInfoActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:678:9-681:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:679:9-682:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:681:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:682:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:680:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:681:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:679:13-60
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:680:13-60
 activity#com.coomix.app.all.ui.devTime.DevTimeActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:682:9-685:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:683:9-686:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:685:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:686:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:684:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:685:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:683:13-55
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:684:13-55
 activity#com.coomix.app.all.ui.devTime.ChooseDateActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:686:9-689:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:687:9-690:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:689:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:690:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:688:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:689:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:687:13-58
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:688:13-58
 activity#com.coomix.app.all.ui.devTime.ChooseTimeActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:690:9-693:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:691:9-694:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:693:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:694:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:692:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:693:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:691:13-58
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:692:13-58
 activity#com.coomix.app.all.ui.devTime.CustomAlarmListActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:694:9-697:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:695:9-698:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:697:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:698:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:696:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:697:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:695:13-63
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:696:13-63
 activity#com.coomix.app.all.ui.charge.CardDataInfoActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:698:9-701:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:699:9-702:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:701:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:702:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:700:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:701:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:699:13-59
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:700:13-59
 activity#com.coomix.app.all.ui.cardRecharge.NoticeRechargeActivity
-ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:702:9-705:52
+ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:703:9-706:52
 	android:screenOrientation
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:705:13-49
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:706:13-49
 	android:configChanges
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:704:13-74
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:705:13-74
 	android:name
-		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:703:13-67
+		ADDED from D:\privatework-develop\AllOnline\AndroidManifest.xml:704:13-67
 uses-sdk
 INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\privatework-develop\AllOnline\AndroidManifest.xml

@@ -29,6 +29,20 @@
         android:textColor="@color/text_black"
         android:textSize="17sp" />
 
+    <TextView
+        android:id="@+id/textViewBleCommand"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/icon_right_infowindow"
+        android:background="@drawable/set_press_type"
+        android:paddingBottom="11dip"
+        android:paddingLeft="15dip"
+        android:paddingRight="15dip"
+        android:paddingTop="11dip"
+        android:text="蓝牙指令"
+        android:textColor="@color/text_black"
+        android:textSize="17sp" />
+
     <View
         android:layout_width="match_parent"
         android:layout_height="15dip"

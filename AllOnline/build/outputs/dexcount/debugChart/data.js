@@ -1,7 +1,7 @@
 var data = {
   "name": "",
-  "methods": 126812,
-  "fields": 69703,
+  "methods": 126882,
+  "fields": 69759,
   "children": [
     {
       "name": "<unnamed>",
@@ -17468,8 +17468,8 @@ var data = {
     },
     {
       "name": "com",
-      "methods": 69712,
-      "fields": 43504,
+      "methods": 69782,
+      "fields": 43560,
       "children": [
         {
           "name": "amap",
@@ -36569,18 +36569,18 @@ var data = {
         },
         {
           "name": "coomix",
-          "methods": 12176,
-          "fields": 13934,
+          "methods": 12246,
+          "fields": 13990,
           "children": [
             {
               "name": "app",
-              "methods": 12171,
-              "fields": 13933,
+              "methods": 12241,
+              "fields": 13989,
               "children": [
                 {
                   "name": "all",
-                  "methods": 11296,
-                  "fields": 13323,
+                  "methods": 11366,
+                  "fields": 13379,
                   "children": [
                     {
                       "name": "AllApplication",
@@ -36687,7 +36687,7 @@ var data = {
                     {
                       "name": "R$id",
                       "methods": 1,
-                      "fields": 1369,
+                      "fields": 1380,
                       "children": []
                     },
                     {
@@ -36699,7 +36699,7 @@ var data = {
                     {
                       "name": "R$layout",
                       "methods": 1,
-                      "fields": 317,
+                      "fields": 318,
                       "children": []
                     },
                     {
@@ -40144,8 +40144,8 @@ var data = {
                     },
                     {
                       "name": "ui",
-                      "methods": 5651,
-                      "fields": 2956,
+                      "methods": 5721,
+                      "fields": 3000,
                       "children": [
                         {
                           "name": "activity",
@@ -40678,8 +40678,8 @@ var data = {
                         },
                         {
                           "name": "advance",
-                          "methods": 347,
-                          "fields": 212,
+                          "methods": 404,
+                          "fields": 246,
                           "children": [
                             {
                               "name": "AMapFenceActivity",
@@ -40766,6 +40766,114 @@ var data = {
                               "children": []
                             },
                             {
+                              "name": "CommandListBleActivity",
+                              "methods": 19,
+                              "fields": 16,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$1",
+                              "methods": 3,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$10",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$11",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$12",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$13",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$14",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$15",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$16",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$17",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$2",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$3",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$4",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$5",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$6",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$7",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$8",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "CommandListBleActivity$9",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
                               "name": "CommandListWebActivity",
                               "methods": 12,
                               "fields": 5,
@@ -40791,7 +40899,7 @@ var data = {
                             },
                             {
                               "name": "DeviceSettingActivity",
-                              "methods": 52,
+                              "methods": 53,
                               "fields": 25,
                               "children": []
                             },
@@ -40845,6 +40953,12 @@ var data = {
                             },
                             {
                               "name": "DeviceSettingActivity$$Lambda$8",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "DeviceSettingActivity$$Lambda$9",
                               "methods": 2,
                               "fields": 1,
                               "children": []
@@ -44208,8 +44322,8 @@ var data = {
                         },
                         {
                           "name": "main",
-                          "methods": 653,
-                          "fields": 323,
+                          "methods": 666,
+                          "fields": 333,
                           "children": [
                             {
                               "name": "AMainActivity",
@@ -44285,8 +44399,8 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent",
-                              "methods": 178,
-                              "fields": 92,
+                              "methods": 185,
+                              "fields": 98,
                               "children": []
                             },
                             {
@@ -44346,73 +44460,67 @@ var data = {
                             {
                               "name": "MainActivityParent$10",
                               "methods": 4,
-                              "fields": 3,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$11",
-                              "methods": 4,
-                              "fields": 3,
+                              "methods": 2,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$12",
                               "methods": 4,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$13",
                               "methods": 4,
-                              "fields": 2,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$13$1",
-                              "methods": 2,
-                              "fields": 1,
+                              "fields": 3,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$14",
-                              "methods": 2,
-                              "fields": 2,
+                              "methods": 4,
+                              "fields": 3,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$15",
-                              "methods": 5,
+                              "methods": 4,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$16",
+                              "methods": 4,
+                              "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$16$1",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$17",
                               "methods": 2,
                               "fields": 2,
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$17",
-                              "methods": 5,
-                              "fields": 1,
-                              "children": []
-                            },
-                            {
                               "name": "MainActivityParent$18",
-                              "methods": 2,
+                              "methods": 5,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$19",
                               "methods": 2,
-                              "fields": 1,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$19$1",
-                              "methods": 2,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
@@ -44423,8 +44531,8 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$20",
-                              "methods": 4,
-                              "fields": 3,
+                              "methods": 5,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44436,43 +44544,43 @@ var data = {
                             {
                               "name": "MainActivityParent$22",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$22$1",
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$23",
-                              "methods": 2,
-                              "fields": 2,
+                              "methods": 4,
+                              "fields": 3,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$24",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$25",
                               "methods": 2,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$26",
                               "methods": 2,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$27",
                               "methods": 2,
                               "fields": 2,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$27$1",
-                              "methods": 2,
-                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44483,24 +44591,24 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$29",
-                              "methods": 4,
-                              "fields": 2,
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$3",
-                              "methods": 3,
-                              "fields": 5,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$3$1",
-                              "methods": 3,
+                              "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$30",
+                              "methods": 2,
+                              "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$30$1",
                               "methods": 2,
                               "fields": 1,
                               "children": []
@@ -44508,7 +44616,7 @@ var data = {
                             {
                               "name": "MainActivityParent$31",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44519,43 +44627,43 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$33",
-                              "methods": 3,
-                              "fields": 3,
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$34",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$35",
-                              "methods": 3,
-                              "fields": 1,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$36",
-                              "methods": 2,
+                              "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
+                              "name": "MainActivityParent$36",
+                              "methods": 3,
+                              "fields": 3,
+                              "children": []
+                            },
+                            {
                               "name": "MainActivityParent$37",
-                              "methods": 2,
+                              "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$38",
-                              "methods": 2,
-                              "fields": 2,
+                              "methods": 3,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$39",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 2,
                               "children": []
                             },
@@ -44573,62 +44681,86 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$41",
-                              "methods": 4,
-                              "fields": 1,
+                              "methods": 2,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$42",
-                              "methods": 2,
+                              "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$43",
                               "methods": 2,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$44",
                               "methods": 4,
-                              "fields": 3,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$45",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$46",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$47",
-                              "methods": 2,
+                              "methods": 4,
+                              "fields": 3,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$48",
+                              "methods": 4,
+                              "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$49",
+                              "methods": 4,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$5",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$50",
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$6",
-                              "methods": 4,
+                              "methods": 3,
+                              "fields": 6,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$6$1",
+                              "methods": 3,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$7",
-                              "methods": 4,
-                              "fields": 2,
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44640,7 +44772,7 @@ var data = {
                             {
                               "name": "MainActivityParent$9",
                               "methods": 4,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {

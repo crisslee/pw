@@ -34,6 +34,8 @@ public class CommandListBleActivity extends BaseActivity {
     private TextView hornClose;
     private TextView commuLoar;
     private TextView commuGprs;
+    private TextView Timer;
+    private TextView Noble;
     private EditText inputTimer;
     private Button submitTimer;
     private static final char[] hexArray = "0123456789ABCDEF".toCharArray();
@@ -42,7 +44,7 @@ public class CommandListBleActivity extends BaseActivity {
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_command_list_bluetooth);
-        if(MainActivityParent.instance!=null) {
+        if (MainActivityParent.instance != null) {
             mClient = new BluetoothClient(MainActivityParent.instance);
             MAC = MainActivityParent.instance.MAC;
             imei = MainActivityParent.instance.imei;
@@ -50,15 +52,31 @@ public class CommandListBleActivity extends BaseActivity {
             notifyuuid = MainActivityParent.instance.notifyuuid;
             writeuuid = MainActivityParent.instance.writeuuid;
         }
-        getBleParams = (TextView)findViewById(R.id.ble_find_params);
-        getVersion = (TextView)findViewById(R.id.ble_find_version);
-        getStates = (TextView)findViewById(R.id.ble_find_states);
-        hornOn = (TextView)findViewById(R.id.ble_horn_on);
-        hornClose = (TextView)findViewById(R.id.ble_horn_off);
-        commuLoar = (TextView)findViewById(R.id.ble_commu_loar);
-        commuGprs = (TextView)findViewById(R.id.ble_commu_gprs);
-        inputTimer = (EditText)findViewById(R.id.callback_timer_input);
-        submitTimer = (Button)findViewById(R.id.submit_callback_timer);
+        getBleParams = (TextView) findViewById(R.id.ble_find_params);
+        getVersion = (TextView) findViewById(R.id.ble_find_version);
+        getStates = (TextView) findViewById(R.id.ble_find_states);
+        hornOn = (TextView) findViewById(R.id.ble_horn_on);
+        hornClose = (TextView) findViewById(R.id.ble_horn_off);
+        commuLoar = (TextView) findViewById(R.id.ble_commu_loar);
+        commuGprs = (TextView) findViewById(R.id.ble_commu_gprs);
+        Timer = (TextView) findViewById(R.id.ble_callback_timer);
+        Noble = (TextView) findViewById(R.id.noble);
+        inputTimer = (EditText) findViewById(R.id.callback_timer_input);
+        submitTimer = (Button) findViewById(R.id.submit_callback_timer);
+        if (!(MAC != null && imei != null && targetuuid != null && notifyuuid != null && writeuuid != null)) {
+            getBleParams.setVisibility(View.INVISIBLE);
+            getVersion.setVisibility(View.INVISIBLE);
+            getStates.setVisibility(View.INVISIBLE);
+            hornOn.setVisibility(View.INVISIBLE);
+            hornClose.setVisibility(View.INVISIBLE);
+            commuLoar.setVisibility(View.INVISIBLE);
+            commuGprs.setVisibility(View.INVISIBLE);
+            Timer.setVisibility(View.INVISIBLE);
+            Noble.setVisibility(View.VISIBLE);
+            inputTimer.setVisibility(View.INVISIBLE);
+            submitTimer.setVisibility(View.INVISIBLE);
+
+        }
     }
 
     private static String bytesToHex(byte[] bytes) {
@@ -168,7 +186,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void askforParams(){
         String Order = "PARAM#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -179,6 +198,7 @@ public class CommandListBleActivity extends BaseActivity {
             length = "00"+length;
         }
         String returndata="6767"+imei+"81"+length+"0111223344"+Order;
+        System.out.println("testtesttest"+returndata);
         mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
             @Override
             public void onResponse(int code) {
@@ -190,7 +210,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void askforVersion(){
         String Order = "VERSION#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -212,7 +233,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void askforStates(){
         String Order = "STATUS#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -234,7 +256,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void openHorn(){
         String Order = "HORN,0#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -256,7 +279,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void closeHorn(){
         String Order = "HORN,1#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -278,7 +302,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void setLoar(){
         String Order = "COMMUMODEN,0#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -300,7 +325,8 @@ public class CommandListBleActivity extends BaseActivity {
     public void setGprs(){
         String Order = "COMMUMODEN,1#";
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }
@@ -326,7 +352,8 @@ public class CommandListBleActivity extends BaseActivity {
             return;
         }
         try {
-            Order = URLEncoder.encode(Order, "UTF-8");
+            byte[] utfOrder = Order.getBytes("UTF-8");
+            Order = bytesToHex(utfOrder);
         }catch (Exception e){
             return;
         }

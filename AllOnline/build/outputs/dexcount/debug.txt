@@ -122,7 +122,7 @@ methods  fields   package/class name
 1074     32       android.widget
 116      26       butterknife
 38       5        butterknife.internal
-69712    43504    com
+69782    43560    com
 11062    5311     com.amap
 11062    5311     com.amap.api
 127      63       com.amap.api.fence
@@ -1604,9 +1604,9 @@ methods  fields   package/class name
 5        2        com.cheshouye.api.client.json.g
 60       48       com.compress
 60       48       com.compress.gif
-12176    13934    com.coomix
-12171    13933    com.coomix.app
-11296    13323    com.coomix.app.all
+12246    13990    com.coomix
+12241    13989    com.coomix.app
+11366    13379    com.coomix.app.all
 1        9        com.coomix.app.all.common
 181      50       com.coomix.app.all.data
 178      74       com.coomix.app.all.dialog
@@ -1627,9 +1627,9 @@ methods  fields   package/class name
 712      810      com.coomix.app.all.service
 88       96       com.coomix.app.all.share
 80       117      com.coomix.app.all.tinker
-5651     2956     com.coomix.app.all.ui
+5721     3000     com.coomix.app.all.ui
 606      359      com.coomix.app.all.ui.activity
-347      212      com.coomix.app.all.ui.advance
+404      246      com.coomix.app.all.ui.advance
 595      363      com.coomix.app.all.ui.alarm
 413      196      com.coomix.app.all.ui.audioRecord
 64       13       com.coomix.app.all.ui.base
@@ -1643,7 +1643,7 @@ methods  fields   package/class name
 455      224      com.coomix.app.all.ui.im
 119      57       com.coomix.app.all.ui.installer
 224      96       com.coomix.app.all.ui.login
-653      323      com.coomix.app.all.ui.main
+666      333      com.coomix.app.all.ui.main
 124      38       com.coomix.app.all.ui.mine
 98       51       com.coomix.app.all.ui.panorama
 137      68       com.coomix.app.all.ui.platformRecharge
