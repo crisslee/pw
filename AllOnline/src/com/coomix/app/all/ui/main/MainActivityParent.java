@@ -127,6 +127,7 @@ import com.inuker.bluetooth.library.beacon.Beacon;
 import com.inuker.bluetooth.library.connect.listener.BleConnectStatusListener;
 import com.inuker.bluetooth.library.connect.options.BleConnectOptions;
 import com.inuker.bluetooth.library.connect.response.BleConnectResponse;
+import com.inuker.bluetooth.library.connect.response.BleMtuResponse;
 import com.inuker.bluetooth.library.connect.response.BleNotifyResponse;
 import com.inuker.bluetooth.library.connect.response.BleWriteResponse;
 import com.inuker.bluetooth.library.model.BleGattCharacter;
@@ -350,7 +351,10 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
             @Override
             public void onDeviceFounded(com.inuker.bluetooth.library.search.SearchResult device) {
                 Beacon beacon = new Beacon(device.scanRecord);
-                String data = bytesToHex(device.scanRecord);
+                String data="";
+                if(device.scanRecord!=null) {
+                    data = bytesToHex(device.scanRecord);
+                }
                 String targetMacAddress = "02:00:42:4B:34:31";
                 if (targetMacAddress.equalsIgnoreCase(device.getAddress())) {
                     onBlueToothConnected(mBlueToothClient, data, beacon, device);
@@ -409,7 +413,6 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         String length = message.substring(22,26);
         String syn = message.substring(26,30);
         String data = message.substring(30);
-        String writeChar = "0000ffb1-0000-1000-8000-00805f9b34fb";
 
         switch(protocol){
             case "01":
@@ -484,13 +487,13 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         //解析data，獲得uuid等數據
         //MAC獲取
         String deviceAddress = device.getAddress();
-        MAC = device.getAddress();
         String targetService = "0000ffb0-0000-1000-8000-00805f9b34fb";
         String notifyChar = "0000ffb2-0000-1000-8000-00805f9b34fb";
         String writeChar = "0000ffb1-0000-1000-8000-00805f9b34fb";
 
         System.out.println("ddebug Connect to that device " + deviceAddress);
-        mClient.connect(device.getAddress(), options, new BleConnectResponse() {
+
+        mClient.connect(deviceAddress, options, new BleConnectResponse() {
             @Override
             public void onResponse(int code, BleGattProfile data) {
                 List<BleGattService> services = data.getServices();
@@ -509,8 +512,16 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
 
                                 System.out.println("ddebug find service:" + targetuuid.toString() + " character+" + notifyuuid.toString());
                                 if (code == REQUEST_SUCCESS) {
-                                    //mClient.requestMtu(device.getAddress(),40, new BleMtuResponse(){})
-                                    mClient.notify(device.getAddress(), targetuuid, notifyuuid, new BleNotifyResponse() {
+                                    mClient.stopSearch();
+                                    MAC = deviceAddress;
+                                    mClient.requestMtu(device.getAddress(), 255, new BleMtuResponse() {
+                                        @Override
+                                        public void onResponse(int i, Integer integer) {
+                                            System.out.println("debug mtu response i:"+String.valueOf(i));
+                                            System.out.println("debug mtu response integer: "+String.valueOf(integer.intValue()));
+                                        }
+                                    });
+                                    mClient.notify(deviceAddress, targetuuid, notifyuuid, new BleNotifyResponse() {
                                         @Override
                                         public void onNotify(UUID service, UUID character, byte[] value) {
                                             String notfiyMessage = bytesToHex(value);

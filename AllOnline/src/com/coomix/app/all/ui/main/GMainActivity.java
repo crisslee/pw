@@ -63,7 +63,7 @@ public class GMainActivity extends MainActivityParent implements OnMapClickListe
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         gMapView = (MapView) findViewById(R.id.map_view);
-
+        initOritationListener();
 
     }
 
@@ -159,7 +159,7 @@ public class GMainActivity extends MainActivityParent implements OnMapClickListe
     public void onResume() {
         super.onResume();
         if(gMapView != null){
-            //gMapView.onResume();
+            gMapView.onResume();
         }
     }
 
@@ -167,27 +167,27 @@ public class GMainActivity extends MainActivityParent implements OnMapClickListe
     public void onPause() {
         super.onPause();
         if(gMapView != null){
-            //gMapView.onPause();
+            gMapView.onPause();
         }
     }
 
     @Override
     public void onStart() {
-        //myOrientationListener.start();
+        myOrientationListener.start();
         super.onStart();
     }
 
     @Override
     public void onStop() {
         super.onStop();
-        //myOrientationListener.stop();
+        myOrientationListener.stop();
     }
 
     @Override
     public void onDestroy() {
         if (gMapView != null) {
             mGoogleMap.clear();
-            //gMapView.onDestroy();
+            gMapView.onDestroy();
         }
         if (mClusterTask != null) {
             mClusterTask.cancel(true);

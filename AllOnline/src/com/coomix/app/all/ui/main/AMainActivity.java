@@ -90,7 +90,7 @@ public class AMainActivity extends MainActivityParent implements OnMapLoadedList
         myOrientationListener.setOnOrientationListener(new MyOrientationListener.OnOrientationListener(){
             @Override
             public void onOrientationChanged(float x){
-                mXDirection =(int) x - 45;
+                mXDirection =(int) x;
                 aMap.setMyLocationRotateAngle(mXDirection);
             }
         });

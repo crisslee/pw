@@ -1,7 +1,7 @@
 var data = {
   "name": "",
-  "methods": 126882,
-  "fields": 69759,
+  "methods": 127097,
+  "fields": 69877,
   "children": [
     {
       "name": "<unnamed>",
@@ -48,7 +48,7 @@ var data = {
     },
     {
       "name": "android",
-      "methods": 24425,
+      "methods": 24426,
       "fields": 13542,
       "children": [
         {
@@ -723,7 +723,7 @@ var data = {
         },
         {
           "name": "bluetooth",
-          "methods": 51,
+          "methods": 52,
           "fields": 3,
           "children": [
             {
@@ -740,7 +740,7 @@ var data = {
             },
             {
               "name": "BluetoothGatt",
-              "methods": 10,
+              "methods": 11,
               "fields": 0,
               "children": []
             },
@@ -17468,8 +17468,8 @@ var data = {
     },
     {
       "name": "com",
-      "methods": 69782,
-      "fields": 43560,
+      "methods": 69996,
+      "fields": 43678,
       "children": [
         {
           "name": "amap",
@@ -36569,18 +36569,18 @@ var data = {
         },
         {
           "name": "coomix",
-          "methods": 12246,
-          "fields": 13990,
+          "methods": 12249,
+          "fields": 13994,
           "children": [
             {
               "name": "app",
-              "methods": 12241,
-              "fields": 13989,
+              "methods": 12244,
+              "fields": 13993,
               "children": [
                 {
                   "name": "all",
-                  "methods": 11366,
-                  "fields": 13379,
+                  "methods": 11369,
+                  "fields": 13383,
                   "children": [
                     {
                       "name": "AllApplication",
@@ -36687,7 +36687,7 @@ var data = {
                     {
                       "name": "R$id",
                       "methods": 1,
-                      "fields": 1380,
+                      "fields": 1381,
                       "children": []
                     },
                     {
@@ -40144,8 +40144,8 @@ var data = {
                     },
                     {
                       "name": "ui",
-                      "methods": 5721,
-                      "fields": 3000,
+                      "methods": 5724,
+                      "fields": 3003,
                       "children": [
                         {
                           "name": "activity",
@@ -40679,7 +40679,7 @@ var data = {
                         {
                           "name": "advance",
                           "methods": 404,
-                          "fields": 246,
+                          "fields": 248,
                           "children": [
                             {
                               "name": "AMapFenceActivity",
@@ -40768,7 +40768,7 @@ var data = {
                             {
                               "name": "CommandListBleActivity",
                               "methods": 19,
-                              "fields": 16,
+                              "fields": 18,
                               "children": []
                             },
                             {
@@ -44322,8 +44322,8 @@ var data = {
                         },
                         {
                           "name": "main",
-                          "methods": 666,
-                          "fields": 333,
+                          "methods": 669,
+                          "fields": 334,
                           "children": [
                             {
                               "name": "AMainActivity",
@@ -44460,25 +44460,25 @@ var data = {
                             {
                               "name": "MainActivityParent$10",
                               "methods": 4,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$11",
-                              "methods": 2,
+                              "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$12",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$13",
                               "methods": 4,
-                              "fields": 3,
+                              "fields": 2,
                               "children": []
                             },
                             {
@@ -44490,37 +44490,37 @@ var data = {
                             {
                               "name": "MainActivityParent$15",
                               "methods": 4,
-                              "fields": 1,
+                              "fields": 3,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$16",
                               "methods": 4,
-                              "fields": 2,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$16$1",
-                              "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$17",
-                              "methods": 2,
+                              "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$18",
-                              "methods": 5,
+                              "name": "MainActivityParent$17$1",
+                              "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$19",
+                              "name": "MainActivityParent$18",
                               "methods": 2,
                               "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$19",
+                              "methods": 5,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44531,13 +44531,13 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$20",
-                              "methods": 5,
-                              "fields": 1,
+                              "methods": 2,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$21",
-                              "methods": 2,
+                              "methods": 5,
                               "fields": 1,
                               "children": []
                             },
@@ -44548,27 +44548,27 @@ var data = {
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$22$1",
+                              "name": "MainActivityParent$23",
                               "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$23",
+                              "name": "MainActivityParent$23$1",
+                              "methods": 2,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$24",
                               "methods": 4,
                               "fields": 3,
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$24",
-                              "methods": 2,
-                              "fields": 1,
-                              "children": []
-                            },
-                            {
                               "name": "MainActivityParent$25",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44586,7 +44586,7 @@ var data = {
                             {
                               "name": "MainActivityParent$28",
                               "methods": 2,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
@@ -44604,67 +44604,67 @@ var data = {
                             {
                               "name": "MainActivityParent$30",
                               "methods": 2,
-                              "fields": 2,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$30$1",
-                              "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$31",
                               "methods": 2,
+                              "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$31$1",
+                              "methods": 2,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$32",
-                              "methods": 4,
-                              "fields": 2,
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$33",
-                              "methods": 2,
-                              "fields": 1,
+                              "methods": 4,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$34",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$35",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$36",
-                              "methods": 3,
-                              "fields": 3,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$37",
                               "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
-                              "name": "MainActivityParent$38",
+                              "name": "MainActivityParent$37",
                               "methods": 3,
-                              "fields": 1,
+                              "fields": 3,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$38",
+                              "methods": 4,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$39",
-                              "methods": 2,
-                              "fields": 2,
+                              "methods": 3,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -44687,50 +44687,50 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$42",
-                              "methods": 4,
+                              "methods": 2,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$43",
-                              "methods": 2,
+                              "methods": 4,
                               "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$44",
-                              "methods": 4,
-                              "fields": 1,
+                              "methods": 2,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$45",
-                              "methods": 2,
-                              "fields": 2,
+                              "methods": 4,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$46",
                               "methods": 2,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$47",
-                              "methods": 4,
-                              "fields": 3,
+                              "methods": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$48",
                               "methods": 4,
-                              "fields": 2,
+                              "fields": 3,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$49",
                               "methods": 4,
-                              "fields": 1,
+                              "fields": 2,
                               "children": []
                             },
                             {
@@ -44741,6 +44741,12 @@ var data = {
                             },
                             {
                               "name": "MainActivityParent$50",
+                              "methods": 4,
+                              "fields": 1,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$51",
                               "methods": 2,
                               "fields": 1,
                               "children": []
@@ -44748,31 +44754,31 @@ var data = {
                             {
                               "name": "MainActivityParent$6",
                               "methods": 3,
-                              "fields": 6,
-                              "children": []
-                            },
-                            {
-                              "name": "MainActivityParent$6$1",
-                              "methods": 3,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$7",
-                              "methods": 2,
+                              "methods": 3,
+                              "fields": 6,
+                              "children": []
+                            },
+                            {
+                              "name": "MainActivityParent$7$1",
+                              "methods": 3,
                               "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$8",
                               "methods": 2,
-                              "fields": 2,
+                              "fields": 1,
                               "children": []
                             },
                             {
                               "name": "MainActivityParent$9",
-                              "methods": 4,
-                              "fields": 1,
+                              "methods": 2,
+                              "fields": 2,
                               "children": []
                             },
                             {
@@ -62073,28 +62079,28 @@ var data = {
         },
         {
           "name": "inuker",
-          "methods": 992,
-          "fields": 359,
+          "methods": 1203,
+          "fields": 473,
           "children": [
             {
               "name": "bluetooth",
-              "methods": 992,
-              "fields": 359,
+              "methods": 1203,
+              "fields": 473,
               "children": [
                 {
                   "name": "library",
-                  "methods": 992,
-                  "fields": 359,
+                  "methods": 1203,
+                  "fields": 473,
                   "children": [
                     {
                       "name": "BluetoothClient",
-                      "methods": 30,
+                      "methods": 31,
                       "fields": 1,
                       "children": []
                     },
                     {
                       "name": "BluetoothClientImpl",
-                      "methods": 52,
+                      "methods": 53,
                       "fields": 14,
                       "children": []
                     },
@@ -62125,7 +62131,7 @@ var data = {
                     {
                       "name": "BluetoothClientImpl$13",
                       "methods": 2,
-                      "fields": 1,
+                      "fields": 2,
                       "children": []
                     },
                     {
@@ -62142,6 +62148,12 @@ var data = {
                     },
                     {
                       "name": "BluetoothClientImpl$16",
+                      "methods": 2,
+                      "fields": 1,
+                      "children": []
+                    },
+                    {
+                      "name": "BluetoothClientImpl$17",
                       "methods": 2,
                       "fields": 1,
                       "children": []
@@ -62202,7 +62214,7 @@ var data = {
                     },
                     {
                       "name": "BluetoothContext",
-                      "methods": 5,
+                      "methods": 6,
                       "fields": 2,
                       "children": []
                     },
@@ -62227,7 +62239,7 @@ var data = {
                     {
                       "name": "BuildConfig",
                       "methods": 1,
-                      "fields": 6,
+                      "fields": 5,
                       "children": []
                     },
                     {
@@ -62239,12 +62251,12 @@ var data = {
                     {
                       "name": "Constants",
                       "methods": 3,
-                      "fields": 69,
+                      "fields": 73,
                       "children": []
                     },
                     {
                       "name": "IBluetoothClient",
-                      "methods": 22,
+                      "methods": 23,
                       "fields": 0,
                       "children": []
                     },
@@ -62255,15 +62267,21 @@ var data = {
                       "children": []
                     },
                     {
+                      "name": "IBluetoothService$Default",
+                      "methods": 3,
+                      "fields": 0,
+                      "children": []
+                    },
+                    {
                       "name": "IBluetoothService$Stub",
-                      "methods": 6,
+                      "methods": 8,
                       "fields": 2,
                       "children": []
                     },
                     {
                       "name": "IBluetoothService$Stub$Proxy",
                       "methods": 4,
-                      "fields": 1,
+                      "fields": 2,
                       "children": []
                     },
                     {
@@ -62273,15 +62291,21 @@ var data = {
                       "children": []
                     },
                     {
+                      "name": "IResponse$Default",
+                      "methods": 3,
+                      "fields": 0,
+                      "children": []
+                    },
+                    {
                       "name": "IResponse$Stub",
-                      "methods": 6,
+                      "methods": 8,
                       "fields": 2,
                       "children": []
                     },
                     {
                       "name": "IResponse$Stub$Proxy",
                       "methods": 4,
-                      "fields": 1,
+                      "fields": 2,
                       "children": []
                     },
                     {
@@ -62328,31 +62352,279 @@ var data = {
                       ]
                     },
                     {
+                      "name": "channel",
+                      "methods": 167,
+                      "fields": 106,
+                      "children": [
+                        {
+                          "name": "CRC16",
+                          "methods": 3,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "CRC32",
+                          "methods": 3,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel",
+                          "methods": 53,
+                          "fields": 22,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$1",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$10",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$11",
+                          "methods": 2,
+                          "fields": 3,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$12",
+                          "methods": 5,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$13",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$14",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$2",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$2$1",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$3",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$3$1",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$4",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$5",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$6",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$7",
+                          "methods": 2,
+                          "fields": 3,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$8",
+                          "methods": 2,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$9",
+                          "methods": 2,
+                          "fields": 2,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$RecvCallback",
+                          "methods": 2,
+                          "fields": 2,
+                          "children": []
+                        },
+                        {
+                          "name": "Channel$WriteCallback",
+                          "methods": 2,
+                          "fields": 2,
+                          "children": []
+                        },
+                        {
+                          "name": "ChannelCallback",
+                          "methods": 1,
+                          "fields": 0,
+                          "children": []
+                        },
+                        {
+                          "name": "ChannelEvent",
+                          "methods": 4,
+                          "fields": 7,
+                          "children": []
+                        },
+                        {
+                          "name": "ChannelEvent[]",
+                          "methods": 1,
+                          "fields": 0,
+                          "children": []
+                        },
+                        {
+                          "name": "ChannelState",
+                          "methods": 4,
+                          "fields": 9,
+                          "children": []
+                        },
+                        {
+                          "name": "ChannelStateBlock",
+                          "methods": 1,
+                          "fields": 3,
+                          "children": []
+                        },
+                        {
+                          "name": "ChannelState[]",
+                          "methods": 1,
+                          "fields": 0,
+                          "children": []
+                        },
+                        {
+                          "name": "Code",
+                          "methods": 1,
+                          "fields": 4,
+                          "children": []
+                        },
+                        {
+                          "name": "IChannel",
+                          "methods": 4,
+                          "fields": 0,
+                          "children": []
+                        },
+                        {
+                          "name": "IChannelStateHandler",
+                          "methods": 1,
+                          "fields": 0,
+                          "children": []
+                        },
+                        {
+                          "name": "Timer",
+                          "methods": 7,
+                          "fields": 2,
+                          "children": []
+                        },
+                        {
+                          "name": "Timer$TimerCallback",
+                          "methods": 4,
+                          "fields": 1,
+                          "children": []
+                        },
+                        {
+                          "name": "packet",
+                          "methods": 40,
+                          "fields": 31,
+                          "children": [
+                            {
+                              "name": "ACKPacket",
+                              "methods": 8,
+                              "fields": 9,
+                              "children": []
+                            },
+                            {
+                              "name": "CTRPacket",
+                              "methods": 5,
+                              "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "DataPacket",
+                              "methods": 10,
+                              "fields": 4,
+                              "children": []
+                            },
+                            {
+                              "name": "InvalidPacket",
+                              "methods": 4,
+                              "fields": 0,
+                              "children": []
+                            },
+                            {
+                              "name": "Packet",
+                              "methods": 8,
+                              "fields": 8,
+                              "children": []
+                            },
+                            {
+                              "name": "Packet$Bytes",
+                              "methods": 3,
+                              "fields": 3,
+                              "children": []
+                            },
+                            {
+                              "name": "Packet$Header",
+                              "methods": 2,
+                              "fields": 5,
+                              "children": []
+                            }
+                          ]
+                        }
+                      ]
+                    },
+                    {
                       "name": "connect",
-                      "methods": 366,
-                      "fields": 90,
+                      "methods": 388,
+                      "fields": 91,
                       "children": [
                         {
                           "name": "BleConnectDispatcher",
-                          "methods": 23,
+                          "methods": 24,
                           "fields": 7,
                           "children": []
                         },
                         {
                           "name": "BleConnectManager",
-                          "methods": 17,
-                          "fields": 3,
-                          "children": []
-                        },
-                        {
-                          "name": "BleConnectMaster",
                           "methods": 18,
                           "fields": 3,
                           "children": []
                         },
                         {
+                          "name": "BleConnectMaster",
+                          "methods": 19,
+                          "fields": 3,
+                          "children": []
+                        },
+                        {
                           "name": "BleConnectWorker",
-                          "methods": 39,
+                          "methods": 41,
                           "fields": 10,
                           "children": []
                         },
@@ -62364,19 +62636,19 @@ var data = {
                         },
                         {
                           "name": "IBleConnectMaster",
-                          "methods": 13,
+                          "methods": 14,
                           "fields": 0,
                           "children": []
                         },
                         {
                           "name": "IBleConnectWorker",
-                          "methods": 16,
+                          "methods": 17,
                           "fields": 0,
                           "children": []
                         },
                         {
                           "name": "listener",
-                          "methods": 24,
+                          "methods": 26,
                           "fields": 6,
                           "children": [
                             {
@@ -62405,7 +62677,7 @@ var data = {
                             },
                             {
                               "name": "IBluetoothGattResponse",
-                              "methods": 8,
+                              "methods": 9,
                               "fields": 0,
                               "children": []
                             },
@@ -62423,6 +62695,12 @@ var data = {
                             },
                             {
                               "name": "ReadRssiListener",
+                              "methods": 1,
+                              "fields": 0,
+                              "children": []
+                            },
+                            {
+                              "name": "RequestMtuListener",
                               "methods": 1,
                               "fields": 0,
                               "children": []
@@ -62474,8 +62752,8 @@ var data = {
                         },
                         {
                           "name": "request",
-                          "methods": 163,
-                          "fields": 45,
+                          "methods": 174,
+                          "fields": 46,
                           "children": [
                             {
                               "name": "BleConnectRequest",
@@ -62487,6 +62765,12 @@ var data = {
                               "name": "BleIndicateRequest",
                               "methods": 9,
                               "fields": 2,
+                              "children": []
+                            },
+                            {
+                              "name": "BleMtuRequest",
+                              "methods": 10,
+                              "fields": 1,
                               "children": []
                             },
                             {
@@ -62527,7 +62811,7 @@ var data = {
                             },
                             {
                               "name": "BleRequest",
-                              "methods": 40,
+                              "methods": 41,
                               "fields": 11,
                               "children": []
                             },
@@ -62571,7 +62855,7 @@ var data = {
                         },
                         {
                           "name": "response",
-                          "methods": 23,
+                          "methods": 25,
                           "fields": 3,
                           "children": [
                             {
@@ -62582,6 +62866,12 @@ var data = {
                             },
                             {
                               "name": "BleGeneralResponse",
+                              "methods": 1,
+                              "fields": 0,
+                              "children": []
+                            },
+                            {
+                              "name": "BleMtuResponse",
                               "methods": 1,
                               "fields": 0,
                               "children": []
@@ -62630,7 +62920,7 @@ var data = {
                             },
                             {
                               "name": "BluetoothGattResponse",
-                              "methods": 9,
+                              "methods": 10,
                               "fields": 1,
                               "children": []
                             },
@@ -62989,7 +63279,7 @@ var data = {
                     },
                     {
                       "name": "utils",
-                      "methods": 140,
+                      "methods": 146,
                       "fields": 34,
                       "children": [
                         {
@@ -63006,7 +63296,7 @@ var data = {
                         },
                         {
                           "name": "ByteUtils",
-                          "methods": 17,
+                          "methods": 22,
                           "fields": 2,
                           "children": []
                         },
@@ -63153,7 +63443,7 @@ var data = {
                         },
                         {
                           "name": "proxy",
-                          "methods": 24,
+                          "methods": 25,
                           "fields": 8,
                           "children": [
                             {
@@ -63176,7 +63466,7 @@ var data = {
                             },
                             {
                               "name": "ProxyUtils",
-                              "methods": 9,
+                              "methods": 10,
                               "fields": 0,
                               "children": []
                             }
