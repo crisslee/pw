@@ -15,7 +15,6 @@ import android.widget.TextView;
 import com.coomix.app.all.manager.DeviceManager;
 import com.coomix.app.all.R;
 import com.coomix.app.all.ui.detail.DeviceDetailInfoActivity;
-import com.coomix.app.all.ui.main.MainActivityParent;
 import com.coomix.app.all.model.bean.DeviceInfo;
 import java.util.ArrayList;
 import java.util.List;

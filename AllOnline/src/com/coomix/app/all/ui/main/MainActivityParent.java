@@ -72,6 +72,7 @@ import com.coomix.app.all.model.bean.DeviceInfo;
 import com.coomix.app.all.model.bean.Fence;
 import com.coomix.app.all.model.bean.Notice;
 import com.coomix.app.all.model.bean.ThemeColor;
+import com.coomix.app.all.model.response.AlarmCategoryItem;
 import com.coomix.app.all.model.response.Cmd;
 import com.coomix.app.all.model.response.RespAddress;
 import com.coomix.app.all.model.response.RespAlarmCount;
@@ -145,9 +146,12 @@ import java.io.File;
 import java.lang.ref.WeakReference;
 import java.net.URLEncoder;
 import java.text.DateFormat;
+import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Calendar;
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
@@ -261,6 +265,9 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
     public UUID targetuuid=null;
     public UUID notifyuuid=null;
     public UUID writeuuid=null;
+    private boolean connected = false;
+    private String commandPool = "";
+
     public static MainActivityParent instance = null;
     int paramCount;
     // imei --> PowerMode
@@ -340,7 +347,7 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         }
         SearchRequest searchRequest = new SearchRequest.Builder()
                 .searchBluetoothLeDevice(10000,10)
-                .searchBluetoothClassicDevice(1000,10)
+//                .searchBluetoothClassicDevice(1000,10)
                 .build();
         mBlueToothClient.search(searchRequest, new SearchResponse() {
             @Override
@@ -418,9 +425,9 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
             case "01":
                 responseLoginData(header,imei,protocol,length,syn,data);
             case "02":
-                responseGPSData(data);
+                responseGPSData(imei,data);
             case "04":
-                responseAlertData(data);
+                responseAlertData(imei,data);
             case "07":
                 responseExpendBeatData(header,imei,protocol,length,syn,data);
             case "08":
@@ -441,12 +448,58 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
         }
     }
 
-    private void responseGPSData(String data){
-
+    private void responseGPSData(String imei,String data){
+        String UTC = data.substring(0,4);
+        String lat = data.substring(4,8);
+        String lng = data.substring(8,12);
+        String speed = data.substring(12,13);
+        String angle = data.substring(13,15);
+        String base = data.substring(15,24);
+        String state = data.substring(24,25);
+        if(listDevices==null){
+            return;
+        }else{
+            int i=0;
+            while(imei!=listDevices.get(i).getImei()&&i!=listDevices.size()){
+                i++;
+            }
+            if(i!=listDevices.size()) {
+                listDevices.get(i).setGps_time(Long.parseLong(UTC));
+                listDevices.get(i).setSpeed(Integer.parseInt(speed));
+                listDevices.get(i).setCourse(Integer.parseInt(angle));
+                listDevices.get(i).setLat(Double.parseDouble(lat)/30000);
+                listDevices.get(i).setLng(Double.parseDouble(lng)/30000);
+            }
+        }
     }
 
-    private void responseAlertData(String data){
+    private void responseAlertData(String imei, String data){
+        String UTC = data.substring(0,4);
+        String lat = data.substring(4,8);
+        String lng = data.substring(8,12);
+        String speed = data.substring(12,13);
+        String angle = data.substring(13,15);
+        String base = data.substring(15,24);
+        String state = data.substring(24,25);
+        String alarmType = data.substring(25);
+        if(listDevices==null){
+            return;
+        }else{
+            int i=0;
+            while(imei!=listDevices.get(i).getImei()&&i!=listDevices.size()){
+                i++;
+            }
+            if(i!=listDevices.size()) {
 
+                listDevices.get(i).setGps_time(Long.parseLong(UTC));
+                listDevices.get(i).setSpeed(Integer.parseInt(speed));
+                listDevices.get(i).setCourse(Integer.parseInt(angle));
+                listDevices.get(i).setLat(Double.parseDouble(lat)/30000);
+                listDevices.get(i).setLng(Double.parseDouble(lng)/30000);
+                AlarmCategoryItem item = new AlarmCategoryItem();
+                item.setAlarm_type(alarmType);
+            }
+        }
     }
 
     private void responseExpendBeatData(String header,String imei,String protocol,String length,String syn,String data) {
@@ -460,19 +513,90 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
                 }
             });
         }
+        String state = data.substring(0, 2);
+        String GSM = data.substring(2);
+        String elevel = data.substring(3);
+        String blevel = data.substring(4);
+        String eblevel = data.substring(5, 7);
+        String angle = data.substring(7);
+        String gpslevel = data.substring(8);
+        String time = data.substring(9);
+        if (listDevices == null) {
+            return;
+        } else {
+            int i = 0;
+            while (imei != listDevices.get(i).getImei() && i != listDevices.size()) {
+                i++;
+            }
+            if (i != listDevices.size()) {
+                //listDevices.get(i)
+            }
+        }
     }
 
     private void responseTimeData(String header,String imei,String protocol,String length,String syn,String data){
         if (writeuuid != null && writeuuid.toString() != "" && targetuuid != null && targetuuid.toString() != "") {
-            byte[] writeData = hexStringToByte(header + imei + protocol + "0002" + syn);//UTC時間
+            String returndata = header + imei + protocol + "0002" + syn +String.valueOf(getUTCTime());//UTC時間
+            sendCommand(returndata);
+        }
+    }
 
-            mBlueToothClient.write(MAC, targetuuid, writeuuid, writeData, new BleWriteResponse() {
+    private void sendCommand (String returndata) {
+        System.out.println("V/miio-bluetooth: ddebug command write: " + returndata);
+        byte[] byteList = hexStringToByte(returndata);
+        int current = 0;
+        while (current < byteList.length) {
+            byte[] data = Arrays.copyOfRange(byteList, current, Math.min(byteList.length, current + 20));;
+            mBlueToothClient.write(MAC, targetuuid, writeuuid, data, new BleWriteResponse() {
                 @Override
                 public void onResponse(int code) {
-
+                    System.out.println("V/miio-bluetooth: ddebug command response: " + code);
                 }
             });
+            current += 20;
         }
+    }
+
+    public static Long getUTCTime(){
+        Calendar cal = Calendar.getInstance();
+        //获得时区和 GMT-0 的时间差,偏移量
+        int offset = cal.get(Calendar.ZONE_OFFSET);
+        //获得夏令时  时差
+        int dstoff = cal.get(Calendar.DST_OFFSET);
+        cal.add(Calendar.MILLISECOND, - (offset + dstoff));
+        return cal.getTime().getTime();
+
+    }
+
+    private void concatCommand (String hex) {
+        commandPool = commandPool + hex;
+        System.out.println("ddebug receive notify hex: " + hex + " concat to " + commandPool);
+        if (commandPool.length() < 4) {
+//            System.out.println("ddebug under 4, wait");
+            return;
+        } else {
+            String head = commandPool.substring(0, 4);
+            if (!head.equalsIgnoreCase("6767")) {
+//                System.out.println("ddebug not 6767, drop");
+                commandPool = "";
+                return;
+            } else if (commandPool.length() < 26) {
+//                System.out.println("ddebug 6767 not length to 26, wait");
+                return;
+            } else {
+                Integer length = Integer.parseInt(commandPool.substring(22, 26),16) * 2;
+                if (commandPool.length() < 26 + length) {
+//                    System.out.println("ddebug data is not enough, need" + (length + 26));
+                    return;
+                } else {
+                    String command = commandPool.substring(0, 26 + length);
+                    System.out.println("ddebug receive command: " + command);
+                    checkprotocol(command);
+                    commandPool = commandPool.substring(26 + length);
+                }
+            }
+        }
+
     }
 
     public void onBlueToothConnected(BluetoothClient mClient,String data, Beacon beacon, com.inuker.bluetooth.library.search.SearchResult device){
@@ -510,23 +634,25 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
                             if (character.getUuid().toString().equalsIgnoreCase(notifyChar)) {
                                 notifyuuid = character.getUuid();
 
-                                System.out.println("ddebug find service:" + targetuuid.toString() + " character+" + notifyuuid.toString());
+                                System.out.println("ddebug find service:" + targetuuid.toString() + " character+" + notifyuuid.toString() + " code: " + code);
                                 if (code == REQUEST_SUCCESS) {
                                     mClient.stopSearch();
                                     MAC = deviceAddress;
-                                    mClient.requestMtu(device.getAddress(), 255, new BleMtuResponse() {
-                                        @Override
-                                        public void onResponse(int i, Integer integer) {
-                                            System.out.println("debug mtu response i:"+String.valueOf(i));
-                                            System.out.println("debug mtu response integer: "+String.valueOf(integer.intValue()));
-                                        }
-                                    });
-                                    mClient.notify(deviceAddress, targetuuid, notifyuuid, new BleNotifyResponse() {
-                                        @Override
-                                        public void onNotify(UUID service, UUID character, byte[] value) {
-                                            String notfiyMessage = bytesToHex(value);
-                                            System.out.println("ddebug notify:" + notfiyMessage);
-                                            checkprotocol(notfiyMessage);
+                                    if (!connected) {
+                                        connected = true;
+//                                        mClient.requestMtu(device.getAddress(), 255, new BleMtuResponse() {
+//                                            @Override
+//                                            public void onResponse(int i, Integer integer) {
+//                                                System.out.println("ddebug mtu response i:" + String.valueOf(i));
+//                                                System.out.println("ddebug mtu response integer: " + String.valueOf(integer.intValue()));
+//                                            }
+//                                        });
+                                        mClient.notify(deviceAddress, targetuuid, notifyuuid, new BleNotifyResponse() {
+                                            @Override
+                                            public void onNotify(UUID service, UUID character, byte[] value) {
+                                                String notfiyMessage = bytesToHex(value);
+                                                System.out.println("ddebug1 notify:" + notfiyMessage);
+                                                concatCommand(notfiyMessage);
 //                                            6767086820012121320601000B00200868200121;
 //                                            mClient.writeNoRsp(device.getAddress(), serviceUUID, characterUUID, bytes, new BleWriteResponse() {
 //                                                @Override
@@ -536,12 +662,14 @@ public abstract class MainActivityParent extends BaseActivity implements OnClick
 //                                                    }
 //                                                }
 //                                            });
-                                        }
-                                        @Override
-                                        public void onResponse(int code) {
-                                        }
-                                    });
+                                            }
 
+                                            @Override
+                                            public void onResponse(int code) {
+                                                System.out.println("ddebug notify response " + code);
+                                            }
+                                        });
+                                    }
 
                                 }
                             }

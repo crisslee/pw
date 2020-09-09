@@ -2,7 +2,7 @@ package com.coomix.app.all.manager;
 
 import android.app.Activity;
 import android.util.SparseArray;
-import com.coomix.app.all.ui.main.MainActivityParent;
+
 import com.coomix.app.all.manager.ActivityStateManager.ActivityState.State;
 
 public final class ActivityStateManager {

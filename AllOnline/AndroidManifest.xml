@@ -626,7 +626,6 @@
                 <data android:scheme="fromallalarm" />
             </intent-filter>
         </activity>
-        <activity android:name=".ui.advance.CommandListBleActivity"/>
         <activity
             android:name=".ui.main.GMainActivity"
             android:configChanges="orientation|keyboardHidden|screenSize"

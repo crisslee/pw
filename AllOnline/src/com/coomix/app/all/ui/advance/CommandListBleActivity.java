@@ -12,18 +12,17 @@ import com.coomix.app.all.R;
 import com.coomix.app.all.ui.base.BaseActivity;
 import com.coomix.app.all.ui.main.MainActivityParent;
 import com.inuker.bluetooth.library.BluetoothClient;
-import com.inuker.bluetooth.library.connect.response.BleNotifyResponse;
 import com.inuker.bluetooth.library.connect.response.BleWriteResponse;
 
-import org.w3c.dom.Text;
-
-import java.net.URLEncoder;
+import java.util.Arrays;
 import java.util.UUID;
 
 public class CommandListBleActivity extends BaseActivity {
     private BluetoothClient mClient;
     private String MAC;
     private String imei;
+    private int commsyn;
+    private int hornsyn;
     private UUID targetuuid=null;
     private UUID notifyuuid=null;
     private UUID writeuuid=null;
@@ -52,6 +51,8 @@ public class CommandListBleActivity extends BaseActivity {
             notifyuuid = MainActivityParent.instance.notifyuuid;
             writeuuid = MainActivityParent.instance.writeuuid;
         }
+        commsyn=1;
+        hornsyn=1;
         getBleParams = (TextView) findViewById(R.id.ble_find_params);
         getVersion = (TextView) findViewById(R.id.ble_find_version);
         getStates = (TextView) findViewById(R.id.ble_find_states);
@@ -93,11 +94,11 @@ public class CommandListBleActivity extends BaseActivity {
     @Override
     protected void onResume() {
         super.onResume();
-        mClient.notify(MAC, targetuuid, notifyuuid, new BleNotifyResponse() {
-            @Override
-            public void onNotify(UUID service, UUID character, byte[] value) {
-                String notfiyMessage = bytesToHex(value);
-                System.out.println("ddebug notify:" + notfiyMessage);
+//        mClient.notify(MAC, targetuuid, notifyuuid, new BleNotifyResponse() {
+//            @Override
+//            public void onNotify(UUID service, UUID character, byte[] value) {
+//                String notfiyMessage = bytesToHex(value);
+//                System.out.println("V/miio-bluetooth: ddebug notify:" + notfiyMessage);
                 //checkprotocol(notfiyMessage);
 //                                            6767086820012121320601000B00200868200121;
 //                                            mClient.writeNoRsp(device.getAddress(), serviceUUID, characterUUID, bytes, new BleWriteResponse() {
@@ -108,11 +109,11 @@ public class CommandListBleActivity extends BaseActivity {
 //                                                    }
 //                                                }
 //                                            });
-            }
-            @Override
-            public void onResponse(int code) {
-            }
-        });
+//            }
+//            @Override
+//            public void onResponse(int code) {
+//            }
+//        });
 
         getBleParams.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -183,6 +184,22 @@ public class CommandListBleActivity extends BaseActivity {
         return d;
     }
 
+    private void sendCommand (String returndata) {
+        System.out.println("V/miio-bluetooth: ddebug command write: " + returndata);
+        byte[] byteList = hexStringToByte(returndata);
+        int current = 0;
+        while (current < byteList.length) {
+            byte[] data = Arrays.copyOfRange(byteList, current, Math.min(byteList.length, current + 20));;
+            mClient.write(MAC, targetuuid, writeuuid, data, new BleWriteResponse() {
+                @Override
+                public void onResponse(int code) {
+                    System.out.println("V/miio-bluetooth: ddebug command response: " + code);
+                }
+            });
+            current += 20;
+        }
+    }
+
     public void askforParams(){
         String Order = "PARAM#";
         try {
@@ -191,20 +208,14 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        System.out.println("testtesttest"+returndata);
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String returndata="6767"+imei+"80"+length+"0001"+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void askforVersion(){
@@ -215,19 +226,14 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String returndata="6767"+imei+"80"+length+"0001"+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void askforStates(){
@@ -238,19 +244,14 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String returndata="6767"+imei+"80"+length+"0001"+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void openHorn(){
@@ -261,19 +262,24 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String syn = Integer.toHexString(hornsyn).toUpperCase();
+        switch (syn.length()){
+            case 1:syn = "000"+syn;
+            case 2:syn = "00"+syn;
+            case 3:syn = "0"+syn;
+            case 4:syn = syn;
+        }
+        if(hornsyn==65535){
+            hornsyn = 1;
+        }
+        String returndata="6767"+imei+"80"+length+syn+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void closeHorn(){
@@ -284,19 +290,24 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String syn = Integer.toHexString(hornsyn).toUpperCase();
+        switch (syn.length()){
+            case 1:syn = "000"+syn;
+            case 2:syn = "00"+syn;
+            case 3:syn = "0"+syn;
+            case 4:syn = syn;
+        }
+        if(hornsyn==65535){
+            hornsyn = 1;
+        }
+        String returndata="6767"+imei+"80"+length+"0001"+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void setLoar(){
@@ -307,19 +318,24 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String syn = Integer.toHexString(commsyn).toUpperCase();
+        switch (syn.length()){
+            case 1:syn = "000"+syn;
+            case 2:syn = "00"+syn;
+            case 3:syn = "0"+syn;
+            case 4:syn = syn;
+        }
+        if(commsyn==65535){
+            commsyn = 1;
+        }
+        String returndata="6767"+imei+"80"+length+syn+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void setGprs(){
@@ -330,19 +346,24 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String syn = Integer.toHexString(commsyn).toUpperCase();
+        switch (syn.length()){
+            case 1:syn = "000"+syn;
+            case 2:syn = "00"+syn;
+            case 3:syn = "0"+syn;
+            case 4:syn = syn;
+        }
+        if(commsyn==65535){
+            commsyn = 1;
+        }
+        String returndata="6767"+imei+"80"+length+syn+"0111223344"+Order;
+        sendCommand(returndata);
     }
 
     public void setTimer(String timer){
@@ -357,18 +378,13 @@ public class CommandListBleActivity extends BaseActivity {
         }catch (Exception e){
             return;
         }
-        String length =Integer.toHexString(Order.length()/2+5);
+        String length =Integer.toHexString(Order.length()/2+7).toUpperCase();
         if(length.length()==1){
             length = "000"+length;
         }else if(length.length()==2){
             length = "00"+length;
         }
-        String returndata="6767"+imei+"81"+length+"0111223344"+Order;
-        mClient.write(MAC, targetuuid, writeuuid, hexStringToByte(returndata), new BleWriteResponse() {
-            @Override
-            public void onResponse(int code) {
-
-            }
-        });
+        String returndata="6767"+imei+"80"+length+"0001"+"0111223344"+Order;
+        sendCommand(returndata);
     }
 }

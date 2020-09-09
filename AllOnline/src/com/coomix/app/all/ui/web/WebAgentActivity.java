@@ -5,7 +5,6 @@ import android.os.Bundle;
 import android.text.TextUtils;
 import com.coomix.app.all.ui.base.BaseActivity;
 import com.coomix.app.all.ui.boot.BootActivity;
-import com.coomix.app.all.ui.main.MainActivityParent;
 import com.coomix.app.all.manager.SettingDataManager;
 
 /**
